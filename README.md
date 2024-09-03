@@ -4,18 +4,18 @@ To run this, we need a GPU (even works in local PCs with a GPU) to have a better
 
 ## Each folder/file information
 
-`files/`: This is the place where each model information along with .pth file and proof that we used models like PPLite B50, T50, STDC and DDRNet and all models' plots.
-`models/`: This contains models Fast-SCNN and BiSeNet
-`results/`: This is the place where model results are dumped
-`videos/`: This is the place where videos are placed
+- `files/`: This is the place where each model information along with .pth file and proof that we used models like PPLite B50, T50, STDC and DDRNet and all models' plots.
+- `models/`: This contains models Fast-SCNN and BiSeNet
+- `results/`: This is the place where model results are dumped
+- `videos/`: This is the place where videos are placed
 
-`config_v2.0.json`: Configuration used by Mapillary
-`bisenet_video.py`: File required to run BiSeNet model on videos
-`fast_scnn_video.py`: File required to run Fast-SCNN model on videos
-`MSML612 Presentation.pptx`: Our presentation
-`MSML612 Report`: Report containing all the information
-`Presentation_video.mp4`: Our presentation video explaining the presentation
-`requirements.txt`: Contains which libraries to download
+- `config_v2.0.json`: Configuration used by Mapillary
+- `bisenet_video.py`: File required to run BiSeNet model on videos
+- `fast_scnn_video.py`: File required to run Fast-SCNN model on videos
+- `MSML612 Presentation.pptx`: Our presentation
+- `MSML612 Report`: Report containing all the information
+- `Presentation_video.mp4`: Our presentation video explaining the presentation
+- `requirements.txt`: Contains which libraries to download
 
 
 ## Instructions 
@@ -47,10 +47,10 @@ Now, the example code is
 `python bisenet_video.py -f transcodedVideo.mp4 -m bisenet_crossEntropyLoss_Weights_1e-4lr_60epochs_after_1e-lr_30_epochs -d bisenet_crossEntropyLoss_Weights`
 
 When the code runs, the result will be in the results folder with the name `<file_name>_<model_name>.mp4` and the output will be similar to the below lines 
-`Number of frames: 601
+```
+Number of frames: 601 
 Reading time: 0.29398131370544434
 Transform time: 21.074201822280884
 Model time: 2.932260751724243
 Writing time: 40.23506021499634
-Total time: 64.53550410270691`
-
+Total time: 64.53550410270691```
