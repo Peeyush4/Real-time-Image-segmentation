@@ -1,0 +1,245 @@
+--------------- Epoch 1 ---------------
+
+Epoch 1/5... Train Loss 1.189102
+Evaluation Loss 1.057062
+--------------- Epoch 2 ---------------
+
+Epoch 2/5... Train Loss 0.934805
+Evaluation Loss 0.912741
+--------------- Epoch 3 ---------------
+
+Epoch 3/5... Train Loss 0.852925
+Evaluation Loss 0.849037
+--------------- Epoch 4 ---------------
+
+Epoch 4/5... Train Loss 0.806032
+Evaluation Loss 0.798888
+--------------- Epoch 5 ---------------
+
+Epoch 5/5... Train Loss 0.768338
+Evaluation Loss 0.746524
+Epoch 5/5... Total Mean Loss: 0.910240
+--------------- Epoch 6 ---------------
+
+Epoch 6/20... Train Loss 0.742077
+Evaluation Loss 0.729571
+--------------- Epoch 7 ---------------
+
+Epoch 7/20... Train Loss 0.719703
+Evaluation Loss 0.734342
+--------------- Epoch 8 ---------------
+
+Epoch 8/20... Train Loss 0.697152
+Evaluation Loss 0.705435
+--------------- Epoch 9 ---------------
+
+Epoch 9/20... Train Loss 0.681069
+Evaluation Loss 0.712482
+--------------- Epoch 10 ---------------
+
+Epoch 10/20... Train Loss 0.663767
+Evaluation Loss 0.694367
+--------------- Epoch 11 ---------------
+
+Epoch 11/20... Train Loss 0.650981
+Evaluation Loss 0.681527
+--------------- Epoch 12 ---------------
+
+Epoch 12/20... Train Loss 0.639164
+Evaluation Loss 0.670467
+--------------- Epoch 13 ---------------
+
+Epoch 13/20... Train Loss 0.626449
+Evaluation Loss 0.665606
+--------------- Epoch 14 ---------------
+
+Epoch 14/20... Train Loss 0.617791
+Evaluation Loss 0.658897
+--------------- Epoch 15 ---------------
+
+Epoch 15/20... Train Loss 0.607479
+Evaluation Loss 0.657643
+--------------- Epoch 16 ---------------
+
+Epoch 16/20... Train Loss 0.597774
+Evaluation Loss 0.651662
+--------------- Epoch 17 ---------------
+
+Epoch 17/20... Train Loss 0.590838
+Evaluation Loss 0.655125
+--------------- Epoch 18 ---------------
+
+Epoch 18/20... Train Loss 0.581014
+Evaluation Loss 0.643160
+--------------- Epoch 19 ---------------
+
+Epoch 19/20... Train Loss 0.575444
+Evaluation Loss 0.672775
+--------------- Epoch 20 ---------------
+
+Epoch 20/20... Train Loss 0.568571
+Evaluation Loss 0.642241
+Epoch 20/20... Total Mean Loss: 0.477964
+
+--------------- Epoch 21 ---------------
+
+Epoch 21/50... Train Loss 0.564336
+Evaluation Loss 0.643660
+--------------- Epoch 22 ---------------
+
+Epoch 22/50... Train Loss 0.553526
+Evaluation Loss 0.648280
+--------------- Epoch 23 ---------------
+
+Epoch 23/50... Train Loss 0.548742
+Evaluation Loss 0.652789
+--------------- Epoch 24 ---------------
+
+Epoch 24/50... Train Loss 0.540927
+Evaluation Loss 0.658482
+--------------- Epoch 25 ---------------
+
+Epoch 25/50... Train Loss 0.535702
+Evaluation Loss 0.682732
+--------------- Epoch 26 ---------------
+
+Epoch 26/50... Train Loss 0.530415
+Evaluation Loss 0.649405
+--------------- Epoch 27 ---------------
+
+Epoch 27/50... Train Loss 0.525192
+Evaluation Loss 0.635862
+--------------- Epoch 28 ---------------
+
+Epoch 28/50... Train Loss 0.520511
+Evaluation Loss 0.649143
+--------------- Epoch 29 ---------------
+
+Epoch 29/50... Train Loss 0.515585
+Evaluation Loss 0.642113
+--------------- Epoch 30 ---------------
+
+Epoch 30/50... Train Loss 0.511188
+Evaluation Loss 0.649115
+
+--------------- Epoch 31 ---------------
+
+Epoch 31/60... Train Loss 0.462786
+Evaluation Loss 0.616370
+--------------- Epoch 32 ---------------
+
+Epoch 32/60... Train Loss 0.447984
+Evaluation Loss 0.619608
+--------------- Epoch 33 ---------------
+
+Epoch 33/60... Train Loss 0.441389
+Evaluation Loss 0.621769
+--------------- Epoch 34 ---------------
+
+Epoch 34/60... Train Loss 0.436089
+Evaluation Loss 0.626354
+--------------- Epoch 35 ---------------
+
+Epoch 35/60... Train Loss 0.432413
+Evaluation Loss 0.627706
+--------------- Epoch 36 ---------------
+
+Epoch 36/60... Train Loss 0.428894
+Evaluation Loss 0.631420
+--------------- Epoch 37 ---------------
+
+Epoch 37/60... Train Loss 0.425590
+Evaluation Loss 0.626558
+--------------- Epoch 38 ---------------
+
+Epoch 38/60... Train Loss 0.423103
+Evaluation Loss 0.640396
+--------------- Epoch 39 ---------------
+
+Epoch 39/60... Train Loss 0.420367
+Evaluation Loss 0.637746
+--------------- Epoch 40 ---------------
+
+Epoch 40/60... Train Loss 0.417657
+Evaluation Loss 0.640195
+--------------- Epoch 41 ---------------
+
+Epoch 41/60... Train Loss 0.415821
+Evaluation Loss 0.643100
+--------------- Epoch 42 ---------------
+
+Epoch 42/60... Train Loss 0.413527
+Evaluation Loss 0.647737
+--------------- Epoch 43 ---------------
+
+Epoch 43/60... Train Loss 0.411296
+Evaluation Loss 0.649172
+--------------- Epoch 44 ---------------
+
+Epoch 44/60... Train Loss 0.409700
+Evaluation Loss 0.656876
+--------------- Epoch 45 ---------------
+
+Epoch 45/60... Train Loss 0.408048
+Evaluation Loss 0.650442
+--------------- Epoch 46 ---------------
+
+Epoch 46/60... Train Loss 0.406551
+Evaluation Loss 0.657437
+--------------- Epoch 47 ---------------
+
+Epoch 47/60... Train Loss 0.404458
+Evaluation Loss 0.658472
+--------------- Epoch 48 ---------------
+
+Epoch 48/60... Train Loss 0.402982
+Evaluation Loss 0.670850
+--------------- Epoch 49 ---------------
+
+Epoch 49/60... Train Loss 0.401544
+Evaluation Loss 0.662276
+--------------- Epoch 50 ---------------
+
+Epoch 50/60... Train Loss 0.399958
+Evaluation Loss 0.669735
+--------------- Epoch 51 ---------------
+
+Epoch 51/60... Train Loss 0.398851
+Evaluation Loss 0.664688
+--------------- Epoch 52 ---------------
+
+Epoch 52/60... Train Loss 0.397536
+Evaluation Loss 0.670809
+--------------- Epoch 53 ---------------
+
+Epoch 53/60... Train Loss 0.395789
+Evaluation Loss 0.672970
+--------------- Epoch 54 ---------------
+
+Epoch 54/60... Train Loss 0.394061
+Evaluation Loss 0.676455
+--------------- Epoch 55 ---------------
+
+Epoch 55/60... Train Loss 0.393520
+Evaluation Loss 0.677275
+--------------- Epoch 56 ---------------
+
+Epoch 56/60... Train Loss 0.391922
+Evaluation Loss 0.684232
+--------------- Epoch 57 ---------------
+
+Epoch 57/60... Train Loss 0.390508
+Evaluation Loss 0.683110
+--------------- Epoch 58 ---------------
+
+Epoch 58/60... Train Loss 0.389163
+Evaluation Loss 0.678634
+--------------- Epoch 59 ---------------
+
+Epoch 59/60... Train Loss 0.388246
+Evaluation Loss 0.679674
+--------------- Epoch 60 ---------------
+
+Epoch 60/60... Train Loss 0.387314
+Evaluation Loss 0.686536
+Epoch 60/60... Total Mean Loss: 0.504316
