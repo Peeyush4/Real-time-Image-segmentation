@@ -1,0 +1,206 @@
+The console stream is logged into /home/rekhach/sg_logs/console.log
+[2024-08-05 15:31:00] INFO - crash_tips_setup.py - Crash tips is enabled. You can set your environment variable to CRASH_HANDLER=FALSE to disable it
+/home/rekhach/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:499: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/rekhach/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+/home/rekhach/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:499: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/rekhach/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+[2024-08-05 15:31:03] INFO - utils.py - Note: detected 128 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+[2024-08-05 15:31:03] INFO - utils.py - Note: NumExpr detected 128 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-08-05 15:31:03] INFO - utils.py - NumExpr defaulting to 8 threads.
+[2024-08-05 15:31:04] WARNING - env_sanity_check.py - [31mFailed to verify installed packages: setuptools==62.3.2 does not satisfy requirement setuptools>=65.5.1[0m
+[2024-08-05 15:31:04] WARNING - env_sanity_check.py - [31mFailed to verify installed packages: torchmetrics==0.7.0 does not satisfy requirement torchmetrics==0.8[0m
+cuda
+[2024-08-05 15:31:05] INFO - distributed_training_utils.py - Launching DDP with:
+   - ddp_port = 51273
+   - num_gpus = 4/4 available
+-------------------------------------
+
+[2024-08-05 15:31:05] INFO - static_tcp_rendezvous.py - Creating TCPStore as the c10d::Store implementation
+The console stream is logged into /home/rekhach/sg_logs/console.log
+[2024-08-05 15:31:11] INFO - crash_tips_setup.py - Crash tips is enabled. You can set your environment variable to CRASH_HANDLER=FALSE to disable it
+/home/rekhach/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:499: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/rekhach/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+/home/rekhach/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:499: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/rekhach/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+[2024-08-05 15:31:20] INFO - utils.py - Note: detected 128 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+[2024-08-05 15:31:20] INFO - utils.py - Note: NumExpr detected 128 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-08-05 15:31:20] INFO - utils.py - NumExpr defaulting to 8 threads.
+[2024-08-05 15:31:21] INFO - utils.py - Note: detected 128 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+[2024-08-05 15:31:21] INFO - utils.py - Note: NumExpr detected 128 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-08-05 15:31:21] INFO - utils.py - NumExpr defaulting to 8 threads.
+[2024-08-05 15:31:22] INFO - utils.py - Note: detected 128 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+[2024-08-05 15:31:22] INFO - utils.py - Note: NumExpr detected 128 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-08-05 15:31:22] INFO - utils.py - NumExpr defaulting to 8 threads.
+[2024-08-05 15:31:22] INFO - utils.py - Note: detected 128 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+[2024-08-05 15:31:22] INFO - utils.py - Note: NumExpr detected 128 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-08-05 15:31:22] INFO - utils.py - NumExpr defaulting to 8 threads.
+cuda
+[2024-08-05 15:31:27] INFO - distributed_training_utils.py - Distributed training starting...
+[2024-08-05 15:31:27] INFO - distributed_c10d.py - Added key: store_based_barrier_key:1 to store for rank: 0
+[2024-08-05 15:31:28] INFO - distributed_c10d.py - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+[2024-08-05 15:31:29] INFO - distributed_training_utils.py - Training in distributed mode... with 4 GPUs
+[2024-08-05 15:31:29] WARNING - checkpoint_utils.py - :warning: The pre-trained models provided by SuperGradients may have their own licenses or terms and conditions derived from the dataset used for pre-training.
+ It is your responsibility to determine whether you have permission to use the models for your use case.
+ The model you have requested was pre-trained on the cityscapes dataset, published under the following terms: https://www.cs.toronto.edu/~kriz/cifar.html
+[2024-08-05 15:31:40] INFO - checkpoint_utils.py - Successfully loaded pretrained weights for architecture pp_lite_t_seg50
+[2024-08-05 15:32:00] INFO - sg_trainer.py - Starting a new run with `run_id=RUN_20240805_153200_044538`
+[2024-08-05 15:32:00] INFO - sg_trainer.py - Checkpoints directory: /scratch/zt1/project/msml612/shared/results/pplite_t_50/pplite_t50_dice_ce_edge_loss_lr0.001/RUN_20240805_153200_044538
+The console stream is now moved to /scratch/zt1/project/msml612/shared/results/pplite_t_50/pplite_t50_dice_ce_edge_loss_lr0.001/RUN_20240805_153200_044538/console_Aug05_15_32_42.txt
+[W reducer.cpp:1282] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())
+[W reducer.cpp:1282] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())
+[W reducer.cpp:1282] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())
+[W reducer.cpp:1282] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())
+[2024-08-05 15:33:28] ERROR - sg_trainer_utils.py - Uncaught exception
+Traceback (most recent call last):
+  File "/home/rekhach/ondemand/data/sys/myjobs/projects/default/27/training_pp-lite_t_50.py", line 104, in <module>
+    trainer.train(model=model,
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 1530, in train
+    train_metrics_tuple = self._train_epoch(context=context, silent_mode=silent_mode)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 507, in _train_epoch
+    loss, loss_log_items = self._get_losses(outputs, targets)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 537, in _get_losses
+    loss = self.criterion(outputs, targets)
+  File "/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/gcc-9.4.0/py-torch-1.11.0-xsbh24pmd2hwdp7tikss4digwup6bemt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/losses/dice_ce_edge_loss.py", line 97, in forward
+    assert (
+AssertionError: Wrong num of predictions tensors, expected 4 found 8
+Traceback (most recent call last):
+  File "/home/rekhach/ondemand/data/sys/myjobs/projects/default/27/training_pp-lite_t_50.py", line 104, in <module>
+    trainer.train(model=model,
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 1530, in train
+    train_metrics_tuple = self._train_epoch(context=context, silent_mode=silent_mode)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 507, in _train_epoch
+    loss, loss_log_items = self._get_losses(outputs, targets)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 537, in _get_losses
+    loss = self.criterion(outputs, targets)
+  File "/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/gcc-9.4.0/py-torch-1.11.0-xsbh24pmd2hwdp7tikss4digwup6bemt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/losses/dice_ce_edge_loss.py", line 97, in forward
+    assert (
+AssertionError: Wrong num of predictions tensors, expected 4 found 8
+[2024-08-05 15:33:31] ERROR - sg_trainer_utils.py - Uncaught exception
+Traceback (most recent call last):
+  File "/home/rekhach/ondemand/data/sys/myjobs/projects/default/27/training_pp-lite_t_50.py", line 104, in <module>
+    trainer.train(model=model,
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 1530, in train
+    train_metrics_tuple = self._train_epoch(context=context, silent_mode=silent_mode)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 507, in _train_epoch
+    loss, loss_log_items = self._get_losses(outputs, targets)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 537, in _get_losses
+    loss = self.criterion(outputs, targets)
+  File "/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/gcc-9.4.0/py-torch-1.11.0-xsbh24pmd2hwdp7tikss4digwup6bemt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/losses/dice_ce_edge_loss.py", line 97, in forward
+    assert (
+AssertionError: Wrong num of predictions tensors, expected 4 found 8
+Traceback (most recent call last):
+  File "/home/rekhach/ondemand/data/sys/myjobs/projects/default/27/training_pp-lite_t_50.py", line 104, in <module>
+    trainer.train(model=model,
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 1530, in train
+    train_metrics_tuple = self._train_epoch(context=context, silent_mode=silent_mode)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 507, in _train_epoch
+    loss, loss_log_items = self._get_losses(outputs, targets)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 537, in _get_losses
+    loss = self.criterion(outputs, targets)
+  File "/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/gcc-9.4.0/py-torch-1.11.0-xsbh24pmd2hwdp7tikss4digwup6bemt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/losses/dice_ce_edge_loss.py", line 97, in forward
+    assert (
+AssertionError: Wrong num of predictions tensors, expected 4 found 8
+[2024-08-05 15:33:32] ERROR - sg_trainer_utils.py - Uncaught exception
+Traceback (most recent call last):
+  File "/home/rekhach/ondemand/data/sys/myjobs/projects/default/27/training_pp-lite_t_50.py", line 104, in <module>
+    trainer.train(model=model,
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 1530, in train
+    train_metrics_tuple = self._train_epoch(context=context, silent_mode=silent_mode)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 507, in _train_epoch
+    loss, loss_log_items = self._get_losses(outputs, targets)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 537, in _get_losses
+    loss = self.criterion(outputs, targets)
+  File "/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/gcc-9.4.0/py-torch-1.11.0-xsbh24pmd2hwdp7tikss4digwup6bemt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/losses/dice_ce_edge_loss.py", line 97, in forward
+    assert (
+AssertionError: Wrong num of predictions tensors, expected 4 found 8
+Traceback (most recent call last):
+  File "/home/rekhach/ondemand/data/sys/myjobs/projects/default/27/training_pp-lite_t_50.py", line 104, in <module>
+    trainer.train(model=model,
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 1530, in train
+    train_metrics_tuple = self._train_epoch(context=context, silent_mode=silent_mode)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 507, in _train_epoch
+    loss, loss_log_items = self._get_losses(outputs, targets)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/sg_trainer/sg_trainer.py", line 537, in _get_losses
+    loss = self.criterion(outputs, targets)
+  File "/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/gcc-9.4.0/py-torch-1.11.0-xsbh24pmd2hwdp7tikss4digwup6bemt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/losses/dice_ce_edge_loss.py", line 97, in forward
+    assert (
+AssertionError: Wrong num of predictions tensors, expected 4 found 8
+[2024-08-05 15:33:36] WARNING - api.py - Sending process 689232 closing signal SIGTERM
+[2024-08-05 15:33:36] ERROR - api.py - failed (exitcode: 1) local_rank: 0 (pid: 689230) of binary: /cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/gcc-9.4.0/python-3.8.12-m4izbfupod72qgxj4xogsl2vmivojcew/bin/python
+Traceback (most recent call last):
+  File "/home/rekhach/ondemand/data/sys/myjobs/projects/default/27/training_pp-lite_t_50.py", line 30, in <module>
+    setup_device(num_gpus=-1)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/common/decorators/factory_decorator.py", line 36, in wrapper
+    return func(*args, **kwargs)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/utils/distributed_training_utils.py", line 206, in setup_device
+    setup_gpu(multi_gpu, num_gpus)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/utils/distributed_training_utils.py", line 245, in setup_gpu
+    restart_script_with_ddp(num_gpus=num_gpus)
+  File "/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/gcc-9.4.0/py-torch-1.11.0-xsbh24pmd2hwdp7tikss4digwup6bemt/lib/python3.8/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 345, in wrapper
+    return f(*args, **kwargs)
+  File "/home/rekhach/.local/lib/python3.8/site-packages/super_gradients/training/utils/distributed_training_utils.py", line 354, in restart_script_with_ddp
+    elastic_launch(config=config, entrypoint=sys.executable)(*sys.argv, *EXTRA_ARGS)
+  File "/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/gcc-9.4.0/py-torch-1.11.0-xsbh24pmd2hwdp7tikss4digwup6bemt/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 131, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/gcc-9.4.0/py-torch-1.11.0-xsbh24pmd2hwdp7tikss4digwup6bemt/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 245, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/home/rekhach/ondemand/data/sys/myjobs/projects/default/27/training_pp-lite_t_50.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-08-05_15:33:36
+  host      : gpu-b11-1.zaratan.umd.edu
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 689231)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-08-05_15:33:36
+  host      : gpu-b11-1.zaratan.umd.edu
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 689233)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-08-05_15:33:36
+  host      : gpu-b11-1.zaratan.umd.edu
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 689230)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[59009,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------

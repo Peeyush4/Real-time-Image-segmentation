@@ -1,0 +1,2496 @@
+The console stream is logged into /home/peeyush/sg_logs/console.log
+[2024-08-04 20:24:01] INFO - crash_tips_setup.py - Crash tips is enabled. You can set your environment variable to CRASH_HANDLER=FALSE to disable it
+/home/peeyush/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:499: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/peeyush/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+/home/peeyush/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:499: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/peeyush/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+[2024-08-04 20:24:10] INFO - utils.py - Note: detected 128 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+[2024-08-04 20:24:10] INFO - utils.py - Note: NumExpr detected 128 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-08-04 20:24:10] INFO - utils.py - NumExpr defaulting to 8 threads.
+[2024-08-04 20:24:11] WARNING - env_sanity_check.py - [31mFailed to verify installed packages: torchmetrics==0.7.0 does not satisfy requirement torchmetrics==0.8[0m
+cuda
+[2024-08-04 20:24:12] INFO - distributed_training_utils.py - Launching DDP with:
+   - ddp_port = 47415
+   - num_gpus = 4/4 available
+-------------------------------------
+
+[2024-08-04 20:24:12] INFO - static_tcp_rendezvous.py - Creating TCPStore as the c10d::Store implementation
+The console stream is logged into /home/peeyush/sg_logs/console.log
+[2024-08-04 20:24:17] INFO - crash_tips_setup.py - Crash tips is enabled. You can set your environment variable to CRASH_HANDLER=FALSE to disable it
+/home/peeyush/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:499: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/peeyush/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+/home/peeyush/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:499: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/peeyush/.local/lib/python3.8/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+[2024-08-04 20:24:27] INFO - utils.py - Note: detected 128 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+[2024-08-04 20:24:27] INFO - utils.py - Note: NumExpr detected 128 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-08-04 20:24:27] INFO - utils.py - NumExpr defaulting to 8 threads.
+[2024-08-04 20:24:27] INFO - utils.py - Note: detected 128 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+[2024-08-04 20:24:27] INFO - utils.py - Note: NumExpr detected 128 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-08-04 20:24:27] INFO - utils.py - NumExpr defaulting to 8 threads.
+[2024-08-04 20:24:27] INFO - utils.py - Note: detected 128 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+[2024-08-04 20:24:27] INFO - utils.py - Note: NumExpr detected 128 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-08-04 20:24:27] INFO - utils.py - NumExpr defaulting to 8 threads.
+[2024-08-04 20:24:29] INFO - utils.py - Note: detected 128 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+[2024-08-04 20:24:29] INFO - utils.py - Note: NumExpr detected 128 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-08-04 20:24:29] INFO - utils.py - NumExpr defaulting to 8 threads.
+cuda
+[2024-08-04 20:24:33] INFO - distributed_training_utils.py - Distributed training starting...
+[2024-08-04 20:24:33] INFO - distributed_c10d.py - Added key: store_based_barrier_key:1 to store for rank: 0
+[2024-08-04 20:24:34] INFO - distributed_c10d.py - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+[2024-08-04 20:24:35] INFO - distributed_training_utils.py - Training in distributed mode... with 4 GPUs
+[2024-08-04 20:24:35] WARNING - checkpoint_utils.py - :warning: The pre-trained models provided by SuperGradients may have their own licenses or terms and conditions derived from the dataset used for pre-training.
+ It is your responsibility to determine whether you have permission to use the models for your use case.
+ The model you have requested was pre-trained on the cityscapes dataset, published under the following terms: https://www.cs.toronto.edu/~kriz/cifar.html
+[2024-08-04 20:24:48] INFO - checkpoint_utils.py - Successfully loaded pretrained weights for architecture pp_lite_b_seg50
+[2024-08-04 20:25:03] INFO - sg_trainer.py - Starting a new run with `run_id=RUN_20240804_202503_596691`
+[2024-08-04 20:25:03] INFO - sg_trainer.py - Checkpoints directory: /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691
+The console stream is now moved to /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/console_Aug04_20_25_07.txt
+[W reducer.cpp:1282] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())
+[W reducer.cpp:1282] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())
+[W reducer.cpp:1282] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())
+[W reducer.cpp:1282] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this flag off. Note that this warning may be a false positive if your model has flow control causing later iterations to have unused parameters. (function operator())
+===========================================================
+SUMMARY OF EPOCH 0
+├── Train
+│   ├── Focalloss = 32.7241
+│   ├── Iou = 0.0029
+│   └── Dice = 0.0044
+└── Validation
+    ├── Focalloss = 167741.0938
+    ├── Iou = 0.0021
+    └── Dice = 0.0034
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 1
+├── Train
+│   ├── Focalloss = 15.6791
+│   │   ├── Epoch N-1      = 32.7241 ([32m↘ -17.045[0m)
+│   │   └── Best until now = 32.7241 ([32m↘ -17.045[0m)
+│   ├── Iou = 0.0043
+│   │   ├── Epoch N-1      = 0.0029 ([32m↗ 0.0013[0m)
+│   │   └── Best until now = 0.0029 ([32m↗ 0.0013[0m)
+│   └── Dice = 0.0056
+│       ├── Epoch N-1      = 0.0044 ([32m↗ 0.0012[0m)
+│       └── Best until now = 0.0044 ([32m↗ 0.0012[0m)
+└── Validation
+    ├── Focalloss = 213731.5938
+    │   ├── Epoch N-1      = 167741.0938 ([31m↗ 45990.5[0m)
+    │   └── Best until now = 167741.0938 ([31m↗ 45990.5[0m)
+    ├── Iou = 0.0011
+    │   ├── Epoch N-1      = 0.0021 ([31m↘ -0.001[0m)
+    │   └── Best until now = 0.0021 ([31m↘ -0.001[0m)
+    └── Dice = 0.0019
+        ├── Epoch N-1      = 0.0034 ([31m↘ -0.0015[0m)
+        └── Best until now = 0.0034 ([31m↘ -0.0015[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 2
+├── Train
+│   ├── Focalloss = 9.5602
+│   │   ├── Epoch N-1      = 15.6791 ([32m↘ -6.1189[0m)
+│   │   └── Best until now = 15.6791 ([32m↘ -6.1189[0m)
+│   ├── Iou = 0.0045
+│   │   ├── Epoch N-1      = 0.0043 ([32m↗ 0.0002[0m)
+│   │   └── Best until now = 0.0043 ([32m↗ 0.0002[0m)
+│   └── Dice = 0.0058
+│       ├── Epoch N-1      = 0.0056 ([32m↗ 0.0002[0m)
+│       └── Best until now = 0.0056 ([32m↗ 0.0002[0m)
+└── Validation
+    ├── Focalloss = 14079.6367
+    │   ├── Epoch N-1      = 213731.5938 ([32m↘ -199651.957[0m)
+    │   └── Best until now = 167741.0938 ([32m↘ -153661.457[0m)
+    ├── Iou = 0.0012
+    │   ├── Epoch N-1      = 0.0011 ([32m↗ 0.0002[0m)
+    │   └── Best until now = 0.0021 ([31m↘ -0.0009[0m)
+    └── Dice = 0.0022
+        ├── Epoch N-1      = 0.0019 ([32m↗ 0.0003[0m)
+        └── Best until now = 0.0034 ([31m↘ -0.0012[0m)
+
+===========================================================
+[2024-08-04 20:25:22] INFO - sg_trainer_utils.py - TRAINING PARAMETERS:
+    - Mode:                         DISTRIBUTED_DATA_PARALLEL
+    - Number of GPUs:               4          (4 available on the machine)
+    - Full dataset size:            40         (len(train_set))
+    - Batch size per GPU:           2          (batch_size)
+    - Batch Accumulate:             1          (batch_accumulate)
+    - Total batch size:             8          (num_gpus * batch_size)
+    - Effective Batch size:         8          (num_gpus * batch_size * batch_accumulate)
+    - Iterations per epoch:         5          (len(train_loader))
+    - Gradient updates per epoch:   5          (len(train_loader) / batch_accumulate)
+    - Model: PPLiteSegB  (12.24M parameters, 12.24M optimized)
+    - Learning Rates and Weight Decays:
+      - default: (12.24M parameters). LR: 0.001 (12.24M parameters) WD: 0.0, (17.75K parameters), WD: 0.0001, (12.22M parameters)
+
+[2024-08-04 20:25:22] INFO - sg_trainer.py - Started training for 50 epochs (0/49)
+
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 0:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 0:   0%|          | 0/5 [00:26<?, ?it/s, Dice=0.00185, FocalLoss=46.3, IoU=0.000997, gpu_mem=7.04]
+Train epoch 0:  20%|██        | 1/5 [00:26<01:46, 26.61s/it, Dice=0.00185, FocalLoss=46.3, IoU=0.000997, gpu_mem=7.04]
+Train epoch 0:  20%|██        | 1/5 [00:39<01:46, 26.61s/it, Dice=0.00222, FocalLoss=42.3, IoU=0.00125, gpu_mem=7.6]  
+Train epoch 0:  40%|████      | 2/5 [00:39<00:56, 18.74s/it, Dice=0.00222, FocalLoss=42.3, IoU=0.00125, gpu_mem=7.6]
+Train epoch 0:  40%|████      | 2/5 [00:55<00:56, 18.74s/it, Dice=0.00328, FocalLoss=38.8, IoU=0.00199, gpu_mem=7.6]
+Train epoch 0:  60%|██████    | 3/5 [00:55<00:34, 17.33s/it, Dice=0.00328, FocalLoss=38.8, IoU=0.00199, gpu_mem=7.6]
+Train epoch 0:  60%|██████    | 3/5 [01:09<00:34, 17.33s/it, Dice=0.00392, FocalLoss=35.5, IoU=0.0025, gpu_mem=7.6] 
+Train epoch 0:  80%|████████  | 4/5 [01:09<00:16, 16.14s/it, Dice=0.00392, FocalLoss=35.5, IoU=0.0025, gpu_mem=7.6]
+Train epoch 0:  80%|████████  | 4/5 [01:17<00:16, 16.14s/it, Dice=0.00443, FocalLoss=32.7, IoU=0.00294, gpu_mem=7.6]
+Train epoch 0: 100%|██████████| 5/5 [01:17<00:00, 13.03s/it, Dice=0.00443, FocalLoss=32.7, IoU=0.00294, gpu_mem=7.6]
+Train epoch 0: 100%|██████████| 5/5 [01:17<00:00, 15.49s/it, Dice=0.00443, FocalLoss=32.7, IoU=0.00294, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating:  20%|██        | 1/5 [00:12<00:51, 12.93s/it]
+Validating:  40%|████      | 2/5 [00:17<00:23,  7.99s/it]
+Validating:  60%|██████    | 3/5 [00:21<00:12,  6.32s/it]
+Validating:  80%|████████  | 4/5 [00:26<00:05,  5.50s/it]
+Validating: 100%|██████████| 5/5 [00:29<00:00,  4.86s/it]
+Validating: 100%|██████████| 5/5 [00:29<00:00,  5.99s/it]
+[2024-08-04 20:27:42] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 20:27:42] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.0021034900564700365
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 1:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 1:   0%|          | 0/5 [00:20<?, ?it/s, Dice=0.00569, FocalLoss=19.3, IoU=0.00438, gpu_mem=7.6]
+Train epoch 1:  20%|██        | 1/5 [00:20<01:21, 20.35s/it, Dice=0.00569, FocalLoss=19.3, IoU=0.00438, gpu_mem=7.6]
+Train epoch 1:  20%|██        | 1/5 [00:29<01:21, 20.35s/it, Dice=0.0053, FocalLoss=18.4, IoU=0.00393, gpu_mem=7.6] 
+Train epoch 1:  40%|████      | 2/5 [00:29<00:42, 14.04s/it, Dice=0.0053, FocalLoss=18.4, IoU=0.00393, gpu_mem=7.6]
+Train epoch 1:  40%|████      | 2/5 [00:43<00:42, 14.04s/it, Dice=0.00553, FocalLoss=17.4, IoU=0.00418, gpu_mem=7.6]
+Train epoch 1:  60%|██████    | 3/5 [00:43<00:27, 13.74s/it, Dice=0.00553, FocalLoss=17.4, IoU=0.00418, gpu_mem=7.6]
+Train epoch 1:  60%|██████    | 3/5 [00:57<00:27, 13.74s/it, Dice=0.00547, FocalLoss=16.5, IoU=0.00412, gpu_mem=7.6]
+Train epoch 1:  80%|████████  | 4/5 [00:57<00:13, 13.95s/it, Dice=0.00547, FocalLoss=16.5, IoU=0.00412, gpu_mem=7.6]
+Train epoch 1:  80%|████████  | 4/5 [01:02<00:13, 13.95s/it, Dice=0.0056, FocalLoss=15.7, IoU=0.00427, gpu_mem=7.6] 
+Train epoch 1: 100%|██████████| 5/5 [01:02<00:00, 10.81s/it, Dice=0.0056, FocalLoss=15.7, IoU=0.00427, gpu_mem=7.6]
+Train epoch 1: 100%|██████████| 5/5 [01:03<00:00, 12.62s/it, Dice=0.0056, FocalLoss=15.7, IoU=0.00427, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 1:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 1:  20%|██        | 1/5 [00:13<00:53, 13.43s/it]
+Validating epoch 1:  40%|████      | 2/5 [00:20<00:28,  9.64s/it]
+Validating epoch 1:  60%|██████    | 3/5 [00:24<00:14,  7.15s/it]
+Validating epoch 1:  80%|████████  | 4/5 [00:31<00:07,  7.10s/it]
+Validating epoch 1: 100%|██████████| 5/5 [00:39<00:00,  7.50s/it]
+Validating epoch 1: 100%|██████████| 5/5 [00:40<00:00,  8.00s/it]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 2:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 2:   0%|          | 0/5 [00:18<?, ?it/s, Dice=0.00639, FocalLoss=11.5, IoU=0.00497, gpu_mem=7.6]
+Train epoch 2:  20%|██        | 1/5 [00:18<01:12, 18.17s/it, Dice=0.00639, FocalLoss=11.5, IoU=0.00497, gpu_mem=7.6]
+Train epoch 2:  20%|██        | 1/5 [00:32<01:12, 18.17s/it, Dice=0.00621, FocalLoss=10.9, IoU=0.00495, gpu_mem=7.6]
+Train epoch 2:  40%|████      | 2/5 [00:32<00:48, 16.17s/it, Dice=0.00621, FocalLoss=10.9, IoU=0.00495, gpu_mem=7.6]
+Train epoch 2:  40%|████      | 2/5 [00:47<00:48, 16.17s/it, Dice=0.00603, FocalLoss=10.4, IoU=0.00474, gpu_mem=7.6]
+Train epoch 2:  60%|██████    | 3/5 [00:47<00:31, 15.52s/it, Dice=0.00603, FocalLoss=10.4, IoU=0.00474, gpu_mem=7.6]
+Train epoch 2:  60%|██████    | 3/5 [00:58<00:31, 15.52s/it, Dice=0.00599, FocalLoss=9.94, IoU=0.00471, gpu_mem=7.6]
+Train epoch 2:  80%|████████  | 4/5 [00:58<00:13, 13.51s/it, Dice=0.00599, FocalLoss=9.94, IoU=0.00471, gpu_mem=7.6]
+Train epoch 2:  80%|████████  | 4/5 [01:05<00:13, 13.51s/it, Dice=0.00578, FocalLoss=9.56, IoU=0.00445, gpu_mem=7.6]
+Train epoch 2: 100%|██████████| 5/5 [01:05<00:00, 11.27s/it, Dice=0.00578, FocalLoss=9.56, IoU=0.00445, gpu_mem=7.6]
+Train epoch 2: 100%|██████████| 5/5 [01:05<00:00, 13.12s/it, Dice=0.00578, FocalLoss=9.56, IoU=0.00445, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 2:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 2:  20%|██        | 1/5 [00:13<00:55, 13.89s/it]
+Validating epoch 2:  40%|████      | 2/5 [00:19<00:26,  8.84s/it]
+Validating epoch 2:  60%|██████    | 3/5 [00:23<00:13,  6.99s/it]
+Validating epoch 2:  80%|████████  | 4/5 [00:28<00:06,  6.08s/it]
+Validating epoch 2: 100%|██████████| 5/5 [00:32<00:00,  5.36s/it]
+Validating epoch 2: 100%|██████████| 5/5 [00:32<00:00,  6.59s/it]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 3:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 3:   0%|          | 0/5 [00:18<?, ?it/s, Dice=0.00556, FocalLoss=7.08, IoU=0.00424, gpu_mem=7.6]
+Train epoch 3:  20%|██        | 1/5 [00:18<01:13, 18.34s/it, Dice=0.00556, FocalLoss=7.08, IoU=0.00424, gpu_mem=7.6]
+Train epoch 3:  20%|██        | 1/5 [00:30<01:13, 18.34s/it, Dice=0.00583, FocalLoss=6.74, IoU=0.00456, gpu_mem=7.6]
+Train epoch 3:  40%|████      | 2/5 [00:30<00:43, 14.64s/it, Dice=0.00583, FocalLoss=6.74, IoU=0.00456, gpu_mem=7.6]
+Train epoch 3:  40%|████      | 2/5 [00:40<00:43, 14.64s/it, Dice=0.0058, FocalLoss=6.34, IoU=0.00451, gpu_mem=7.6] ===========================================================
+SUMMARY OF EPOCH 3
+├── Train
+│   ├── Focalloss = 5.7449
+│   │   ├── Epoch N-1      = 9.5602 ([32m↘ -3.8153[0m)
+│   │   └── Best until now = 9.5602 ([32m↘ -3.8153[0m)
+│   ├── Iou = 0.0045
+│   │   ├── Epoch N-1      = 0.0045 ([32m↗ 0.0[0m)
+│   │   └── Best until now = 0.0045 ([32m↗ 0.0[0m)
+│   └── Dice = 0.0059
+│       ├── Epoch N-1      = 0.0058 ([32m↗ 0.0001[0m)
+│       └── Best until now = 0.0058 ([32m↗ 0.0001[0m)
+└── Validation
+    ├── Focalloss = 3203.5142
+    │   ├── Epoch N-1      = 14079.6367 ([32m↘ -10876.1226[0m)
+    │   └── Best until now = 14079.6367 ([32m↘ -10876.1226[0m)
+    ├── Iou = 0.0018
+    │   ├── Epoch N-1      = 0.0012 ([32m↗ 0.0006[0m)
+    │   └── Best until now = 0.0021 ([31m↘ -0.0003[0m)
+    └── Dice = 0.003
+        ├── Epoch N-1      = 0.0022 ([32m↗ 0.0008[0m)
+        └── Best until now = 0.0034 ([31m↘ -0.0004[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 4
+├── Train
+│   ├── Focalloss = 3.6587
+│   │   ├── Epoch N-1      = 5.7449 ([32m↘ -2.0862[0m)
+│   │   └── Best until now = 5.7449 ([32m↘ -2.0862[0m)
+│   ├── Iou = 0.0088
+│   │   ├── Epoch N-1      = 0.0045 ([32m↗ 0.0043[0m)
+│   │   └── Best until now = 0.0045 ([32m↗ 0.0043[0m)
+│   └── Dice = 0.0114
+│       ├── Epoch N-1      = 0.0059 ([32m↗ 0.0055[0m)
+│       └── Best until now = 0.0059 ([32m↗ 0.0055[0m)
+└── Validation
+    ├── Focalloss = 164.2842
+    │   ├── Epoch N-1      = 3203.5142 ([32m↘ -3039.2299[0m)
+    │   └── Best until now = 3203.5142 ([32m↘ -3039.2299[0m)
+    ├── Iou = 0.003
+    │   ├── Epoch N-1      = 0.0018 ([32m↗ 0.0012[0m)
+    │   └── Best until now = 0.0021 ([32m↗ 0.0009[0m)
+    └── Dice = 0.0051
+        ├── Epoch N-1      = 0.003  ([32m↗ 0.0022[0m)
+        └── Best until now = 0.0034 ([32m↗ 0.0018[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 5
+├── Train
+│   ├── Focalloss = 2.4551
+│   │   ├── Epoch N-1      = 3.6587 ([32m↘ -1.2036[0m)
+│   │   └── Best until now = 3.6587 ([32m↘ -1.2036[0m)
+│   ├── Iou = 0.0104
+│   │   ├── Epoch N-1      = 0.0088 ([32m↗ 0.0016[0m)
+│   │   └── Best until now = 0.0088 ([32m↗ 0.0016[0m)
+│   └── Dice = 0.0141
+│       ├── Epoch N-1      = 0.0114 ([32m↗ 0.0027[0m)
+│       └── Best until now = 0.0114 ([32m↗ 0.0027[0m)
+└── Validation
+    ├── Focalloss = 9.7735
+    │   ├── Epoch N-1      = 164.2842 ([32m↘ -154.5108[0m)
+    │   └── Best until now = 164.2842 ([32m↘ -154.5108[0m)
+    ├── Iou = 0.0124
+    │   ├── Epoch N-1      = 0.003  ([32m↗ 0.0094[0m)
+    │   └── Best until now = 0.003  ([32m↗ 0.0094[0m)
+    └── Dice = 0.017
+        ├── Epoch N-1      = 0.0051 ([32m↗ 0.0118[0m)
+        └── Best until now = 0.0051 ([32m↗ 0.0118[0m)
+
+===========================================================
+
+Train epoch 3:  60%|██████    | 3/5 [00:40<00:25, 12.64s/it, Dice=0.0058, FocalLoss=6.34, IoU=0.00451, gpu_mem=7.6]
+Train epoch 3:  60%|██████    | 3/5 [00:50<00:25, 12.64s/it, Dice=0.00612, FocalLoss=6.01, IoU=0.00468, gpu_mem=7.6]
+Train epoch 3:  80%|████████  | 4/5 [00:50<00:11, 11.48s/it, Dice=0.00612, FocalLoss=6.01, IoU=0.00468, gpu_mem=7.6]
+Train epoch 3:  80%|████████  | 4/5 [00:59<00:11, 11.48s/it, Dice=0.00592, FocalLoss=5.74, IoU=0.00448, gpu_mem=7.6]
+Train epoch 3: 100%|██████████| 5/5 [00:59<00:00, 10.53s/it, Dice=0.00592, FocalLoss=5.74, IoU=0.00448, gpu_mem=7.6]
+Train epoch 3: 100%|██████████| 5/5 [00:59<00:00, 11.88s/it, Dice=0.00592, FocalLoss=5.74, IoU=0.00448, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 3:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 3:  20%|██        | 1/5 [00:14<00:57, 14.37s/it]
+Validating epoch 3:  40%|████      | 2/5 [00:21<00:30, 10.17s/it]
+Validating epoch 3:  60%|██████    | 3/5 [00:24<00:13,  6.85s/it]
+Validating epoch 3:  80%|████████  | 4/5 [00:28<00:05,  5.57s/it]
+Validating epoch 3: 100%|██████████| 5/5 [00:32<00:00,  5.00s/it]
+Validating epoch 3: 100%|██████████| 5/5 [00:32<00:00,  6.45s/it]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 4:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 4:   0%|          | 0/5 [00:17<?, ?it/s, Dice=0.00792, FocalLoss=4.29, IoU=0.00581, gpu_mem=7.6]
+Train epoch 4:  20%|██        | 1/5 [00:17<01:11, 17.86s/it, Dice=0.00792, FocalLoss=4.29, IoU=0.00581, gpu_mem=7.6]
+Train epoch 4:  20%|██        | 1/5 [00:28<01:11, 17.86s/it, Dice=0.00952, FocalLoss=4.17, IoU=0.0068, gpu_mem=7.6] 
+Train epoch 4:  40%|████      | 2/5 [00:28<00:40, 13.50s/it, Dice=0.00952, FocalLoss=4.17, IoU=0.0068, gpu_mem=7.6]
+Train epoch 4:  40%|████      | 2/5 [00:39<00:40, 13.50s/it, Dice=0.0104, FocalLoss=3.96, IoU=0.0077, gpu_mem=7.6] 
+Train epoch 4:  60%|██████    | 3/5 [00:39<00:24, 12.46s/it, Dice=0.0104, FocalLoss=3.96, IoU=0.0077, gpu_mem=7.6]
+Train epoch 4:  60%|██████    | 3/5 [00:54<00:24, 12.46s/it, Dice=0.011, FocalLoss=3.8, IoU=0.00836, gpu_mem=7.6] 
+Train epoch 4:  80%|████████  | 4/5 [00:54<00:13, 13.60s/it, Dice=0.011, FocalLoss=3.8, IoU=0.00836, gpu_mem=7.6]
+Train epoch 4:  80%|████████  | 4/5 [01:13<00:13, 13.60s/it, Dice=0.0114, FocalLoss=3.66, IoU=0.0088, gpu_mem=7.6]
+Train epoch 4: 100%|██████████| 5/5 [01:13<00:00, 15.42s/it, Dice=0.0114, FocalLoss=3.66, IoU=0.0088, gpu_mem=7.6]
+Train epoch 4: 100%|██████████| 5/5 [01:13<00:00, 14.74s/it, Dice=0.0114, FocalLoss=3.66, IoU=0.0088, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 4:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 4:  20%|██        | 1/5 [00:10<00:43, 10.86s/it]
+Validating epoch 4:  40%|████      | 2/5 [00:16<00:22,  7.53s/it]
+Validating epoch 4:  60%|██████    | 3/5 [00:20<00:12,  6.01s/it]
+Validating epoch 4:  80%|████████  | 4/5 [00:23<00:05,  5.09s/it]
+Validating epoch 4: 100%|██████████| 5/5 [00:28<00:00,  4.82s/it]
+Validating epoch 4: 100%|██████████| 5/5 [00:28<00:00,  5.69s/it]
+[2024-08-04 20:35:32] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 20:35:32] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.0029957739170640707
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 5:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 5:   0%|          | 0/5 [00:21<?, ?it/s, Dice=0.0113, FocalLoss=2.9, IoU=0.00867, gpu_mem=7.6]
+Train epoch 5:  20%|██        | 1/5 [00:21<01:26, 21.68s/it, Dice=0.0113, FocalLoss=2.9, IoU=0.00867, gpu_mem=7.6]
+Train epoch 5:  20%|██        | 1/5 [00:35<01:26, 21.68s/it, Dice=0.0118, FocalLoss=2.7, IoU=0.00896, gpu_mem=7.6]
+Train epoch 5:  40%|████      | 2/5 [00:35<00:51, 17.01s/it, Dice=0.0118, FocalLoss=2.7, IoU=0.00896, gpu_mem=7.6]
+Train epoch 5:  40%|████      | 2/5 [00:56<00:51, 17.01s/it, Dice=0.0122, FocalLoss=2.64, IoU=0.00912, gpu_mem=7.6]
+Train epoch 5:  60%|██████    | 3/5 [00:56<00:37, 18.75s/it, Dice=0.0122, FocalLoss=2.64, IoU=0.00912, gpu_mem=7.6]
+Train epoch 5:  60%|██████    | 3/5 [01:15<00:37, 18.75s/it, Dice=0.0135, FocalLoss=2.5, IoU=0.00994, gpu_mem=7.6] 
+Train epoch 5:  80%|████████  | 4/5 [01:15<00:18, 18.80s/it, Dice=0.0135, FocalLoss=2.5, IoU=0.00994, gpu_mem=7.6]
+Train epoch 5:  80%|████████  | 4/5 [01:25<00:18, 18.80s/it, Dice=0.0141, FocalLoss=2.46, IoU=0.0104, gpu_mem=7.6]
+Train epoch 5: 100%|██████████| 5/5 [01:25<00:00, 15.61s/it, Dice=0.0141, FocalLoss=2.46, IoU=0.0104, gpu_mem=7.6]
+Train epoch 5: 100%|██████████| 5/5 [01:25<00:00, 17.05s/it, Dice=0.0141, FocalLoss=2.46, IoU=0.0104, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 5:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 5:  20%|██        | 1/5 [00:13<00:53, 13.41s/it]
+Validating epoch 5:  40%|████      | 2/5 [00:20<00:29,  9.94s/it]
+Validating epoch 5:  60%|██████    | 3/5 [00:24<00:14,  7.12s/it]
+Validating epoch 5:  80%|████████  | 4/5 [00:30<00:06,  6.43s/it]
+Validating epoch 5: 100%|██████████| 5/5 [00:37<00:00,  6.93s/it]
+Validating epoch 5: 100%|██████████| 5/5 [00:38<00:00,  7.61s/it]
+[2024-08-04 20:38:07] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 20:38:07] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.012365146540105343
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 6:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 6:   0%|          | 0/5 [00:27<?, ?it/s, Dice=0.0177, FocalLoss=1.95, IoU=0.0137, gpu_mem=7.6]
+Train epoch 6:  20%|██        | 1/5 [00:27<01:49, 27.49s/it, Dice=0.0177, FocalLoss=1.95, IoU=0.0137, gpu_mem=7.6]
+Train epoch 6:  20%|██        | 1/5 [00:43<01:49, 27.49s/it, Dice=0.0192, FocalLoss=1.99, IoU=0.015, gpu_mem=7.6] 
+Train epoch 6:  40%|████      | 2/5 [00:43<01:02, 20.90s/it, Dice=0.0192, FocalLoss=1.99, IoU=0.015, gpu_mem=7.6]
+Train epoch 6:  40%|████      | 2/5 [01:02<01:02, 20.90s/it, Dice=0.0193, FocalLoss=1.88, IoU=0.0151, gpu_mem=7.6]
+Train epoch 6:  60%|██████    | 3/5 [01:02<00:39, 19.81s/it, Dice=0.0193, FocalLoss=1.88, IoU=0.0151, gpu_mem=7.6]
+Train epoch 6:  60%|██████    | 3/5 [01:12<00:39, 19.81s/it, Dice=0.0194, FocalLoss=1.83, IoU=0.0149, gpu_mem=7.6]
+Train epoch 6:  80%|████████  | 4/5 [01:12<00:16, 16.06s/it, Dice=0.0194, FocalLoss=1.83, IoU=0.0149, gpu_mem=7.6]
+Train epoch 6:  80%|████████  | 4/5 [01:27<00:16, 16.06s/it, Dice=0.0195, FocalLoss=1.82, IoU=0.0149, gpu_mem=7.6]
+Train epoch 6: 100%|██████████| 5/5 [01:27<00:00, 15.75s/it, Dice=0.0195, FocalLoss=1.82, IoU=0.0149, gpu_mem=7.6]
+Train epoch 6: 100%|██████████| 5/5 [01:28<00:00, 17.63s/it, Dice=0.0195, FocalLoss=1.82, IoU=0.0149, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 6:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 6:  20%|██        | 1/5 [00:15<01:03, 15.97s/it]
+Validating epoch 6:  40%|████      | 2/5 [00:25<00:35, 11.97s/it]
+Validating epoch 6:  60%|██████    | 3/5 [00:31<00:18,  9.40s/it]
+Validating epoch 6:  80%|████████  | 4/5 [00:38<00:08,  8.63s/it]
+Validating epoch 6: 100%|██████████| 5/5 [00:48<00:00,  8.97s/it]
+Validating epoch 6: 100%|██████████| 5/5 [00:48<00:00,  9.73s/it]
+===========================================================
+SUMMARY OF EPOCH 6
+├── Train
+│   ├── Focalloss = 1.8156
+│   │   ├── Epoch N-1      = 2.4551 ([32m↘ -0.6395[0m)
+│   │   └── Best until now = 2.4551 ([32m↘ -0.6395[0m)
+│   ├── Iou = 0.0149
+│   │   ├── Epoch N-1      = 0.0104 ([32m↗ 0.0045[0m)
+│   │   └── Best until now = 0.0104 ([32m↗ 0.0045[0m)
+│   └── Dice = 0.0195
+│       ├── Epoch N-1      = 0.0141 ([32m↗ 0.0054[0m)
+│       └── Best until now = 0.0141 ([32m↗ 0.0054[0m)
+└── Validation
+    ├── Focalloss = 1.9188
+    │   ├── Epoch N-1      = 9.7735 ([32m↘ -7.8546[0m)
+    │   └── Best until now = 9.7735 ([32m↘ -7.8546[0m)
+    ├── Iou = 0.0155
+    │   ├── Epoch N-1      = 0.0124 ([32m↗ 0.0031[0m)
+    │   └── Best until now = 0.0124 ([32m↗ 0.0031[0m)
+    └── Dice = 0.0201
+        ├── Epoch N-1      = 0.017  ([32m↗ 0.0032[0m)
+        └── Best until now = 0.017  ([32m↗ 0.0032[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 7
+├── Train
+│   ├── Focalloss = 1.3191
+│   │   ├── Epoch N-1      = 1.8156 ([32m↘ -0.4965[0m)
+│   │   └── Best until now = 1.8156 ([32m↘ -0.4965[0m)
+│   ├── Iou = 0.0168
+│   │   ├── Epoch N-1      = 0.0149 ([32m↗ 0.002[0m)
+│   │   └── Best until now = 0.0149 ([32m↗ 0.002[0m)
+│   └── Dice = 0.0215
+│       ├── Epoch N-1      = 0.0195 ([32m↗ 0.002[0m)
+│       └── Best until now = 0.0195 ([32m↗ 0.002[0m)
+└── Validation
+    ├── Focalloss = 1.3053
+    │   ├── Epoch N-1      = 1.9188 ([32m↘ -0.6135[0m)
+    │   └── Best until now = 1.9188 ([32m↘ -0.6135[0m)
+    ├── Iou = 0.0168
+    │   ├── Epoch N-1      = 0.0155 ([32m↗ 0.0013[0m)
+    │   └── Best until now = 0.0155 ([32m↗ 0.0013[0m)
+    └── Dice = 0.0215
+        ├── Epoch N-1      = 0.0201 ([32m↗ 0.0014[0m)
+        └── Best until now = 0.0201 ([32m↗ 0.0014[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 8
+├── Train
+│   ├── Focalloss = 1.1426
+│   │   ├── Epoch N-1      = 1.3191 ([32m↘ -0.1765[0m)
+│   │   └── Best until now = 1.3191 ([32m↘ -0.1765[0m)
+│   ├── Iou = 0.0183
+│   │   ├── Epoch N-1      = 0.0168 ([32m↗ 0.0015[0m)
+│   │   └── Best until now = 0.0168 ([32m↗ 0.0015[0m)
+│   └── Dice = 0.0234
+│       ├── Epoch N-1      = 0.0215 ([32m↗ 0.0019[0m)
+│       └── Best until now = 0.0215 ([32m↗ 0.0019[0m)
+└── Validation
+    ├── Focalloss = 1.0969
+    │   ├── Epoch N-1      = 1.3053 ([32m↘ -0.2085[0m)
+    │   └── Best until now = 1.3053 ([32m↘ -0.2085[0m)
+    ├── Iou = 0.0165
+    │   ├── Epoch N-1      = 0.0168 ([31m↘ -0.0003[0m)
+    │   └── Best until now = 0.0168 ([31m↘ -0.0003[0m)
+    └── Dice = 0.0213
+        ├── Epoch N-1      = 0.0215 ([31m↘ -0.0002[0m)
+        └── Best until now = 0.0215 ([31m↘ -0.0002[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 9
+├── Train
+│   ├── Focalloss = 0.9141
+│   │   ├── Epoch N-1      = 1.1426 ([32m↘ -0.2285[0m)
+│   │   └── Best until now = 1.1426 ([32m↘ -0.2285[0m)
+│   ├── Iou = 0.0202
+│   │   ├── Epoch N-1      = 0.0183 ([32m↗ 0.0019[0m)
+│   │   └── Best until now = 0.0183 ([32m↗ 0.0019[0m)
+│   └── Dice = 0.0258
+│       ├── Epoch N-1      = 0.0234 ([32m↗ 0.0025[0m)
+│       └── Best until now = 0.0234 ([32m↗ 0.0025[0m)
+└── Validation
+    ├── Focalloss = 0.9695
+    │   ├── Epoch N-1      = 1.0969 ([32m↘ -0.1273[0m)
+    │   └── Best until now = 1.0969 ([32m↘ -0.1273[0m)
+    ├── Iou = 0.0175
+    │   ├── Epoch N-1      = 0.0165 ([32m↗ 0.0011[0m)
+    │   └── Best until now = 0.0168 ([32m↗ 0.0007[0m)
+    └── Dice = 0.023
+        ├── Epoch N-1      = 0.0213 ([32m↗ 0.0018[0m)
+        └── Best until now = 0.0215 ([32m↗ 0.0015[0m)
+
+===========================================================
+[2024-08-04 20:41:01] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 20:41:01] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.015490317717194557
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 7:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 7:   0%|          | 0/5 [00:21<?, ?it/s, Dice=0.0205, FocalLoss=1.49, IoU=0.0156, gpu_mem=7.6]
+Train epoch 7:  20%|██        | 1/5 [00:21<01:26, 21.62s/it, Dice=0.0205, FocalLoss=1.49, IoU=0.0156, gpu_mem=7.6]
+Train epoch 7:  20%|██        | 1/5 [00:35<01:26, 21.62s/it, Dice=0.0216, FocalLoss=1.31, IoU=0.0169, gpu_mem=7.6]
+Train epoch 7:  40%|████      | 2/5 [00:35<00:51, 17.04s/it, Dice=0.0216, FocalLoss=1.31, IoU=0.0169, gpu_mem=7.6]
+Train epoch 7:  40%|████      | 2/5 [00:52<00:51, 17.04s/it, Dice=0.0216, FocalLoss=1.37, IoU=0.017, gpu_mem=7.6] 
+Train epoch 7:  60%|██████    | 3/5 [00:52<00:33, 16.92s/it, Dice=0.0216, FocalLoss=1.37, IoU=0.017, gpu_mem=7.6]
+Train epoch 7:  60%|██████    | 3/5 [01:08<00:33, 16.92s/it, Dice=0.0215, FocalLoss=1.34, IoU=0.0169, gpu_mem=7.6]
+Train epoch 7:  80%|████████  | 4/5 [01:08<00:16, 16.61s/it, Dice=0.0215, FocalLoss=1.34, IoU=0.0169, gpu_mem=7.6]
+Train epoch 7:  80%|████████  | 4/5 [01:28<00:16, 16.61s/it, Dice=0.0215, FocalLoss=1.32, IoU=0.0168, gpu_mem=7.6]
+Train epoch 7: 100%|██████████| 5/5 [01:28<00:00, 17.73s/it, Dice=0.0215, FocalLoss=1.32, IoU=0.0168, gpu_mem=7.6]
+Train epoch 7: 100%|██████████| 5/5 [01:28<00:00, 17.68s/it, Dice=0.0215, FocalLoss=1.32, IoU=0.0168, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 7:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 7:  20%|██        | 1/5 [00:15<01:03, 15.77s/it]
+Validating epoch 7:  40%|████      | 2/5 [00:26<00:37, 12.66s/it]
+Validating epoch 7:  60%|██████    | 3/5 [00:32<00:19,  9.77s/it]
+Validating epoch 7:  80%|████████  | 4/5 [00:40<00:09,  9.08s/it]
+Validating epoch 7: 100%|██████████| 5/5 [00:51<00:00,  9.58s/it]
+Validating epoch 7: 100%|██████████| 5/5 [00:51<00:00, 10.25s/it]
+[2024-08-04 20:44:01] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 20:44:01] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.016805129125714302
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 8:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 8:   0%|          | 0/5 [00:24<?, ?it/s, Dice=0.0233, FocalLoss=1.32, IoU=0.0187, gpu_mem=7.6]
+Train epoch 8:  20%|██        | 1/5 [00:24<01:36, 24.14s/it, Dice=0.0233, FocalLoss=1.32, IoU=0.0187, gpu_mem=7.6]
+Train epoch 8:  20%|██        | 1/5 [00:39<01:36, 24.14s/it, Dice=0.0231, FocalLoss=1.22, IoU=0.0185, gpu_mem=7.6]
+Train epoch 8:  40%|████      | 2/5 [00:39<00:56, 18.85s/it, Dice=0.0231, FocalLoss=1.22, IoU=0.0185, gpu_mem=7.6]
+Train epoch 8:  40%|████      | 2/5 [00:49<00:56, 18.85s/it, Dice=0.0234, FocalLoss=1.18, IoU=0.0187, gpu_mem=7.6]
+Train epoch 8:  60%|██████    | 3/5 [00:49<00:30, 15.04s/it, Dice=0.0234, FocalLoss=1.18, IoU=0.0187, gpu_mem=7.6]
+Train epoch 8:  60%|██████    | 3/5 [01:06<00:30, 15.04s/it, Dice=0.023, FocalLoss=1.18, IoU=0.0181, gpu_mem=7.6] 
+Train epoch 8:  80%|████████  | 4/5 [01:06<00:15, 15.81s/it, Dice=0.023, FocalLoss=1.18, IoU=0.0181, gpu_mem=7.6]
+Train epoch 8:  80%|████████  | 4/5 [01:23<00:15, 15.81s/it, Dice=0.0234, FocalLoss=1.14, IoU=0.0183, gpu_mem=7.6]
+Train epoch 8: 100%|██████████| 5/5 [01:23<00:00, 16.09s/it, Dice=0.0234, FocalLoss=1.14, IoU=0.0183, gpu_mem=7.6]
+Train epoch 8: 100%|██████████| 5/5 [01:23<00:00, 16.74s/it, Dice=0.0234, FocalLoss=1.14, IoU=0.0183, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 8:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 8:  20%|██        | 1/5 [00:17<01:09, 17.32s/it]
+Validating epoch 8:  40%|████      | 2/5 [00:29<00:42, 14.04s/it]
+Validating epoch 8:  60%|██████    | 3/5 [00:36<00:22, 11.17s/it]
+Validating epoch 8:  80%|████████  | 4/5 [00:45<00:10, 10.12s/it]
+Validating epoch 8: 100%|██████████| 5/5 [00:55<00:00, 10.27s/it]
+Validating epoch 8: 100%|██████████| 5/5 [00:56<00:00, 11.21s/it]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 9:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 9:   0%|          | 0/5 [00:18<?, ?it/s, Dice=0.0251, FocalLoss=0.891, IoU=0.0192, gpu_mem=7.6]
+Train epoch 9:  20%|██        | 1/5 [00:18<01:15, 18.97s/it, Dice=0.0251, FocalLoss=0.891, IoU=0.0192, gpu_mem=7.6]
+Train epoch 9:  20%|██        | 1/5 [00:36<01:15, 18.97s/it, Dice=0.0254, FocalLoss=0.917, IoU=0.0197, gpu_mem=7.6]
+Train epoch 9:  40%|████      | 2/5 [00:36<00:54, 18.33s/it, Dice=0.0254, FocalLoss=0.917, IoU=0.0197, gpu_mem=7.6]
+Train epoch 9:  40%|████      | 2/5 [00:55<00:54, 18.33s/it, Dice=0.0258, FocalLoss=0.881, IoU=0.0201, gpu_mem=7.6]
+Train epoch 9:  60%|██████    | 3/5 [00:55<00:36, 18.36s/it, Dice=0.0258, FocalLoss=0.881, IoU=0.0201, gpu_mem=7.6]
+Train epoch 9:  60%|██████    | 3/5 [01:12<00:36, 18.36s/it, Dice=0.0257, FocalLoss=0.885, IoU=0.0201, gpu_mem=7.6]
+Train epoch 9:  80%|████████  | 4/5 [01:12<00:17, 17.86s/it, Dice=0.0257, FocalLoss=0.885, IoU=0.0201, gpu_mem=7.6]
+Train epoch 9:  80%|████████  | 4/5 [01:20<00:17, 17.86s/it, Dice=0.0258, FocalLoss=0.914, IoU=0.0202, gpu_mem=7.6]
+Train epoch 9: 100%|██████████| 5/5 [01:20<00:00, 14.51s/it, Dice=0.0258, FocalLoss=0.914, IoU=0.0202, gpu_mem=7.6]
+Train epoch 9: 100%|██████████| 5/5 [01:21<00:00, 16.26s/it, Dice=0.0258, FocalLoss=0.914, IoU=0.0202, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 9:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 9:  20%|██        | 1/5 [00:16<01:06, 16.52s/it]
+Validating epoch 9:  40%|████      | 2/5 [00:27<00:39, 13.19s/it]
+Validating epoch 9:  60%|██████    | 3/5 [00:34<00:20, 10.35s/it]
+Validating epoch 9:  80%|████████  | 4/5 [00:42<00:09,  9.51s/it]
+Validating epoch 9: 100%|██████████| 5/5 [00:52<00:00,  9.76s/it]
+Validating epoch 9: 100%|██████████| 5/5 [00:52<00:00, 10.59s/it]
+[2024-08-04 20:49:53] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 20:49:53] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.017539307475090027
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 10:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 10:   0%|          | 0/5 [00:29<?, ?it/s, Dice=0.0277, FocalLoss=0.673, IoU=0.0223, gpu_mem=7.6]
+Train epoch 10:  20%|██        | 1/5 [00:29<01:56, 29.18s/it, Dice=0.0277, FocalLoss=0.673, IoU=0.0223, gpu_mem=7.6]
+Train epoch 10:  20%|██        | 1/5 [00:44<01:56, 29.18s/it, Dice=0.0276, FocalLoss=0.732, IoU=0.0223, gpu_mem=7.6]
+Train epoch 10:  40%|████      | 2/5 [00:44<01:03, 21.31s/it, Dice=0.0276, FocalLoss=0.732, IoU=0.0223, gpu_mem=7.6]
+Train epoch 10:  40%|████      | 2/5 [00:53<01:03, 21.31s/it, Dice=0.0276, FocalLoss=0.746, IoU=0.0223, gpu_mem=7.6]
+Train epoch 10:  60%|██████    | 3/5 [00:53<00:31, 15.64s/it, Dice=0.0276, FocalLoss=0.746, IoU=0.0223, gpu_mem=7.6]
+Train epoch 10:  60%|██████    | 3/5 [01:10<00:31, 15.64s/it, Dice=0.0279, FocalLoss=0.83, IoU=0.0224, gpu_mem=7.6] 
+Train epoch 10:  80%|████████  | 4/5 [01:10<00:16, 16.12s/it, Dice=0.0279, FocalLoss=0.83, IoU=0.0224, gpu_mem=7.6]===========================================================
+SUMMARY OF EPOCH 10
+├── Train
+│   ├── Focalloss = 0.8332
+│   │   ├── Epoch N-1      = 0.9141 ([32m↘ -0.0809[0m)
+│   │   └── Best until now = 0.9141 ([32m↘ -0.0809[0m)
+│   ├── Iou = 0.0219
+│   │   ├── Epoch N-1      = 0.0202 ([32m↗ 0.0017[0m)
+│   │   └── Best until now = 0.0202 ([32m↗ 0.0017[0m)
+│   └── Dice = 0.0275
+│       ├── Epoch N-1      = 0.0258 ([32m↗ 0.0017[0m)
+│       └── Best until now = 0.0258 ([32m↗ 0.0017[0m)
+└── Validation
+    ├── Focalloss = 0.8828
+    │   ├── Epoch N-1      = 0.9695 ([32m↘ -0.0867[0m)
+    │   └── Best until now = 0.9695 ([32m↘ -0.0867[0m)
+    ├── Iou = 0.0205
+    │   ├── Epoch N-1      = 0.0175 ([32m↗ 0.003[0m)
+    │   └── Best until now = 0.0175 ([32m↗ 0.003[0m)
+    └── Dice = 0.0263
+        ├── Epoch N-1      = 0.023  ([32m↗ 0.0032[0m)
+        └── Best until now = 0.023  ([32m↗ 0.0032[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 11
+├── Train
+│   ├── Focalloss = 0.7876
+│   │   ├── Epoch N-1      = 0.8332 ([32m↘ -0.0456[0m)
+│   │   └── Best until now = 0.8332 ([32m↘ -0.0456[0m)
+│   ├── Iou = 0.0238
+│   │   ├── Epoch N-1      = 0.0219 ([32m↗ 0.0019[0m)
+│   │   └── Best until now = 0.0219 ([32m↗ 0.0019[0m)
+│   └── Dice = 0.0303
+│       ├── Epoch N-1      = 0.0275 ([32m↗ 0.0028[0m)
+│       └── Best until now = 0.0275 ([32m↗ 0.0028[0m)
+└── Validation
+    ├── Focalloss = 0.8182
+    │   ├── Epoch N-1      = 0.8828 ([32m↘ -0.0646[0m)
+    │   └── Best until now = 0.8828 ([32m↘ -0.0646[0m)
+    ├── Iou = 0.0222
+    │   ├── Epoch N-1      = 0.0205 ([32m↗ 0.0017[0m)
+    │   └── Best until now = 0.0205 ([32m↗ 0.0017[0m)
+    └── Dice = 0.0283
+        ├── Epoch N-1      = 0.0263 ([32m↗ 0.002[0m)
+        └── Best until now = 0.0263 ([32m↗ 0.002[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 12
+├── Train
+│   ├── Focalloss = 0.6946
+│   │   ├── Epoch N-1      = 0.7876 ([32m↘ -0.093[0m)
+│   │   └── Best until now = 0.7876 ([32m↘ -0.093[0m)
+│   ├── Iou = 0.0243
+│   │   ├── Epoch N-1      = 0.0238 ([32m↗ 0.0004[0m)
+│   │   └── Best until now = 0.0238 ([32m↗ 0.0004[0m)
+│   └── Dice = 0.0306
+│       ├── Epoch N-1      = 0.0303 ([32m↗ 0.0003[0m)
+│       └── Best until now = 0.0303 ([32m↗ 0.0003[0m)
+└── Validation
+    ├── Focalloss = 0.7731
+    │   ├── Epoch N-1      = 0.8182 ([32m↘ -0.0451[0m)
+    │   └── Best until now = 0.8182 ([32m↘ -0.0451[0m)
+    ├── Iou = 0.0234
+    │   ├── Epoch N-1      = 0.0222 ([32m↗ 0.0012[0m)
+    │   └── Best until now = 0.0222 ([32m↗ 0.0012[0m)
+    └── Dice = 0.0298
+        ├── Epoch N-1      = 0.0283 ([32m↗ 0.0015[0m)
+        └── Best until now = 0.0283 ([32m↗ 0.0015[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 13
+├── Train
+│   ├── Focalloss = 0.581
+│   │   ├── Epoch N-1      = 0.6946 ([32m↘ -0.1136[0m)
+│   │   └── Best until now = 0.6946 ([32m↘ -0.1136[0m)
+│   ├── Iou = 0.025
+│   │   ├── Epoch N-1      = 0.0243 ([32m↗ 0.0007[0m)
+│   │   └── Best until now = 0.0243 ([32m↗ 0.0007[0m)
+│   └── Dice = 0.0317
+│       ├── Epoch N-1      = 0.0306 ([32m↗ 0.0011[0m)
+│       └── Best until now = 0.0306 ([32m↗ 0.0011[0m)
+└── Validation
+    ├── Focalloss = 0.7483
+    │   ├── Epoch N-1      = 0.7731 ([32m↘ -0.0248[0m)
+    │   └── Best until now = 0.7731 ([32m↘ -0.0248[0m)
+    ├── Iou = 0.0222
+    │   ├── Epoch N-1      = 0.0234 ([31m↘ -0.0012[0m)
+    │   └── Best until now = 0.0234 ([31m↘ -0.0012[0m)
+    └── Dice = 0.0289
+        ├── Epoch N-1      = 0.0298 ([31m↘ -0.0009[0m)
+        └── Best until now = 0.0298 ([31m↘ -0.0009[0m)
+
+===========================================================
+
+Train epoch 10:  80%|████████  | 4/5 [01:25<00:16, 16.12s/it, Dice=0.0275, FocalLoss=0.833, IoU=0.0219, gpu_mem=7.6]
+Train epoch 10: 100%|██████████| 5/5 [01:25<00:00, 15.52s/it, Dice=0.0275, FocalLoss=0.833, IoU=0.0219, gpu_mem=7.6]
+Train epoch 10: 100%|██████████| 5/5 [01:25<00:00, 17.09s/it, Dice=0.0275, FocalLoss=0.833, IoU=0.0219, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 10:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 10:  20%|██        | 1/5 [00:18<01:15, 18.82s/it]
+Validating epoch 10:  40%|████      | 2/5 [00:28<00:41, 13.73s/it]
+Validating epoch 10:  60%|██████    | 3/5 [00:35<00:20, 10.39s/it]
+Validating epoch 10:  80%|████████  | 4/5 [00:44<00:09,  9.79s/it]
+Validating epoch 10: 100%|██████████| 5/5 [00:54<00:00, 10.06s/it]
+Validating epoch 10: 100%|██████████| 5/5 [00:55<00:00, 11.02s/it]
+[2024-08-04 20:52:55] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 20:52:55] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.020492341369390488
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 11:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 11:   0%|          | 0/5 [00:26<?, ?it/s, Dice=0.0285, FocalLoss=0.764, IoU=0.0232, gpu_mem=7.6]
+Train epoch 11:  20%|██        | 1/5 [00:26<01:44, 26.00s/it, Dice=0.0285, FocalLoss=0.764, IoU=0.0232, gpu_mem=7.6]
+Train epoch 11:  20%|██        | 1/5 [00:36<01:44, 26.00s/it, Dice=0.0291, FocalLoss=0.785, IoU=0.0233, gpu_mem=7.6]
+Train epoch 11:  40%|████      | 2/5 [00:36<00:50, 16.74s/it, Dice=0.0291, FocalLoss=0.785, IoU=0.0233, gpu_mem=7.6]
+Train epoch 11:  40%|████      | 2/5 [00:55<00:50, 16.74s/it, Dice=0.0304, FocalLoss=0.752, IoU=0.0243, gpu_mem=7.6]
+Train epoch 11:  60%|██████    | 3/5 [00:55<00:35, 17.72s/it, Dice=0.0304, FocalLoss=0.752, IoU=0.0243, gpu_mem=7.6]
+Train epoch 11:  60%|██████    | 3/5 [01:07<00:35, 17.72s/it, Dice=0.0309, FocalLoss=0.768, IoU=0.0246, gpu_mem=7.6]
+Train epoch 11:  80%|████████  | 4/5 [01:07<00:15, 15.63s/it, Dice=0.0309, FocalLoss=0.768, IoU=0.0246, gpu_mem=7.6]
+Train epoch 11:  80%|████████  | 4/5 [01:22<00:15, 15.63s/it, Dice=0.0303, FocalLoss=0.788, IoU=0.0238, gpu_mem=7.6]
+Train epoch 11: 100%|██████████| 5/5 [01:22<00:00, 15.35s/it, Dice=0.0303, FocalLoss=0.788, IoU=0.0238, gpu_mem=7.6]
+Train epoch 11: 100%|██████████| 5/5 [01:22<00:00, 16.53s/it, Dice=0.0303, FocalLoss=0.788, IoU=0.0238, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 11:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 11:  20%|██        | 1/5 [00:16<01:04, 16.14s/it]
+Validating epoch 11:  40%|████      | 2/5 [00:26<00:37, 12.64s/it]
+Validating epoch 11:  60%|██████    | 3/5 [00:33<00:20, 10.18s/it]
+Validating epoch 11:  80%|████████  | 4/5 [00:42<00:09,  9.58s/it]
+Validating epoch 11: 100%|██████████| 5/5 [00:53<00:00, 10.07s/it]
+Validating epoch 11: 100%|██████████| 5/5 [00:53<00:00, 10.67s/it]
+[2024-08-04 20:55:56] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 20:55:56] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.02216777764260769
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 12:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 12:   0%|          | 0/5 [00:24<?, ?it/s, Dice=0.0275, FocalLoss=0.726, IoU=0.0213, gpu_mem=7.6]
+Train epoch 12:  20%|██        | 1/5 [00:24<01:37, 24.46s/it, Dice=0.0275, FocalLoss=0.726, IoU=0.0213, gpu_mem=7.6]
+Train epoch 12:  20%|██        | 1/5 [00:35<01:37, 24.46s/it, Dice=0.0284, FocalLoss=0.758, IoU=0.0222, gpu_mem=7.6]
+Train epoch 12:  40%|████      | 2/5 [00:35<00:49, 16.52s/it, Dice=0.0284, FocalLoss=0.758, IoU=0.0222, gpu_mem=7.6]
+Train epoch 12:  40%|████      | 2/5 [00:54<00:49, 16.52s/it, Dice=0.0296, FocalLoss=0.729, IoU=0.0233, gpu_mem=7.6]
+Train epoch 12:  60%|██████    | 3/5 [00:54<00:35, 17.81s/it, Dice=0.0296, FocalLoss=0.729, IoU=0.0233, gpu_mem=7.6]
+Train epoch 12:  60%|██████    | 3/5 [01:05<00:35, 17.81s/it, Dice=0.0304, FocalLoss=0.693, IoU=0.0241, gpu_mem=7.6]
+Train epoch 12:  80%|████████  | 4/5 [01:05<00:15, 15.15s/it, Dice=0.0304, FocalLoss=0.693, IoU=0.0241, gpu_mem=7.6]
+Train epoch 12:  80%|████████  | 4/5 [01:22<00:15, 15.15s/it, Dice=0.0306, FocalLoss=0.695, IoU=0.0243, gpu_mem=7.6]
+Train epoch 12: 100%|██████████| 5/5 [01:22<00:00, 15.66s/it, Dice=0.0306, FocalLoss=0.695, IoU=0.0243, gpu_mem=7.6]
+Train epoch 12: 100%|██████████| 5/5 [01:22<00:00, 16.53s/it, Dice=0.0306, FocalLoss=0.695, IoU=0.0243, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 12:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 12:  20%|██        | 1/5 [00:16<01:07, 16.97s/it]
+Validating epoch 12:  40%|████      | 2/5 [00:27<00:39, 13.02s/it]
+Validating epoch 12:  60%|██████    | 3/5 [00:34<00:20, 10.20s/it]
+Validating epoch 12:  80%|████████  | 4/5 [00:42<00:09,  9.64s/it]
+Validating epoch 12: 100%|██████████| 5/5 [00:53<00:00,  9.91s/it]
+Validating epoch 12: 100%|██████████| 5/5 [00:53<00:00, 10.68s/it]
+[2024-08-04 20:58:55] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 20:58:55] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.023385895416140556
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 13:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 13:   0%|          | 0/5 [00:29<?, ?it/s, Dice=0.0297, FocalLoss=0.674, IoU=0.0227, gpu_mem=7.6]
+Train epoch 13:  20%|██        | 1/5 [00:29<01:59, 29.98s/it, Dice=0.0297, FocalLoss=0.674, IoU=0.0227, gpu_mem=7.6]
+Train epoch 13:  20%|██        | 1/5 [00:48<01:59, 29.98s/it, Dice=0.0304, FocalLoss=0.64, IoU=0.0237, gpu_mem=7.6] 
+Train epoch 13:  40%|████      | 2/5 [00:48<01:09, 23.29s/it, Dice=0.0304, FocalLoss=0.64, IoU=0.0237, gpu_mem=7.6]
+Train epoch 13:  40%|████      | 2/5 [01:04<01:09, 23.29s/it, Dice=0.0318, FocalLoss=0.63, IoU=0.025, gpu_mem=7.6] 
+Train epoch 13:  60%|██████    | 3/5 [01:04<00:40, 20.12s/it, Dice=0.0318, FocalLoss=0.63, IoU=0.025, gpu_mem=7.6]
+Train epoch 13:  60%|██████    | 3/5 [01:16<00:40, 20.12s/it, Dice=0.0321, FocalLoss=0.602, IoU=0.0255, gpu_mem=7.6]
+Train epoch 13:  80%|████████  | 4/5 [01:16<00:16, 16.82s/it, Dice=0.0321, FocalLoss=0.602, IoU=0.0255, gpu_mem=7.6]
+Train epoch 13:  80%|████████  | 4/5 [01:30<00:16, 16.82s/it, Dice=0.0317, FocalLoss=0.581, IoU=0.025, gpu_mem=7.6] 
+Train epoch 13: 100%|██████████| 5/5 [01:30<00:00, 15.55s/it, Dice=0.0317, FocalLoss=0.581, IoU=0.025, gpu_mem=7.6]
+Train epoch 13: 100%|██████████| 5/5 [01:30<00:00, 18.05s/it, Dice=0.0317, FocalLoss=0.581, IoU=0.025, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 13:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 13:  20%|██        | 1/5 [00:15<01:01, 15.40s/it]
+Validating epoch 13:  40%|████      | 2/5 [00:26<00:38, 12.74s/it]
+Validating epoch 13:  60%|██████    | 3/5 [00:34<00:21, 10.50s/it]
+Validating epoch 13:  80%|████████  | 4/5 [00:43<00:09,  9.90s/it]
+Validating epoch 13: 100%|██████████| 5/5 [00:53<00:00, 10.17s/it]
+Validating epoch 13: 100%|██████████| 5/5 [00:53<00:00, 10.79s/it]
+
+  0%|          | 0/5 [00:00<?, ?it/s]===========================================================
+SUMMARY OF EPOCH 14
+├── Train
+│   ├── Focalloss = 0.5717
+│   │   ├── Epoch N-1      = 0.581  ([32m↘ -0.0093[0m)
+│   │   └── Best until now = 0.581  ([32m↘ -0.0093[0m)
+│   ├── Iou = 0.0262
+│   │   ├── Epoch N-1      = 0.025  ([32m↗ 0.0012[0m)
+│   │   └── Best until now = 0.025  ([32m↗ 0.0012[0m)
+│   └── Dice = 0.0329
+│       ├── Epoch N-1      = 0.0317 ([32m↗ 0.0012[0m)
+│       └── Best until now = 0.0317 ([32m↗ 0.0012[0m)
+└── Validation
+    ├── Focalloss = 0.7238
+    │   ├── Epoch N-1      = 0.7483 ([32m↘ -0.0244[0m)
+    │   └── Best until now = 0.7483 ([32m↘ -0.0244[0m)
+    ├── Iou = 0.025
+    │   ├── Epoch N-1      = 0.0222 ([32m↗ 0.0028[0m)
+    │   └── Best until now = 0.0234 ([32m↗ 0.0016[0m)
+    └── Dice = 0.0315
+        ├── Epoch N-1      = 0.0289 ([32m↗ 0.0026[0m)
+        └── Best until now = 0.0298 ([32m↗ 0.0017[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 15
+├── Train
+│   ├── Focalloss = 0.6265
+│   │   ├── Epoch N-1      = 0.5717 ([31m↗ 0.0548[0m)
+│   │   └── Best until now = 0.5717 ([31m↗ 0.0548[0m)
+│   ├── Iou = 0.0266
+│   │   ├── Epoch N-1      = 0.0262 ([32m↗ 0.0003[0m)
+│   │   └── Best until now = 0.0262 ([32m↗ 0.0003[0m)
+│   └── Dice = 0.0333
+│       ├── Epoch N-1      = 0.0329 ([32m↗ 0.0004[0m)
+│       └── Best until now = 0.0329 ([32m↗ 0.0004[0m)
+└── Validation
+    ├── Focalloss = 0.7073
+    │   ├── Epoch N-1      = 0.7238 ([32m↘ -0.0165[0m)
+    │   └── Best until now = 0.7238 ([32m↘ -0.0165[0m)
+    ├── Iou = 0.0244
+    │   ├── Epoch N-1      = 0.025  ([31m↘ -0.0006[0m)
+    │   └── Best until now = 0.025  ([31m↘ -0.0006[0m)
+    └── Dice = 0.0311
+        ├── Epoch N-1      = 0.0315 ([31m↘ -0.0004[0m)
+        └── Best until now = 0.0315 ([31m↘ -0.0004[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 16
+├── Train
+│   ├── Focalloss = 0.5343
+│   │   ├── Epoch N-1      = 0.6265 ([32m↘ -0.0922[0m)
+│   │   └── Best until now = 0.5717 ([32m↘ -0.0374[0m)
+│   ├── Iou = 0.0271
+│   │   ├── Epoch N-1      = 0.0266 ([32m↗ 0.0005[0m)
+│   │   └── Best until now = 0.0266 ([32m↗ 0.0005[0m)
+│   └── Dice = 0.0341
+│       ├── Epoch N-1      = 0.0333 ([32m↗ 0.0008[0m)
+│       └── Best until now = 0.0333 ([32m↗ 0.0008[0m)
+└── Validation
+    ├── Focalloss = 0.6991
+    │   ├── Epoch N-1      = 0.7073 ([32m↘ -0.0082[0m)
+    │   └── Best until now = 0.7073 ([32m↘ -0.0082[0m)
+    ├── Iou = 0.0252
+    │   ├── Epoch N-1      = 0.0244 ([32m↗ 0.0008[0m)
+    │   └── Best until now = 0.025  ([32m↗ 0.0002[0m)
+    └── Dice = 0.0321
+        ├── Epoch N-1      = 0.0311 ([32m↗ 0.001[0m)
+        └── Best until now = 0.0315 ([32m↗ 0.0006[0m)
+
+===========================================================
+
+Train epoch 14:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 14:   0%|          | 0/5 [00:22<?, ?it/s, Dice=0.0319, FocalLoss=0.738, IoU=0.0251, gpu_mem=7.6]
+Train epoch 14:  20%|██        | 1/5 [00:22<01:31, 22.76s/it, Dice=0.0319, FocalLoss=0.738, IoU=0.0251, gpu_mem=7.6]
+Train epoch 14:  20%|██        | 1/5 [00:36<01:31, 22.76s/it, Dice=0.0332, FocalLoss=0.589, IoU=0.0265, gpu_mem=7.6]
+Train epoch 14:  40%|████      | 2/5 [00:36<00:52, 17.59s/it, Dice=0.0332, FocalLoss=0.589, IoU=0.0265, gpu_mem=7.6]
+Train epoch 14:  40%|████      | 2/5 [00:52<00:52, 17.59s/it, Dice=0.032, FocalLoss=0.632, IoU=0.0253, gpu_mem=7.6] 
+Train epoch 14:  60%|██████    | 3/5 [00:52<00:33, 16.68s/it, Dice=0.032, FocalLoss=0.632, IoU=0.0253, gpu_mem=7.6]
+Train epoch 14:  60%|██████    | 3/5 [01:08<00:33, 16.68s/it, Dice=0.0326, FocalLoss=0.597, IoU=0.0259, gpu_mem=7.6]
+Train epoch 14:  80%|████████  | 4/5 [01:08<00:16, 16.37s/it, Dice=0.0326, FocalLoss=0.597, IoU=0.0259, gpu_mem=7.6]
+Train epoch 14:  80%|████████  | 4/5 [01:26<00:16, 16.37s/it, Dice=0.0329, FocalLoss=0.572, IoU=0.0262, gpu_mem=7.6]
+Train epoch 14: 100%|██████████| 5/5 [01:26<00:00, 17.15s/it, Dice=0.0329, FocalLoss=0.572, IoU=0.0262, gpu_mem=7.6]
+Train epoch 14: 100%|██████████| 5/5 [01:27<00:00, 17.41s/it, Dice=0.0329, FocalLoss=0.572, IoU=0.0262, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 14:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 14:  20%|██        | 1/5 [00:16<01:05, 16.40s/it]
+Validating epoch 14:  40%|████      | 2/5 [00:26<00:38, 12.93s/it]
+Validating epoch 14:  60%|██████    | 3/5 [00:34<00:21, 10.66s/it]
+Validating epoch 14:  80%|████████  | 4/5 [00:43<00:09,  9.77s/it]
+Validating epoch 14: 100%|██████████| 5/5 [00:53<00:00, 10.00s/it]
+Validating epoch 14: 100%|██████████| 5/5 [00:53<00:00, 10.79s/it]
+[2024-08-04 21:05:08] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 21:05:08] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.025009052827954292
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 15:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 15:   0%|          | 0/5 [00:22<?, ?it/s, Dice=0.0315, FocalLoss=0.574, IoU=0.0252, gpu_mem=7.6]
+Train epoch 15:  20%|██        | 1/5 [00:22<01:31, 22.93s/it, Dice=0.0315, FocalLoss=0.574, IoU=0.0252, gpu_mem=7.6]
+Train epoch 15:  20%|██        | 1/5 [00:35<01:31, 22.93s/it, Dice=0.0323, FocalLoss=0.623, IoU=0.0259, gpu_mem=7.6]
+Train epoch 15:  40%|████      | 2/5 [00:35<00:51, 17.11s/it, Dice=0.0323, FocalLoss=0.623, IoU=0.0259, gpu_mem=7.6]
+Train epoch 15:  40%|████      | 2/5 [00:54<00:51, 17.11s/it, Dice=0.0325, FocalLoss=0.596, IoU=0.026, gpu_mem=7.6] 
+Train epoch 15:  60%|██████    | 3/5 [00:54<00:35, 17.89s/it, Dice=0.0325, FocalLoss=0.596, IoU=0.026, gpu_mem=7.6]
+Train epoch 15:  60%|██████    | 3/5 [01:05<00:35, 17.89s/it, Dice=0.0333, FocalLoss=0.607, IoU=0.0266, gpu_mem=7.6]
+Train epoch 15:  80%|████████  | 4/5 [01:05<00:14, 14.92s/it, Dice=0.0333, FocalLoss=0.607, IoU=0.0266, gpu_mem=7.6]
+Train epoch 15:  80%|████████  | 4/5 [01:18<00:14, 14.92s/it, Dice=0.0333, FocalLoss=0.627, IoU=0.0266, gpu_mem=7.6]
+Train epoch 15: 100%|██████████| 5/5 [01:18<00:00, 14.53s/it, Dice=0.0333, FocalLoss=0.627, IoU=0.0266, gpu_mem=7.6]
+Train epoch 15: 100%|██████████| 5/5 [01:19<00:00, 15.86s/it, Dice=0.0333, FocalLoss=0.627, IoU=0.0266, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 15:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 15:  20%|██        | 1/5 [00:16<01:04, 16.09s/it]
+Validating epoch 15:  40%|████      | 2/5 [00:25<00:36, 12.05s/it]
+Validating epoch 15:  60%|██████    | 3/5 [00:31<00:19,  9.51s/it]
+Validating epoch 15:  80%|████████  | 4/5 [00:40<00:09,  9.18s/it]
+Validating epoch 15: 100%|██████████| 5/5 [00:51<00:00,  9.83s/it]
+Validating epoch 15: 100%|██████████| 5/5 [00:51<00:00, 10.34s/it]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 16:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 16:   0%|          | 0/5 [00:18<?, ?it/s, Dice=0.0329, FocalLoss=0.502, IoU=0.0265, gpu_mem=7.6]
+Train epoch 16:  20%|██        | 1/5 [00:18<01:15, 18.89s/it, Dice=0.0329, FocalLoss=0.502, IoU=0.0265, gpu_mem=7.6]
+Train epoch 16:  20%|██        | 1/5 [00:39<01:15, 18.89s/it, Dice=0.0335, FocalLoss=0.555, IoU=0.0267, gpu_mem=7.6]
+Train epoch 16:  40%|████      | 2/5 [00:39<00:59, 19.77s/it, Dice=0.0335, FocalLoss=0.555, IoU=0.0267, gpu_mem=7.6]
+Train epoch 16:  40%|████      | 2/5 [00:59<00:59, 19.77s/it, Dice=0.0349, FocalLoss=0.584, IoU=0.0277, gpu_mem=7.6]
+Train epoch 16:  60%|██████    | 3/5 [00:59<00:39, 19.92s/it, Dice=0.0349, FocalLoss=0.584, IoU=0.0277, gpu_mem=7.6]
+Train epoch 16:  60%|██████    | 3/5 [01:14<00:39, 19.92s/it, Dice=0.0345, FocalLoss=0.578, IoU=0.0274, gpu_mem=7.6]
+Train epoch 16:  80%|████████  | 4/5 [01:14<00:17, 17.99s/it, Dice=0.0345, FocalLoss=0.578, IoU=0.0274, gpu_mem=7.6]
+Train epoch 16:  80%|████████  | 4/5 [01:33<00:17, 17.99s/it, Dice=0.0341, FocalLoss=0.534, IoU=0.0271, gpu_mem=7.6]
+Train epoch 16: 100%|██████████| 5/5 [01:33<00:00, 18.26s/it, Dice=0.0341, FocalLoss=0.534, IoU=0.0271, gpu_mem=7.6]
+Train epoch 16: 100%|██████████| 5/5 [01:33<00:00, 18.69s/it, Dice=0.0341, FocalLoss=0.534, IoU=0.0271, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 16:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 16:  20%|██        | 1/5 [00:16<01:07, 16.79s/it]
+Validating epoch 16:  40%|████      | 2/5 [00:26<00:37, 12.52s/it]
+Validating epoch 16:  60%|██████    | 3/5 [00:32<00:19,  9.84s/it]
+Validating epoch 16:  80%|████████  | 4/5 [00:42<00:09,  9.54s/it]
+Validating epoch 16: 100%|██████████| 5/5 [00:52<00:00,  9.93s/it]
+Validating epoch 16: 100%|██████████| 5/5 [00:52<00:00, 10.58s/it]
+[2024-08-04 21:11:14] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 21:11:14] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.025189826264977455
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 17:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 17:   0%|          | 0/5 [00:19<?, ?it/s, Dice=0.035, FocalLoss=0.677, IoU=0.0278, gpu_mem=7.6]
+Train epoch 17:  20%|██        | 1/5 [00:19<01:16, 19.12s/it, Dice=0.035, FocalLoss=0.677, IoU=0.0278, gpu_mem=7.6]
+Train epoch 17:  20%|██        | 1/5 [00:40<01:16, 19.12s/it, Dice=0.0357, FocalLoss=0.619, IoU=0.0287, gpu_mem=7.6]
+Train epoch 17:  40%|████      | 2/5 [00:40<01:01, 20.35s/it, Dice=0.0357, FocalLoss=0.619, IoU=0.0287, gpu_mem=7.6]
+Train epoch 17:  40%|████      | 2/5 [01:01<01:01, 20.35s/it, Dice=0.0353, FocalLoss=0.688, IoU=0.0284, gpu_mem=7.6]
+Train epoch 17:  60%|██████    | 3/5 [01:01<00:41, 20.91s/it, Dice=0.0353, FocalLoss=0.688, IoU=0.0284, gpu_mem=7.6]
+Train epoch 17:  60%|██████    | 3/5 [01:16<00:41, 20.91s/it, Dice=0.0356, FocalLoss=0.679, IoU=0.0287, gpu_mem=7.6]
+Train epoch 17:  80%|████████  | 4/5 [01:16<00:18, 18.57s/it, Dice=0.0356, FocalLoss=0.679, IoU=0.0287, gpu_mem=7.6]
+Train epoch 17:  80%|████████  | 4/5 [01:31<00:18, 18.57s/it, Dice=0.0359, FocalLoss=0.666, IoU=0.029, gpu_mem=7.6] 
+Train epoch 17: 100%|██████████| 5/5 [01:31<00:00, 17.03s/it, Dice=0.0359, FocalLoss=0.666, IoU=0.029, gpu_mem=7.6]===========================================================
+SUMMARY OF EPOCH 17
+├── Train
+│   ├── Focalloss = 0.6663
+│   │   ├── Epoch N-1      = 0.5343 ([31m↗ 0.1319[0m)
+│   │   └── Best until now = 0.5343 ([31m↗ 0.1319[0m)
+│   ├── Iou = 0.029
+│   │   ├── Epoch N-1      = 0.0271 ([32m↗ 0.0019[0m)
+│   │   └── Best until now = 0.0271 ([32m↗ 0.0019[0m)
+│   └── Dice = 0.0359
+│       ├── Epoch N-1      = 0.0341 ([32m↗ 0.0018[0m)
+│       └── Best until now = 0.0341 ([32m↗ 0.0018[0m)
+└── Validation
+    ├── Focalloss = 0.681
+    │   ├── Epoch N-1      = 0.6991 ([32m↘ -0.0181[0m)
+    │   └── Best until now = 0.6991 ([32m↘ -0.0181[0m)
+    ├── Iou = 0.0258
+    │   ├── Epoch N-1      = 0.0252 ([32m↗ 0.0006[0m)
+    │   └── Best until now = 0.0252 ([32m↗ 0.0006[0m)
+    └── Dice = 0.0328
+        ├── Epoch N-1      = 0.0321 ([32m↗ 0.0007[0m)
+        └── Best until now = 0.0321 ([32m↗ 0.0007[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 18
+├── Train
+│   ├── Focalloss = 0.5577
+│   │   ├── Epoch N-1      = 0.6663 ([32m↘ -0.1085[0m)
+│   │   └── Best until now = 0.5343 ([31m↗ 0.0234[0m)
+│   ├── Iou = 0.0307
+│   │   ├── Epoch N-1      = 0.029  ([32m↗ 0.0017[0m)
+│   │   └── Best until now = 0.029  ([32m↗ 0.0017[0m)
+│   └── Dice = 0.0375
+│       ├── Epoch N-1      = 0.0359 ([32m↗ 0.0016[0m)
+│       └── Best until now = 0.0359 ([32m↗ 0.0016[0m)
+└── Validation
+    ├── Focalloss = 0.6595
+    │   ├── Epoch N-1      = 0.681  ([32m↘ -0.0215[0m)
+    │   └── Best until now = 0.681  ([32m↘ -0.0215[0m)
+    ├── Iou = 0.026
+    │   ├── Epoch N-1      = 0.0258 ([32m↗ 0.0002[0m)
+    │   └── Best until now = 0.0258 ([32m↗ 0.0002[0m)
+    └── Dice = 0.0332
+        ├── Epoch N-1      = 0.0328 ([32m↗ 0.0004[0m)
+        └── Best until now = 0.0328 ([32m↗ 0.0004[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 19
+├── Train
+│   ├── Focalloss = 0.4921
+│   │   ├── Epoch N-1      = 0.5577 ([32m↘ -0.0656[0m)
+│   │   └── Best until now = 0.5343 ([32m↘ -0.0422[0m)
+│   ├── Iou = 0.031
+│   │   ├── Epoch N-1      = 0.0307 ([32m↗ 0.0003[0m)
+│   │   └── Best until now = 0.0307 ([32m↗ 0.0003[0m)
+│   └── Dice = 0.0381
+│       ├── Epoch N-1      = 0.0375 ([32m↗ 0.0006[0m)
+│       └── Best until now = 0.0375 ([32m↗ 0.0006[0m)
+└── Validation
+    ├── Focalloss = 0.6374
+    │   ├── Epoch N-1      = 0.6595 ([32m↘ -0.0221[0m)
+    │   └── Best until now = 0.6595 ([32m↘ -0.0221[0m)
+    ├── Iou = 0.0282
+    │   ├── Epoch N-1      = 0.026  ([32m↗ 0.0022[0m)
+    │   └── Best until now = 0.026  ([32m↗ 0.0022[0m)
+    └── Dice = 0.0351
+        ├── Epoch N-1      = 0.0332 ([32m↗ 0.002[0m)
+        └── Best until now = 0.0332 ([32m↗ 0.002[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 20
+├── Train
+│   ├── Focalloss = 0.4912
+│   │   ├── Epoch N-1      = 0.4921 ([32m↘ -0.0009[0m)
+│   │   └── Best until now = 0.4921 ([32m↘ -0.0009[0m)
+│   ├── Iou = 0.0314
+│   │   ├── Epoch N-1      = 0.031  ([32m↗ 0.0004[0m)
+│   │   └── Best until now = 0.031  ([32m↗ 0.0004[0m)
+│   └── Dice = 0.0385
+│       ├── Epoch N-1      = 0.0381 ([32m↗ 0.0004[0m)
+│       └── Best until now = 0.0381 ([32m↗ 0.0004[0m)
+└── Validation
+    ├── Focalloss = 0.6349
+    │   ├── Epoch N-1      = 0.6374 ([32m↘ -0.0025[0m)
+    │   └── Best until now = 0.6374 ([32m↘ -0.0025[0m)
+    ├── Iou = 0.0271
+    │   ├── Epoch N-1      = 0.0282 ([31m↘ -0.001[0m)
+    │   └── Best until now = 0.0282 ([31m↘ -0.001[0m)
+    └── Dice = 0.0344
+        ├── Epoch N-1      = 0.0351 ([31m↘ -0.0008[0m)
+        └── Best until now = 0.0351 ([31m↘ -0.0008[0m)
+
+===========================================================
+
+Train epoch 17: 100%|██████████| 5/5 [01:31<00:00, 18.31s/it, Dice=0.0359, FocalLoss=0.666, IoU=0.029, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 17:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 17:  20%|██        | 1/5 [00:17<01:11, 17.84s/it]
+Validating epoch 17:  40%|████      | 2/5 [00:28<00:39, 13.33s/it]
+Validating epoch 17:  60%|██████    | 3/5 [00:34<00:20, 10.38s/it]
+Validating epoch 17:  80%|████████  | 4/5 [00:43<00:09,  9.67s/it]
+Validating epoch 17: 100%|██████████| 5/5 [00:53<00:00,  9.96s/it]
+Validating epoch 17: 100%|██████████| 5/5 [00:54<00:00, 10.83s/it]
+[2024-08-04 21:14:19] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 21:14:19] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.025828352198004723
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 18:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 18:   0%|          | 0/5 [00:21<?, ?it/s, Dice=0.0388, FocalLoss=0.477, IoU=0.0328, gpu_mem=7.6]
+Train epoch 18:  20%|██        | 1/5 [00:21<01:24, 21.05s/it, Dice=0.0388, FocalLoss=0.477, IoU=0.0328, gpu_mem=7.6]
+Train epoch 18:  20%|██        | 1/5 [00:36<01:24, 21.05s/it, Dice=0.0376, FocalLoss=0.487, IoU=0.0313, gpu_mem=7.6]
+Train epoch 18:  40%|████      | 2/5 [00:36<00:53, 17.84s/it, Dice=0.0376, FocalLoss=0.487, IoU=0.0313, gpu_mem=7.6]
+Train epoch 18:  40%|████      | 2/5 [00:45<00:53, 17.84s/it, Dice=0.0374, FocalLoss=0.547, IoU=0.0309, gpu_mem=7.6]
+Train epoch 18:  60%|██████    | 3/5 [00:45<00:27, 13.77s/it, Dice=0.0374, FocalLoss=0.547, IoU=0.0309, gpu_mem=7.6]
+Train epoch 18:  60%|██████    | 3/5 [01:00<00:27, 13.77s/it, Dice=0.0376, FocalLoss=0.547, IoU=0.031, gpu_mem=7.6] 
+Train epoch 18:  80%|████████  | 4/5 [01:00<00:14, 14.27s/it, Dice=0.0376, FocalLoss=0.547, IoU=0.031, gpu_mem=7.6]
+Train epoch 18:  80%|████████  | 4/5 [01:19<00:14, 14.27s/it, Dice=0.0375, FocalLoss=0.558, IoU=0.0307, gpu_mem=7.6]
+Train epoch 18: 100%|██████████| 5/5 [01:19<00:00, 15.94s/it, Dice=0.0375, FocalLoss=0.558, IoU=0.0307, gpu_mem=7.6]
+Train epoch 18: 100%|██████████| 5/5 [01:21<00:00, 16.32s/it, Dice=0.0375, FocalLoss=0.558, IoU=0.0307, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 18:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 18:  20%|██        | 1/5 [00:15<01:02, 15.72s/it]
+Validating epoch 18:  40%|████      | 2/5 [00:26<00:38, 12.89s/it]
+Validating epoch 18:  60%|██████    | 3/5 [00:34<00:21, 10.60s/it]
+Validating epoch 18:  80%|████████  | 4/5 [00:43<00:09,  9.86s/it]
+Validating epoch 18: 100%|██████████| 5/5 [00:53<00:00, 10.14s/it]
+Validating epoch 18: 100%|██████████| 5/5 [00:54<00:00, 10.82s/it]
+[2024-08-04 21:17:20] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 21:17:20] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.02602764032781124
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 19:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 19:   0%|          | 0/5 [00:26<?, ?it/s, Dice=0.0403, FocalLoss=0.546, IoU=0.0334, gpu_mem=7.6]
+Train epoch 19:  20%|██        | 1/5 [00:26<01:46, 26.67s/it, Dice=0.0403, FocalLoss=0.546, IoU=0.0334, gpu_mem=7.6]
+Train epoch 19:  20%|██        | 1/5 [00:40<01:46, 26.67s/it, Dice=0.0383, FocalLoss=0.534, IoU=0.0312, gpu_mem=7.6]
+Train epoch 19:  40%|████      | 2/5 [00:40<00:57, 19.26s/it, Dice=0.0383, FocalLoss=0.534, IoU=0.0312, gpu_mem=7.6]
+Train epoch 19:  40%|████      | 2/5 [01:02<00:57, 19.26s/it, Dice=0.0378, FocalLoss=0.563, IoU=0.0307, gpu_mem=7.6]
+Train epoch 19:  60%|██████    | 3/5 [01:02<00:40, 20.20s/it, Dice=0.0378, FocalLoss=0.563, IoU=0.0307, gpu_mem=7.6]
+Train epoch 19:  60%|██████    | 3/5 [01:18<00:40, 20.20s/it, Dice=0.0385, FocalLoss=0.514, IoU=0.0313, gpu_mem=7.6]
+Train epoch 19:  80%|████████  | 4/5 [01:18<00:18, 18.61s/it, Dice=0.0385, FocalLoss=0.514, IoU=0.0313, gpu_mem=7.6]
+Train epoch 19:  80%|████████  | 4/5 [01:34<00:18, 18.61s/it, Dice=0.0381, FocalLoss=0.492, IoU=0.031, gpu_mem=7.6] 
+Train epoch 19: 100%|██████████| 5/5 [01:34<00:00, 17.77s/it, Dice=0.0381, FocalLoss=0.492, IoU=0.031, gpu_mem=7.6]
+Train epoch 19: 100%|██████████| 5/5 [01:34<00:00, 18.97s/it, Dice=0.0381, FocalLoss=0.492, IoU=0.031, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 19:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 19:  20%|██        | 1/5 [00:15<01:03, 15.83s/it]
+Validating epoch 19:  40%|████      | 2/5 [00:26<00:38, 12.75s/it]
+Validating epoch 19:  60%|██████    | 3/5 [00:34<00:21, 10.53s/it]
+Validating epoch 19:  80%|████████  | 4/5 [00:42<00:09,  9.76s/it]
+Validating epoch 19: 100%|██████████| 5/5 [00:53<00:00,  9.98s/it]
+Validating epoch 19: 100%|██████████| 5/5 [00:53<00:00, 10.68s/it]
+[2024-08-04 21:20:30] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 21:20:30] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.02817799709737301
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 20:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 20:   0%|          | 0/5 [00:28<?, ?it/s, Dice=0.0351, FocalLoss=0.513, IoU=0.0288, gpu_mem=7.6]
+Train epoch 20:  20%|██        | 1/5 [00:28<01:53, 28.40s/it, Dice=0.0351, FocalLoss=0.513, IoU=0.0288, gpu_mem=7.6]
+Train epoch 20:  20%|██        | 1/5 [00:42<01:53, 28.40s/it, Dice=0.0382, FocalLoss=0.492, IoU=0.0316, gpu_mem=7.6]
+Train epoch 20:  40%|████      | 2/5 [00:42<01:00, 20.26s/it, Dice=0.0382, FocalLoss=0.492, IoU=0.0316, gpu_mem=7.6]
+Train epoch 20:  40%|████      | 2/5 [00:59<01:00, 20.26s/it, Dice=0.0391, FocalLoss=0.47, IoU=0.0324, gpu_mem=7.6] 
+Train epoch 20:  60%|██████    | 3/5 [00:59<00:37, 18.66s/it, Dice=0.0391, FocalLoss=0.47, IoU=0.0324, gpu_mem=7.6]
+Train epoch 20:  60%|██████    | 3/5 [01:14<00:37, 18.66s/it, Dice=0.0387, FocalLoss=0.489, IoU=0.0317, gpu_mem=7.6]
+Train epoch 20:  80%|████████  | 4/5 [01:14<00:17, 17.04s/it, Dice=0.0387, FocalLoss=0.489, IoU=0.0317, gpu_mem=7.6]
+Train epoch 20:  80%|████████  | 4/5 [01:26<00:17, 17.04s/it, Dice=0.0385, FocalLoss=0.491, IoU=0.0314, gpu_mem=7.6]
+Train epoch 20: 100%|██████████| 5/5 [01:26<00:00, 15.31s/it, Dice=0.0385, FocalLoss=0.491, IoU=0.0314, gpu_mem=7.6]
+Train epoch 20: 100%|██████████| 5/5 [01:26<00:00, 17.37s/it, Dice=0.0385, FocalLoss=0.491, IoU=0.0314, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 20:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 20:  20%|██        | 1/5 [00:17<01:08, 17.11s/it]
+Validating epoch 20:  40%|████      | 2/5 [00:26<00:38, 12.81s/it]
+Validating epoch 20:  60%|██████    | 3/5 [00:33<00:19,  9.99s/it]
+Validating epoch 20:  80%|████████  | 4/5 [00:42<00:09,  9.55s/it]
+Validating epoch 20: 100%|██████████| 5/5 [00:53<00:00,  9.93s/it]
+Validating epoch 20: 100%|██████████| 5/5 [00:53<00:00, 10.65s/it]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 21:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 21:   0%|          | 0/5 [00:24<?, ?it/s, Dice=0.0337, FocalLoss=0.568, IoU=0.0264, gpu_mem=7.6]
+Train epoch 21:  20%|██        | 1/5 [00:24<01:39, 24.96s/it, Dice=0.0337, FocalLoss=0.568, IoU=0.0264, gpu_mem=7.6]===========================================================
+SUMMARY OF EPOCH 21
+├── Train
+│   ├── Focalloss = 0.4993
+│   │   ├── Epoch N-1      = 0.4912 ([31m↗ 0.0081[0m)
+│   │   └── Best until now = 0.4912 ([31m↗ 0.0081[0m)
+│   ├── Iou = 0.0308
+│   │   ├── Epoch N-1      = 0.0314 ([31m↘ -0.0006[0m)
+│   │   └── Best until now = 0.0314 ([31m↘ -0.0006[0m)
+│   └── Dice = 0.0381
+│       ├── Epoch N-1      = 0.0385 ([31m↘ -0.0005[0m)
+│       └── Best until now = 0.0385 ([31m↘ -0.0005[0m)
+└── Validation
+    ├── Focalloss = 0.6337
+    │   ├── Epoch N-1      = 0.6349 ([32m↘ -0.0012[0m)
+    │   └── Best until now = 0.6349 ([32m↘ -0.0012[0m)
+    ├── Iou = 0.0283
+    │   ├── Epoch N-1      = 0.0271 ([32m↗ 0.0012[0m)
+    │   └── Best until now = 0.0282 ([32m↗ 0.0001[0m)
+    └── Dice = 0.0354
+        ├── Epoch N-1      = 0.0344 ([32m↗ 0.001[0m)
+        └── Best until now = 0.0351 ([32m↗ 0.0002[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 22
+├── Train
+│   ├── Focalloss = 0.4804
+│   │   ├── Epoch N-1      = 0.4993 ([32m↘ -0.0189[0m)
+│   │   └── Best until now = 0.4912 ([32m↘ -0.0108[0m)
+│   ├── Iou = 0.0331
+│   │   ├── Epoch N-1      = 0.0308 ([32m↗ 0.0023[0m)
+│   │   └── Best until now = 0.0314 ([32m↗ 0.0017[0m)
+│   └── Dice = 0.0402
+│       ├── Epoch N-1      = 0.0381 ([32m↗ 0.0021[0m)
+│       └── Best until now = 0.0385 ([32m↗ 0.0017[0m)
+└── Validation
+    ├── Focalloss = 0.6368
+    │   ├── Epoch N-1      = 0.6337 ([31m↗ 0.0031[0m)
+    │   └── Best until now = 0.6337 ([31m↗ 0.0031[0m)
+    ├── Iou = 0.0263
+    │   ├── Epoch N-1      = 0.0283 ([31m↘ -0.002[0m)
+    │   └── Best until now = 0.0283 ([31m↘ -0.002[0m)
+    └── Dice = 0.0337
+        ├── Epoch N-1      = 0.0354 ([31m↘ -0.0016[0m)
+        └── Best until now = 0.0354 ([31m↘ -0.0016[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 23
+├── Train
+│   ├── Focalloss = 0.4437
+│   │   ├── Epoch N-1      = 0.4804 ([32m↘ -0.0368[0m)
+│   │   └── Best until now = 0.4804 ([32m↘ -0.0368[0m)
+│   ├── Iou = 0.0325
+│   │   ├── Epoch N-1      = 0.0331 ([31m↘ -0.0006[0m)
+│   │   └── Best until now = 0.0331 ([31m↘ -0.0006[0m)
+│   └── Dice = 0.0399
+│       ├── Epoch N-1      = 0.0402 ([31m↘ -0.0003[0m)
+│       └── Best until now = 0.0402 ([31m↘ -0.0003[0m)
+└── Validation
+    ├── Focalloss = 0.6095
+    │   ├── Epoch N-1      = 0.6368 ([32m↘ -0.0273[0m)
+    │   └── Best until now = 0.6337 ([32m↘ -0.0242[0m)
+    ├── Iou = 0.0294
+    │   ├── Epoch N-1      = 0.0263 ([32m↗ 0.003[0m)
+    │   └── Best until now = 0.0283 ([32m↗ 0.0011[0m)
+    └── Dice = 0.0366
+        ├── Epoch N-1      = 0.0337 ([32m↗ 0.0029[0m)
+        └── Best until now = 0.0354 ([32m↗ 0.0012[0m)
+
+===========================================================
+
+Train epoch 21:  20%|██        | 1/5 [00:40<01:39, 24.96s/it, Dice=0.0381, FocalLoss=0.473, IoU=0.0305, gpu_mem=7.6]
+Train epoch 21:  40%|████      | 2/5 [00:40<00:58, 19.57s/it, Dice=0.0381, FocalLoss=0.473, IoU=0.0305, gpu_mem=7.6]
+Train epoch 21:  40%|████      | 2/5 [00:57<00:58, 19.57s/it, Dice=0.0376, FocalLoss=0.517, IoU=0.0301, gpu_mem=7.6]
+Train epoch 21:  60%|██████    | 3/5 [00:57<00:36, 18.27s/it, Dice=0.0376, FocalLoss=0.517, IoU=0.0301, gpu_mem=7.6]
+Train epoch 21:  60%|██████    | 3/5 [01:12<00:36, 18.27s/it, Dice=0.0385, FocalLoss=0.485, IoU=0.0312, gpu_mem=7.6]
+Train epoch 21:  80%|████████  | 4/5 [01:12<00:16, 16.82s/it, Dice=0.0385, FocalLoss=0.485, IoU=0.0312, gpu_mem=7.6]
+Train epoch 21:  80%|████████  | 4/5 [01:32<00:16, 16.82s/it, Dice=0.0381, FocalLoss=0.499, IoU=0.0308, gpu_mem=7.6]
+Train epoch 21: 100%|██████████| 5/5 [01:32<00:00, 17.97s/it, Dice=0.0381, FocalLoss=0.499, IoU=0.0308, gpu_mem=7.6]
+Train epoch 21: 100%|██████████| 5/5 [01:32<00:00, 18.47s/it, Dice=0.0381, FocalLoss=0.499, IoU=0.0308, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 21:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 21:  20%|██        | 1/5 [00:16<01:07, 16.89s/it]
+Validating epoch 21:  40%|████      | 2/5 [00:26<00:37, 12.56s/it]
+Validating epoch 21:  60%|██████    | 3/5 [00:33<00:19,  9.86s/it]
+Validating epoch 21:  80%|████████  | 4/5 [00:42<00:09,  9.61s/it]
+Validating epoch 21: 100%|██████████| 5/5 [00:53<00:00, 10.03s/it]
+Validating epoch 21: 100%|██████████| 5/5 [00:53<00:00, 10.66s/it]
+[2024-08-04 21:26:39] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 21:26:39] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.02831234782934189
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 22:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 22:   0%|          | 0/5 [00:22<?, ?it/s, Dice=0.0399, FocalLoss=0.446, IoU=0.0329, gpu_mem=7.6]
+Train epoch 22:  20%|██        | 1/5 [00:22<01:28, 22.10s/it, Dice=0.0399, FocalLoss=0.446, IoU=0.0329, gpu_mem=7.6]
+Train epoch 22:  20%|██        | 1/5 [00:35<01:28, 22.10s/it, Dice=0.0402, FocalLoss=0.446, IoU=0.0334, gpu_mem=7.6]
+Train epoch 22:  40%|████      | 2/5 [00:35<00:50, 16.73s/it, Dice=0.0402, FocalLoss=0.446, IoU=0.0334, gpu_mem=7.6]
+Train epoch 22:  40%|████      | 2/5 [00:53<00:50, 16.73s/it, Dice=0.0395, FocalLoss=0.489, IoU=0.0327, gpu_mem=7.6]
+Train epoch 22:  60%|██████    | 3/5 [00:53<00:34, 17.40s/it, Dice=0.0395, FocalLoss=0.489, IoU=0.0327, gpu_mem=7.6]
+Train epoch 22:  60%|██████    | 3/5 [01:14<00:34, 17.40s/it, Dice=0.0398, FocalLoss=0.489, IoU=0.0325, gpu_mem=7.6]
+Train epoch 22:  80%|████████  | 4/5 [01:14<00:18, 18.87s/it, Dice=0.0398, FocalLoss=0.489, IoU=0.0325, gpu_mem=7.6]
+Train epoch 22:  80%|████████  | 4/5 [01:33<00:18, 18.87s/it, Dice=0.0402, FocalLoss=0.48, IoU=0.0331, gpu_mem=7.6] 
+Train epoch 22: 100%|██████████| 5/5 [01:33<00:00, 19.12s/it, Dice=0.0402, FocalLoss=0.48, IoU=0.0331, gpu_mem=7.6]
+Train epoch 22: 100%|██████████| 5/5 [01:34<00:00, 18.86s/it, Dice=0.0402, FocalLoss=0.48, IoU=0.0331, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 22:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 22:  20%|██        | 1/5 [00:17<01:08, 17.06s/it]
+Validating epoch 22:  40%|████      | 2/5 [00:26<00:37, 12.58s/it]
+Validating epoch 22:  60%|██████    | 3/5 [00:33<00:19,  9.93s/it]
+Validating epoch 22:  80%|████████  | 4/5 [00:41<00:09,  9.33s/it]
+Validating epoch 22: 100%|██████████| 5/5 [00:52<00:00,  9.81s/it]
+Validating epoch 22: 100%|██████████| 5/5 [00:52<00:00, 10.52s/it]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 23:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 23:   0%|          | 0/5 [00:31<?, ?it/s, Dice=0.0373, FocalLoss=0.425, IoU=0.0308, gpu_mem=7.6]
+Train epoch 23:  20%|██        | 1/5 [00:31<02:04, 31.11s/it, Dice=0.0373, FocalLoss=0.425, IoU=0.0308, gpu_mem=7.6]
+Train epoch 23:  20%|██        | 1/5 [00:45<02:04, 31.11s/it, Dice=0.0407, FocalLoss=0.406, IoU=0.0335, gpu_mem=7.6]
+Train epoch 23:  40%|████      | 2/5 [00:45<01:03, 21.31s/it, Dice=0.0407, FocalLoss=0.406, IoU=0.0335, gpu_mem=7.6]
+Train epoch 23:  40%|████      | 2/5 [01:04<01:03, 21.31s/it, Dice=0.0412, FocalLoss=0.389, IoU=0.0339, gpu_mem=7.6]
+Train epoch 23:  60%|██████    | 3/5 [01:04<00:40, 20.03s/it, Dice=0.0412, FocalLoss=0.389, IoU=0.0339, gpu_mem=7.6]
+Train epoch 23:  60%|██████    | 3/5 [01:20<00:40, 20.03s/it, Dice=0.0408, FocalLoss=0.378, IoU=0.0335, gpu_mem=7.6]
+Train epoch 23:  80%|████████  | 4/5 [01:20<00:18, 18.44s/it, Dice=0.0408, FocalLoss=0.378, IoU=0.0335, gpu_mem=7.6]
+Train epoch 23:  80%|████████  | 4/5 [01:34<00:18, 18.44s/it, Dice=0.0399, FocalLoss=0.444, IoU=0.0325, gpu_mem=7.6]
+Train epoch 23: 100%|██████████| 5/5 [01:34<00:00, 17.11s/it, Dice=0.0399, FocalLoss=0.444, IoU=0.0325, gpu_mem=7.6]
+Train epoch 23: 100%|██████████| 5/5 [01:35<00:00, 19.02s/it, Dice=0.0399, FocalLoss=0.444, IoU=0.0325, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 23:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 23:  20%|██        | 1/5 [00:16<01:05, 16.30s/it]
+Validating epoch 23:  40%|████      | 2/5 [00:27<00:39, 13.06s/it]
+Validating epoch 23:  60%|██████    | 3/5 [00:34<00:20, 10.32s/it]
+Validating epoch 23:  80%|████████  | 4/5 [00:43<00:09,  9.93s/it]
+Validating epoch 23: 100%|██████████| 5/5 [00:54<00:00, 10.36s/it]
+Validating epoch 23: 100%|██████████| 5/5 [00:54<00:00, 10.97s/it]
+[2024-08-04 21:33:02] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 21:33:02] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.029373105615377426
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 24:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 24:   0%|          | 0/5 [00:31<?, ?it/s, Dice=0.041, FocalLoss=0.38, IoU=0.0337, gpu_mem=7.6]
+Train epoch 24:  20%|██        | 1/5 [00:31<02:06, 31.56s/it, Dice=0.041, FocalLoss=0.38, IoU=0.0337, gpu_mem=7.6]
+Train epoch 24:  20%|██        | 1/5 [00:49<02:06, 31.56s/it, Dice=0.0415, FocalLoss=0.468, IoU=0.0336, gpu_mem=7.6]
+Train epoch 24:  40%|████      | 2/5 [00:49<01:11, 23.71s/it, Dice=0.0415, FocalLoss=0.468, IoU=0.0336, gpu_mem=7.6]
+Train epoch 24:  40%|████      | 2/5 [01:10<01:11, 23.71s/it, Dice=0.0407, FocalLoss=0.527, IoU=0.0327, gpu_mem=7.6]
+Train epoch 24:  60%|██████    | 3/5 [01:10<00:45, 22.50s/it, Dice=0.0407, FocalLoss=0.527, IoU=0.0327, gpu_mem=7.6]
+Train epoch 24:  60%|██████    | 3/5 [01:22<00:45, 22.50s/it, Dice=0.0418, FocalLoss=0.532, IoU=0.0339, gpu_mem=7.6]
+Train epoch 24:  80%|████████  | 4/5 [01:22<00:18, 18.06s/it, Dice=0.0418, FocalLoss=0.532, IoU=0.0339, gpu_mem=7.6]
+Train epoch 24:  80%|████████  | 4/5 [01:40<00:18, 18.06s/it, Dice=0.0424, FocalLoss=0.517, IoU=0.0347, gpu_mem=7.6]
+Train epoch 24: 100%|██████████| 5/5 [01:40<00:00, 18.01s/it, Dice=0.0424, FocalLoss=0.517, IoU=0.0347, gpu_mem=7.6]
+Train epoch 24: 100%|██████████| 5/5 [01:40<00:00, 20.06s/it, Dice=0.0424, FocalLoss=0.517, IoU=0.0347, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 24:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 24:  20%|██        | 1/5 [00:15<01:03, 15.81s/it]===========================================================
+SUMMARY OF EPOCH 24
+├── Train
+│   ├── Focalloss = 0.5172
+│   │   ├── Epoch N-1      = 0.4437 ([31m↗ 0.0735[0m)
+│   │   └── Best until now = 0.4437 ([31m↗ 0.0735[0m)
+│   ├── Iou = 0.0347
+│   │   ├── Epoch N-1      = 0.0325 ([32m↗ 0.0022[0m)
+│   │   └── Best until now = 0.0331 ([32m↗ 0.0016[0m)
+│   └── Dice = 0.0424
+│       ├── Epoch N-1      = 0.0399 ([32m↗ 0.0025[0m)
+│       └── Best until now = 0.0402 ([32m↗ 0.0022[0m)
+└── Validation
+    ├── Focalloss = 0.6119
+    │   ├── Epoch N-1      = 0.6095 ([31m↗ 0.0024[0m)
+    │   └── Best until now = 0.6095 ([31m↗ 0.0024[0m)
+    ├── Iou = 0.0288
+    │   ├── Epoch N-1      = 0.0294 ([31m↘ -0.0005[0m)
+    │   └── Best until now = 0.0294 ([31m↘ -0.0005[0m)
+    └── Dice = 0.0364
+        ├── Epoch N-1      = 0.0366 ([31m↘ -0.0002[0m)
+        └── Best until now = 0.0366 ([31m↘ -0.0002[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 25
+├── Train
+│   ├── Focalloss = 0.4659
+│   │   ├── Epoch N-1      = 0.5172 ([32m↘ -0.0513[0m)
+│   │   └── Best until now = 0.4437 ([31m↗ 0.0222[0m)
+│   ├── Iou = 0.0362
+│   │   ├── Epoch N-1      = 0.0347 ([32m↗ 0.0015[0m)
+│   │   └── Best until now = 0.0347 ([32m↗ 0.0015[0m)
+│   └── Dice = 0.0439
+│       ├── Epoch N-1      = 0.0424 ([32m↗ 0.0015[0m)
+│       └── Best until now = 0.0424 ([32m↗ 0.0015[0m)
+└── Validation
+    ├── Focalloss = 0.5974
+    │   ├── Epoch N-1      = 0.6119 ([32m↘ -0.0144[0m)
+    │   └── Best until now = 0.6095 ([32m↘ -0.0121[0m)
+    ├── Iou = 0.03
+    │   ├── Epoch N-1      = 0.0288 ([32m↗ 0.0012[0m)
+    │   └── Best until now = 0.0294 ([32m↗ 0.0007[0m)
+    └── Dice = 0.0373
+        ├── Epoch N-1      = 0.0364 ([32m↗ 0.0009[0m)
+        └── Best until now = 0.0366 ([32m↗ 0.0007[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 26
+├── Train
+│   ├── Focalloss = 0.4784
+│   │   ├── Epoch N-1      = 0.4659 ([31m↗ 0.0125[0m)
+│   │   └── Best until now = 0.4437 ([31m↗ 0.0347[0m)
+│   ├── Iou = 0.0352
+│   │   ├── Epoch N-1      = 0.0362 ([31m↘ -0.001[0m)
+│   │   └── Best until now = 0.0362 ([31m↘ -0.001[0m)
+│   └── Dice = 0.0425
+│       ├── Epoch N-1      = 0.0439 ([31m↘ -0.0013[0m)
+│       └── Best until now = 0.0439 ([31m↘ -0.0013[0m)
+└── Validation
+    ├── Focalloss = 0.58
+    │   ├── Epoch N-1      = 0.5974 ([32m↘ -0.0175[0m)
+    │   └── Best until now = 0.5974 ([32m↘ -0.0175[0m)
+    ├── Iou = 0.0307
+    │   ├── Epoch N-1      = 0.03   ([32m↗ 0.0007[0m)
+    │   └── Best until now = 0.03   ([32m↗ 0.0007[0m)
+    └── Dice = 0.038
+        ├── Epoch N-1      = 0.0373 ([32m↗ 0.0007[0m)
+        └── Best until now = 0.0373 ([32m↗ 0.0007[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 27
+├── Train
+│   ├── Focalloss = 0.4281
+│   │   ├── Epoch N-1      = 0.4784 ([32m↘ -0.0503[0m)
+│   │   └── Best until now = 0.4437 ([32m↘ -0.0156[0m)
+│   ├── Iou = 0.0374
+│   │   ├── Epoch N-1      = 0.0352 ([32m↗ 0.0022[0m)
+│   │   └── Best until now = 0.0362 ([32m↗ 0.0012[0m)
+│   └── Dice = 0.0458
+│       ├── Epoch N-1      = 0.0425 ([32m↗ 0.0032[0m)
+│       └── Best until now = 0.0439 ([32m↗ 0.0019[0m)
+└── Validation
+    ├── Focalloss = 0.5963
+    │   ├── Epoch N-1      = 0.58   ([31m↗ 0.0164[0m)
+    │   └── Best until now = 0.58   ([31m↗ 0.0164[0m)
+    ├── Iou = 0.0313
+    │   ├── Epoch N-1      = 0.0307 ([32m↗ 0.0005[0m)
+    │   └── Best until now = 0.0307 ([32m↗ 0.0005[0m)
+    └── Dice = 0.0388
+        ├── Epoch N-1      = 0.038  ([32m↗ 0.0009[0m)
+        └── Best until now = 0.038  ([32m↗ 0.0009[0m)
+
+===========================================================
+
+Validating epoch 24:  40%|████      | 2/5 [00:26<00:37, 12.62s/it]
+Validating epoch 24:  60%|██████    | 3/5 [00:33<00:20, 10.39s/it]
+Validating epoch 24:  80%|████████  | 4/5 [00:42<00:09,  9.70s/it]
+Validating epoch 24: 100%|██████████| 5/5 [00:53<00:00, 10.05s/it]
+Validating epoch 24: 100%|██████████| 5/5 [00:53<00:00, 10.69s/it]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 25:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 25:   0%|          | 0/5 [00:24<?, ?it/s, Dice=0.0404, FocalLoss=0.585, IoU=0.033, gpu_mem=7.6]
+Train epoch 25:  20%|██        | 1/5 [00:24<01:37, 24.44s/it, Dice=0.0404, FocalLoss=0.585, IoU=0.033, gpu_mem=7.6]
+Train epoch 25:  20%|██        | 1/5 [00:35<01:37, 24.44s/it, Dice=0.0432, FocalLoss=0.515, IoU=0.0351, gpu_mem=7.6]
+Train epoch 25:  40%|████      | 2/5 [00:35<00:50, 16.85s/it, Dice=0.0432, FocalLoss=0.515, IoU=0.0351, gpu_mem=7.6]
+Train epoch 25:  40%|████      | 2/5 [00:46<00:50, 16.85s/it, Dice=0.0448, FocalLoss=0.464, IoU=0.0371, gpu_mem=7.6]
+Train epoch 25:  60%|██████    | 3/5 [00:46<00:27, 13.96s/it, Dice=0.0448, FocalLoss=0.464, IoU=0.0371, gpu_mem=7.6]
+Train epoch 25:  60%|██████    | 3/5 [01:02<00:27, 13.96s/it, Dice=0.044, FocalLoss=0.508, IoU=0.0361, gpu_mem=7.6] 
+Train epoch 25:  80%|████████  | 4/5 [01:02<00:14, 14.62s/it, Dice=0.044, FocalLoss=0.508, IoU=0.0361, gpu_mem=7.6]
+Train epoch 25:  80%|████████  | 4/5 [01:22<00:14, 14.62s/it, Dice=0.0439, FocalLoss=0.466, IoU=0.0362, gpu_mem=7.6]
+Train epoch 25: 100%|██████████| 5/5 [01:22<00:00, 16.54s/it, Dice=0.0439, FocalLoss=0.466, IoU=0.0362, gpu_mem=7.6]
+Train epoch 25: 100%|██████████| 5/5 [01:22<00:00, 16.48s/it, Dice=0.0439, FocalLoss=0.466, IoU=0.0362, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 25:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 25:  20%|██        | 1/5 [00:17<01:10, 17.70s/it]
+Validating epoch 25:  40%|████      | 2/5 [00:27<00:39, 13.14s/it]
+Validating epoch 25:  60%|██████    | 3/5 [00:34<00:20, 10.10s/it]
+Validating epoch 25:  80%|████████  | 4/5 [00:42<00:09,  9.24s/it]
+Validating epoch 25: 100%|██████████| 5/5 [00:52<00:00,  9.50s/it]
+Validating epoch 25: 100%|██████████| 5/5 [00:52<00:00, 10.45s/it]
+[2024-08-04 21:39:18] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 21:39:18] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.0300299059599638
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 26:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 26:   0%|          | 0/5 [00:16<?, ?it/s, Dice=0.0429, FocalLoss=0.333, IoU=0.0358, gpu_mem=7.6]
+Train epoch 26:  20%|██        | 1/5 [00:16<01:04, 16.13s/it, Dice=0.0429, FocalLoss=0.333, IoU=0.0358, gpu_mem=7.6]
+Train epoch 26:  20%|██        | 1/5 [00:40<01:04, 16.13s/it, Dice=0.0435, FocalLoss=0.365, IoU=0.0364, gpu_mem=7.6]
+Train epoch 26:  40%|████      | 2/5 [00:40<01:03, 21.09s/it, Dice=0.0435, FocalLoss=0.365, IoU=0.0364, gpu_mem=7.6]
+Train epoch 26:  40%|████      | 2/5 [00:57<01:03, 21.09s/it, Dice=0.0434, FocalLoss=0.403, IoU=0.0364, gpu_mem=7.6]
+Train epoch 26:  60%|██████    | 3/5 [00:57<00:37, 18.91s/it, Dice=0.0434, FocalLoss=0.403, IoU=0.0364, gpu_mem=7.6]
+Train epoch 26:  60%|██████    | 3/5 [01:07<00:37, 18.91s/it, Dice=0.0427, FocalLoss=0.479, IoU=0.0354, gpu_mem=7.6]
+Train epoch 26:  80%|████████  | 4/5 [01:07<00:15, 15.51s/it, Dice=0.0427, FocalLoss=0.479, IoU=0.0354, gpu_mem=7.6]
+Train epoch 26:  80%|████████  | 4/5 [01:25<00:15, 15.51s/it, Dice=0.0425, FocalLoss=0.478, IoU=0.0352, gpu_mem=7.6]
+Train epoch 26: 100%|██████████| 5/5 [01:25<00:00, 16.64s/it, Dice=0.0425, FocalLoss=0.478, IoU=0.0352, gpu_mem=7.6]
+Train epoch 26: 100%|██████████| 5/5 [01:26<00:00, 17.26s/it, Dice=0.0425, FocalLoss=0.478, IoU=0.0352, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 26:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 26:  20%|██        | 1/5 [00:17<01:10, 17.58s/it]
+Validating epoch 26:  40%|████      | 2/5 [00:27<00:39, 13.22s/it]
+Validating epoch 26:  60%|██████    | 3/5 [00:34<00:20, 10.23s/it]
+Validating epoch 26:  80%|████████  | 4/5 [00:43<00:09,  9.58s/it]
+Validating epoch 26: 100%|██████████| 5/5 [00:53<00:00, 10.00s/it]
+Validating epoch 26: 100%|██████████| 5/5 [00:53<00:00, 10.79s/it]
+[2024-08-04 21:42:19] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 21:42:19] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.03074517846107483
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 27:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 27:   0%|          | 0/5 [00:25<?, ?it/s, Dice=0.0427, FocalLoss=0.593, IoU=0.0352, gpu_mem=7.6]
+Train epoch 27:  20%|██        | 1/5 [00:25<01:42, 25.65s/it, Dice=0.0427, FocalLoss=0.593, IoU=0.0352, gpu_mem=7.6]
+Train epoch 27:  20%|██        | 1/5 [00:45<01:42, 25.65s/it, Dice=0.043, FocalLoss=0.484, IoU=0.0356, gpu_mem=7.6] 
+Train epoch 27:  40%|████      | 2/5 [00:45<01:07, 22.34s/it, Dice=0.043, FocalLoss=0.484, IoU=0.0356, gpu_mem=7.6]
+Train epoch 27:  40%|████      | 2/5 [01:04<01:07, 22.34s/it, Dice=0.0434, FocalLoss=0.466, IoU=0.0356, gpu_mem=7.6]
+Train epoch 27:  60%|██████    | 3/5 [01:04<00:41, 20.64s/it, Dice=0.0434, FocalLoss=0.466, IoU=0.0356, gpu_mem=7.6]
+Train epoch 27:  60%|██████    | 3/5 [01:18<00:41, 20.64s/it, Dice=0.0459, FocalLoss=0.428, IoU=0.0374, gpu_mem=7.6]
+Train epoch 27:  80%|████████  | 4/5 [01:18<00:18, 18.08s/it, Dice=0.0459, FocalLoss=0.428, IoU=0.0374, gpu_mem=7.6]
+Train epoch 27:  80%|████████  | 4/5 [01:34<00:18, 18.08s/it, Dice=0.0458, FocalLoss=0.428, IoU=0.0374, gpu_mem=7.6]
+Train epoch 27: 100%|██████████| 5/5 [01:34<00:00, 17.32s/it, Dice=0.0458, FocalLoss=0.428, IoU=0.0374, gpu_mem=7.6]
+Train epoch 27: 100%|██████████| 5/5 [01:34<00:00, 18.94s/it, Dice=0.0458, FocalLoss=0.428, IoU=0.0374, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 27:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 27:  20%|██        | 1/5 [00:17<01:08, 17.24s/it]
+Validating epoch 27:  40%|████      | 2/5 [00:27<00:38, 12.90s/it]
+Validating epoch 27:  60%|██████    | 3/5 [00:33<00:20, 10.11s/it]
+Validating epoch 27:  80%|████████  | 4/5 [00:43<00:09,  9.76s/it]
+Validating epoch 27: 100%|██████████| 5/5 [00:53<00:00, 10.17s/it]
+Validating epoch 27: 100%|██████████| 5/5 [00:54<00:00, 10.85s/it]
+[2024-08-04 21:45:31] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 21:45:31] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.03125065937638283
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 28:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 28:   0%|          | 0/5 [00:25<?, ?it/s, Dice=0.044, FocalLoss=0.347, IoU=0.0362, gpu_mem=7.6]
+Train epoch 28:  20%|██        | 1/5 [00:25<01:41, 25.47s/it, Dice=0.044, FocalLoss=0.347, IoU=0.0362, gpu_mem=7.6]
+Train epoch 28:  20%|██        | 1/5 [00:40<01:41, 25.47s/it, Dice=0.0431, FocalLoss=0.371, IoU=0.0346, gpu_mem=7.6]
+Train epoch 28:  40%|████      | 2/5 [00:40<00:57, 19.16s/it, Dice=0.0431, FocalLoss=0.371, IoU=0.0346, gpu_mem=7.6]===========================================================
+SUMMARY OF EPOCH 28
+├── Train
+│   ├── Focalloss = 0.3742
+│   │   ├── Epoch N-1      = 0.4281 ([32m↘ -0.0539[0m)
+│   │   └── Best until now = 0.4281 ([32m↘ -0.0539[0m)
+│   ├── Iou = 0.0385
+│   │   ├── Epoch N-1      = 0.0374 ([32m↗ 0.0011[0m)
+│   │   └── Best until now = 0.0374 ([32m↗ 0.0011[0m)
+│   └── Dice = 0.0475
+│       ├── Epoch N-1      = 0.0458 ([32m↗ 0.0017[0m)
+│       └── Best until now = 0.0458 ([32m↗ 0.0017[0m)
+└── Validation
+    ├── Focalloss = 0.5902
+    │   ├── Epoch N-1      = 0.5963 ([32m↘ -0.0062[0m)
+    │   └── Best until now = 0.58   ([31m↗ 0.0102[0m)
+    ├── Iou = 0.0309
+    │   ├── Epoch N-1      = 0.0313 ([31m↘ -0.0004[0m)
+    │   └── Best until now = 0.0313 ([31m↘ -0.0004[0m)
+    └── Dice = 0.0386
+        ├── Epoch N-1      = 0.0388 ([31m↘ -0.0003[0m)
+        └── Best until now = 0.0388 ([31m↘ -0.0003[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 29
+├── Train
+│   ├── Focalloss = 0.4002
+│   │   ├── Epoch N-1      = 0.3742 ([31m↗ 0.026[0m)
+│   │   └── Best until now = 0.3742 ([31m↗ 0.026[0m)
+│   ├── Iou = 0.04
+│   │   ├── Epoch N-1      = 0.0385 ([32m↗ 0.0014[0m)
+│   │   └── Best until now = 0.0385 ([32m↗ 0.0014[0m)
+│   └── Dice = 0.0496
+│       ├── Epoch N-1      = 0.0475 ([32m↗ 0.0021[0m)
+│       └── Best until now = 0.0475 ([32m↗ 0.0021[0m)
+└── Validation
+    ├── Focalloss = 0.5832
+    │   ├── Epoch N-1      = 0.5902 ([32m↘ -0.007[0m)
+    │   └── Best until now = 0.58   ([31m↗ 0.0032[0m)
+    ├── Iou = 0.0307
+    │   ├── Epoch N-1      = 0.0309 ([31m↘ -0.0002[0m)
+    │   └── Best until now = 0.0313 ([31m↘ -0.0006[0m)
+    └── Dice = 0.0383
+        ├── Epoch N-1      = 0.0386 ([31m↘ -0.0003[0m)
+        └── Best until now = 0.0388 ([31m↘ -0.0005[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 30
+├── Train
+│   ├── Focalloss = 0.357
+│   │   ├── Epoch N-1      = 0.4002 ([32m↘ -0.0432[0m)
+│   │   └── Best until now = 0.3742 ([32m↘ -0.0172[0m)
+│   ├── Iou = 0.0416
+│   │   ├── Epoch N-1      = 0.04   ([32m↗ 0.0016[0m)
+│   │   └── Best until now = 0.04   ([32m↗ 0.0016[0m)
+│   └── Dice = 0.0514
+│       ├── Epoch N-1      = 0.0496 ([32m↗ 0.0018[0m)
+│       └── Best until now = 0.0496 ([32m↗ 0.0018[0m)
+└── Validation
+    ├── Focalloss = 0.5819
+    │   ├── Epoch N-1      = 0.5832 ([32m↘ -0.0013[0m)
+    │   └── Best until now = 0.58   ([31m↗ 0.0019[0m)
+    ├── Iou = 0.0313
+    │   ├── Epoch N-1      = 0.0307 ([32m↗ 0.0006[0m)
+    │   └── Best until now = 0.0313 ([32m↗ 0.0[0m)
+    └── Dice = 0.0395
+        ├── Epoch N-1      = 0.0383 ([32m↗ 0.0012[0m)
+        └── Best until now = 0.0388 ([32m↗ 0.0007[0m)
+
+===========================================================
+
+Train epoch 28:  40%|████      | 2/5 [00:54<00:57, 19.16s/it, Dice=0.0447, FocalLoss=0.404, IoU=0.0363, gpu_mem=7.6]
+Train epoch 28:  60%|██████    | 3/5 [00:54<00:33, 16.95s/it, Dice=0.0447, FocalLoss=0.404, IoU=0.0363, gpu_mem=7.6]
+Train epoch 28:  60%|██████    | 3/5 [01:08<00:33, 16.95s/it, Dice=0.0463, FocalLoss=0.393, IoU=0.0378, gpu_mem=7.6]
+Train epoch 28:  80%|████████  | 4/5 [01:08<00:15, 15.88s/it, Dice=0.0463, FocalLoss=0.393, IoU=0.0378, gpu_mem=7.6]
+Train epoch 28:  80%|████████  | 4/5 [01:28<00:15, 15.88s/it, Dice=0.0475, FocalLoss=0.374, IoU=0.0385, gpu_mem=7.6]
+Train epoch 28: 100%|██████████| 5/5 [01:28<00:00, 17.20s/it, Dice=0.0475, FocalLoss=0.374, IoU=0.0385, gpu_mem=7.6]
+Train epoch 28: 100%|██████████| 5/5 [01:28<00:00, 17.72s/it, Dice=0.0475, FocalLoss=0.374, IoU=0.0385, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 28:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 28:  20%|██        | 1/5 [00:16<01:06, 16.64s/it]
+Validating epoch 28:  40%|████      | 2/5 [00:27<00:39, 13.04s/it]
+Validating epoch 28:  60%|██████    | 3/5 [00:35<00:21, 10.67s/it]
+Validating epoch 28:  80%|████████  | 4/5 [00:43<00:09,  9.85s/it]
+Validating epoch 28: 100%|██████████| 5/5 [00:54<00:00, 10.13s/it]
+Validating epoch 28: 100%|██████████| 5/5 [00:54<00:00, 10.89s/it]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 29:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 29:   0%|          | 0/5 [00:31<?, ?it/s, Dice=0.0549, FocalLoss=0.294, IoU=0.0448, gpu_mem=7.6]
+Train epoch 29:  20%|██        | 1/5 [00:31<02:07, 31.81s/it, Dice=0.0549, FocalLoss=0.294, IoU=0.0448, gpu_mem=7.6]
+Train epoch 29:  20%|██        | 1/5 [00:47<02:07, 31.81s/it, Dice=0.055, FocalLoss=0.301, IoU=0.0447, gpu_mem=7.6] 
+Train epoch 29:  40%|████      | 2/5 [00:47<01:07, 22.37s/it, Dice=0.055, FocalLoss=0.301, IoU=0.0447, gpu_mem=7.6]
+Train epoch 29:  40%|████      | 2/5 [01:01<01:07, 22.37s/it, Dice=0.052, FocalLoss=0.299, IoU=0.0424, gpu_mem=7.6]
+Train epoch 29:  60%|██████    | 3/5 [01:01<00:37, 18.51s/it, Dice=0.052, FocalLoss=0.299, IoU=0.0424, gpu_mem=7.6]
+Train epoch 29:  60%|██████    | 3/5 [01:16<00:37, 18.51s/it, Dice=0.0493, FocalLoss=0.392, IoU=0.0399, gpu_mem=7.6]
+Train epoch 29:  80%|████████  | 4/5 [01:16<00:17, 17.30s/it, Dice=0.0493, FocalLoss=0.392, IoU=0.0399, gpu_mem=7.6]
+Train epoch 29:  80%|████████  | 4/5 [01:28<00:17, 17.30s/it, Dice=0.0496, FocalLoss=0.4, IoU=0.04, gpu_mem=7.6]    
+Train epoch 29: 100%|██████████| 5/5 [01:28<00:00, 15.41s/it, Dice=0.0496, FocalLoss=0.4, IoU=0.04, gpu_mem=7.6]
+Train epoch 29: 100%|██████████| 5/5 [01:29<00:00, 17.86s/it, Dice=0.0496, FocalLoss=0.4, IoU=0.04, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 29:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 29:  20%|██        | 1/5 [00:17<01:09, 17.39s/it]
+Validating epoch 29:  40%|████      | 2/5 [00:27<00:39, 13.19s/it]
+Validating epoch 29:  60%|██████    | 3/5 [00:36<00:22, 11.03s/it]
+Validating epoch 29:  80%|████████  | 4/5 [00:44<00:09,  9.98s/it]
+Validating epoch 29: 100%|██████████| 5/5 [00:55<00:00, 10.23s/it]
+Validating epoch 29: 100%|██████████| 5/5 [00:55<00:00, 11.07s/it]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 30:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 30:   0%|          | 0/5 [00:22<?, ?it/s, Dice=0.0485, FocalLoss=0.325, IoU=0.0394, gpu_mem=7.6]
+Train epoch 30:  20%|██        | 1/5 [00:22<01:30, 22.69s/it, Dice=0.0485, FocalLoss=0.325, IoU=0.0394, gpu_mem=7.6]
+Train epoch 30:  20%|██        | 1/5 [00:40<01:30, 22.69s/it, Dice=0.052, FocalLoss=0.29, IoU=0.0424, gpu_mem=7.6]  
+Train epoch 30:  40%|████      | 2/5 [00:40<00:59, 19.91s/it, Dice=0.052, FocalLoss=0.29, IoU=0.0424, gpu_mem=7.6]
+Train epoch 30:  40%|████      | 2/5 [00:53<00:59, 19.91s/it, Dice=0.0517, FocalLoss=0.327, IoU=0.042, gpu_mem=7.6]
+Train epoch 30:  60%|██████    | 3/5 [00:53<00:33, 16.86s/it, Dice=0.0517, FocalLoss=0.327, IoU=0.042, gpu_mem=7.6]
+Train epoch 30:  60%|██████    | 3/5 [01:10<00:33, 16.86s/it, Dice=0.0514, FocalLoss=0.343, IoU=0.0416, gpu_mem=7.6]
+Train epoch 30:  80%|████████  | 4/5 [01:10<00:16, 16.58s/it, Dice=0.0514, FocalLoss=0.343, IoU=0.0416, gpu_mem=7.6]
+Train epoch 30:  80%|████████  | 4/5 [01:26<00:16, 16.58s/it, Dice=0.0514, FocalLoss=0.357, IoU=0.0416, gpu_mem=7.6]
+Train epoch 30: 100%|██████████| 5/5 [01:26<00:00, 16.57s/it, Dice=0.0514, FocalLoss=0.357, IoU=0.0416, gpu_mem=7.6]
+Train epoch 30: 100%|██████████| 5/5 [01:26<00:00, 17.38s/it, Dice=0.0514, FocalLoss=0.357, IoU=0.0416, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 30:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 30:  20%|██        | 1/5 [00:17<01:08, 17.03s/it]
+Validating epoch 30:  40%|████      | 2/5 [00:26<00:37, 12.64s/it]
+Validating epoch 30:  60%|██████    | 3/5 [00:33<00:19,  9.87s/it]
+Validating epoch 30:  80%|████████  | 4/5 [00:41<00:09,  9.35s/it]
+Validating epoch 30: 100%|██████████| 5/5 [00:52<00:00,  9.71s/it]
+Validating epoch 30: 100%|██████████| 5/5 [00:52<00:00, 10.46s/it]
+[2024-08-04 21:54:48] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 21:54:48] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.0312977209687233
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 31:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 31:   0%|          | 0/5 [00:24<?, ?it/s, Dice=0.0483, FocalLoss=0.349, IoU=0.0391, gpu_mem=7.6]
+Train epoch 31:  20%|██        | 1/5 [00:24<01:38, 24.68s/it, Dice=0.0483, FocalLoss=0.349, IoU=0.0391, gpu_mem=7.6]
+Train epoch 31:  20%|██        | 1/5 [00:43<01:38, 24.68s/it, Dice=0.0496, FocalLoss=0.374, IoU=0.0409, gpu_mem=7.6]
+Train epoch 31:  40%|████      | 2/5 [00:43<01:02, 20.99s/it, Dice=0.0496, FocalLoss=0.374, IoU=0.0409, gpu_mem=7.6]
+Train epoch 31:  40%|████      | 2/5 [00:59<01:02, 20.99s/it, Dice=0.0542, FocalLoss=0.374, IoU=0.0436, gpu_mem=7.6]
+Train epoch 31:  60%|██████    | 3/5 [00:59<00:37, 18.94s/it, Dice=0.0542, FocalLoss=0.374, IoU=0.0436, gpu_mem=7.6]
+Train epoch 31:  60%|██████    | 3/5 [01:16<00:37, 18.94s/it, Dice=0.0555, FocalLoss=0.379, IoU=0.0442, gpu_mem=7.6]
+Train epoch 31:  80%|████████  | 4/5 [01:16<00:17, 17.95s/it, Dice=0.0555, FocalLoss=0.379, IoU=0.0442, gpu_mem=7.6]
+Train epoch 31:  80%|████████  | 4/5 [01:30<00:17, 17.95s/it, Dice=0.0564, FocalLoss=0.411, IoU=0.0444, gpu_mem=7.6]
+Train epoch 31: 100%|██████████| 5/5 [01:30<00:00, 16.60s/it, Dice=0.0564, FocalLoss=0.411, IoU=0.0444, gpu_mem=7.6]
+Train epoch 31: 100%|██████████| 5/5 [01:30<00:00, 18.11s/it, Dice=0.0564, FocalLoss=0.411, IoU=0.0444, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 31:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 31:  20%|██        | 1/5 [00:16<01:06, 16.70s/it]
+Validating epoch 31:  40%|████      | 2/5 [00:26<00:38, 12.73s/it]
+Validating epoch 31:  60%|██████    | 3/5 [00:33<00:20, 10.19s/it]
+Validating epoch 31:  80%|████████  | 4/5 [00:42<00:09,  9.42s/it]
+Validating epoch 31: 100%|██████████| 5/5 [00:52<00:00,  9.62s/it]
+Validating epoch 31: 100%|██████████| 5/5 [00:52<00:00, 10.45s/it]
+===========================================================
+SUMMARY OF EPOCH 31
+├── Train
+│   ├── Focalloss = 0.411
+│   │   ├── Epoch N-1      = 0.357  ([31m↗ 0.0539[0m)
+│   │   └── Best until now = 0.357  ([31m↗ 0.0539[0m)
+│   ├── Iou = 0.0444
+│   │   ├── Epoch N-1      = 0.0416 ([32m↗ 0.0028[0m)
+│   │   └── Best until now = 0.0416 ([32m↗ 0.0028[0m)
+│   └── Dice = 0.0564
+│       ├── Epoch N-1      = 0.0514 ([32m↗ 0.005[0m)
+│       └── Best until now = 0.0514 ([32m↗ 0.005[0m)
+└── Validation
+    ├── Focalloss = 0.5774
+    │   ├── Epoch N-1      = 0.5819 ([32m↘ -0.0045[0m)
+    │   └── Best until now = 0.58   ([32m↘ -0.0025[0m)
+    ├── Iou = 0.0316
+    │   ├── Epoch N-1      = 0.0313 ([32m↗ 0.0003[0m)
+    │   └── Best until now = 0.0313 ([32m↗ 0.0003[0m)
+    └── Dice = 0.0399
+        ├── Epoch N-1      = 0.0395 ([32m↗ 0.0004[0m)
+        └── Best until now = 0.0395 ([32m↗ 0.0004[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 32
+├── Train
+│   ├── Focalloss = 0.4176
+│   │   ├── Epoch N-1      = 0.411  ([31m↗ 0.0066[0m)
+│   │   └── Best until now = 0.357  ([31m↗ 0.0605[0m)
+│   ├── Iou = 0.0484
+│   │   ├── Epoch N-1      = 0.0444 ([32m↗ 0.0039[0m)
+│   │   └── Best until now = 0.0444 ([32m↗ 0.0039[0m)
+│   └── Dice = 0.0617
+│       ├── Epoch N-1      = 0.0564 ([32m↗ 0.0053[0m)
+│       └── Best until now = 0.0564 ([32m↗ 0.0053[0m)
+└── Validation
+    ├── Focalloss = 0.5655
+    │   ├── Epoch N-1      = 0.5774 ([32m↘ -0.012[0m)
+    │   └── Best until now = 0.5774 ([32m↘ -0.012[0m)
+    ├── Iou = 0.0328
+    │   ├── Epoch N-1      = 0.0316 ([32m↗ 0.0012[0m)
+    │   └── Best until now = 0.0316 ([32m↗ 0.0012[0m)
+    └── Dice = 0.0417
+        ├── Epoch N-1      = 0.0399 ([32m↗ 0.0018[0m)
+        └── Best until now = 0.0399 ([32m↗ 0.0018[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 33
+├── Train
+│   ├── Focalloss = 0.3598
+│   │   ├── Epoch N-1      = 0.4176 ([32m↘ -0.0578[0m)
+│   │   └── Best until now = 0.357  ([31m↗ 0.0028[0m)
+│   ├── Iou = 0.0528
+│   │   ├── Epoch N-1      = 0.0484 ([32m↗ 0.0045[0m)
+│   │   └── Best until now = 0.0484 ([32m↗ 0.0045[0m)
+│   └── Dice = 0.0685
+│       ├── Epoch N-1      = 0.0617 ([32m↗ 0.0068[0m)
+│       └── Best until now = 0.0617 ([32m↗ 0.0068[0m)
+└── Validation
+    ├── Focalloss = 0.5689
+    │   ├── Epoch N-1      = 0.5655 ([31m↗ 0.0034[0m)
+    │   └── Best until now = 0.5655 ([31m↗ 0.0034[0m)
+    ├── Iou = 0.0331
+    │   ├── Epoch N-1      = 0.0328 ([32m↗ 0.0003[0m)
+    │   └── Best until now = 0.0328 ([32m↗ 0.0003[0m)
+    └── Dice = 0.0424
+        ├── Epoch N-1      = 0.0417 ([32m↗ 0.0007[0m)
+        └── Best until now = 0.0417 ([32m↗ 0.0007[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 34
+├── Train
+│   ├── Focalloss = 0.3519
+│   │   ├── Epoch N-1      = 0.3598 ([32m↘ -0.0079[0m)
+│   │   └── Best until now = 0.357  ([32m↘ -0.0051[0m)
+│   ├── Iou = 0.0547
+│   │   ├── Epoch N-1      = 0.0528 ([32m↗ 0.0019[0m)
+│   │   └── Best until now = 0.0528 ([32m↗ 0.0019[0m)
+│   └── Dice = 0.0712
+│       ├── Epoch N-1      = 0.0685 ([32m↗ 0.0027[0m)
+│       └── Best until now = 0.0685 ([32m↗ 0.0027[0m)
+└── Validation
+    ├── Focalloss = 0.5707
+    │   ├── Epoch N-1      = 0.5689 ([31m↗ 0.0018[0m)
+    │   └── Best until now = 0.5655 ([31m↗ 0.0052[0m)
+    ├── Iou = 0.0339
+    │   ├── Epoch N-1      = 0.0331 ([32m↗ 0.0008[0m)
+    │   └── Best until now = 0.0331 ([32m↗ 0.0008[0m)
+    └── Dice = 0.0435
+        ├── Epoch N-1      = 0.0424 ([32m↗ 0.0012[0m)
+        └── Best until now = 0.0424 ([32m↗ 0.0012[0m)
+
+===========================================================
+[2024-08-04 21:57:55] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 21:57:55] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.03159021586179733
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 32:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 32:   0%|          | 0/5 [00:24<?, ?it/s, Dice=0.0484, FocalLoss=0.409, IoU=0.0401, gpu_mem=7.6]
+Train epoch 32:  20%|██        | 1/5 [00:24<01:39, 24.98s/it, Dice=0.0484, FocalLoss=0.409, IoU=0.0401, gpu_mem=7.6]
+Train epoch 32:  20%|██        | 1/5 [00:42<01:39, 24.98s/it, Dice=0.0534, FocalLoss=0.39, IoU=0.0438, gpu_mem=7.6] 
+Train epoch 32:  40%|████      | 2/5 [00:42<01:02, 20.87s/it, Dice=0.0534, FocalLoss=0.39, IoU=0.0438, gpu_mem=7.6]
+Train epoch 32:  40%|████      | 2/5 [00:59<01:02, 20.87s/it, Dice=0.0583, FocalLoss=0.41, IoU=0.0465, gpu_mem=7.6]
+Train epoch 32:  60%|██████    | 3/5 [00:59<00:37, 18.84s/it, Dice=0.0583, FocalLoss=0.41, IoU=0.0465, gpu_mem=7.6]
+Train epoch 32:  60%|██████    | 3/5 [01:18<00:37, 18.84s/it, Dice=0.0618, FocalLoss=0.399, IoU=0.0484, gpu_mem=7.6]
+Train epoch 32:  80%|████████  | 4/5 [01:18<00:18, 18.80s/it, Dice=0.0618, FocalLoss=0.399, IoU=0.0484, gpu_mem=7.6]
+Train epoch 32:  80%|████████  | 4/5 [01:34<00:18, 18.80s/it, Dice=0.0617, FocalLoss=0.418, IoU=0.0484, gpu_mem=7.6]
+Train epoch 32: 100%|██████████| 5/5 [01:34<00:00, 18.00s/it, Dice=0.0617, FocalLoss=0.418, IoU=0.0484, gpu_mem=7.6]
+Train epoch 32: 100%|██████████| 5/5 [01:34<00:00, 19.00s/it, Dice=0.0617, FocalLoss=0.418, IoU=0.0484, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 32:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 32:  20%|██        | 1/5 [00:16<01:05, 16.49s/it]
+Validating epoch 32:  40%|████      | 2/5 [00:26<00:37, 12.55s/it]
+Validating epoch 32:  60%|██████    | 3/5 [00:32<00:19,  9.79s/it]
+Validating epoch 32:  80%|████████  | 4/5 [00:41<00:09,  9.22s/it]
+Validating epoch 32: 100%|██████████| 5/5 [00:51<00:00,  9.60s/it]
+Validating epoch 32: 100%|██████████| 5/5 [00:51<00:00, 10.33s/it]
+[2024-08-04 22:01:03] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 22:01:03] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.032797202467918396
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 33:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 33:   0%|          | 0/5 [00:31<?, ?it/s, Dice=0.0539, FocalLoss=0.334, IoU=0.0444, gpu_mem=7.6]
+Train epoch 33:  20%|██        | 1/5 [00:31<02:04, 31.20s/it, Dice=0.0539, FocalLoss=0.334, IoU=0.0444, gpu_mem=7.6]
+Train epoch 33:  20%|██        | 1/5 [00:46<02:04, 31.20s/it, Dice=0.0591, FocalLoss=0.358, IoU=0.0476, gpu_mem=7.6]
+Train epoch 33:  40%|████      | 2/5 [00:46<01:06, 22.13s/it, Dice=0.0591, FocalLoss=0.358, IoU=0.0476, gpu_mem=7.6]
+Train epoch 33:  40%|████      | 2/5 [01:05<01:06, 22.13s/it, Dice=0.0602, FocalLoss=0.344, IoU=0.0483, gpu_mem=7.6]
+Train epoch 33:  60%|██████    | 3/5 [01:05<00:40, 20.30s/it, Dice=0.0602, FocalLoss=0.344, IoU=0.0483, gpu_mem=7.6]
+Train epoch 33:  60%|██████    | 3/5 [01:21<00:40, 20.30s/it, Dice=0.0646, FocalLoss=0.353, IoU=0.0504, gpu_mem=7.6]
+Train epoch 33:  80%|████████  | 4/5 [01:21<00:18, 18.64s/it, Dice=0.0646, FocalLoss=0.353, IoU=0.0504, gpu_mem=7.6]
+Train epoch 33:  80%|████████  | 4/5 [01:41<00:18, 18.64s/it, Dice=0.0685, FocalLoss=0.36, IoU=0.0528, gpu_mem=7.6] 
+Train epoch 33: 100%|██████████| 5/5 [01:41<00:00, 19.38s/it, Dice=0.0685, FocalLoss=0.36, IoU=0.0528, gpu_mem=7.6]
+Train epoch 33: 100%|██████████| 5/5 [01:42<00:00, 20.44s/it, Dice=0.0685, FocalLoss=0.36, IoU=0.0528, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 33:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 33:  20%|██        | 1/5 [00:16<01:05, 16.40s/it]
+Validating epoch 33:  40%|████      | 2/5 [00:26<00:38, 12.78s/it]
+Validating epoch 33:  60%|██████    | 3/5 [00:33<00:20, 10.09s/it]
+Validating epoch 33:  80%|████████  | 4/5 [00:42<00:09,  9.59s/it]
+Validating epoch 33: 100%|██████████| 5/5 [00:52<00:00,  9.93s/it]
+Validating epoch 33: 100%|██████████| 5/5 [00:53<00:00, 10.62s/it]
+[2024-08-04 22:04:24] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 22:04:24] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.03306053206324577
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 34:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 34:   0%|          | 0/5 [00:24<?, ?it/s, Dice=0.0629, FocalLoss=0.245, IoU=0.0521, gpu_mem=7.6]
+Train epoch 34:  20%|██        | 1/5 [00:24<01:39, 24.88s/it, Dice=0.0629, FocalLoss=0.245, IoU=0.0521, gpu_mem=7.6]
+Train epoch 34:  20%|██        | 1/5 [00:36<01:39, 24.88s/it, Dice=0.0638, FocalLoss=0.303, IoU=0.0516, gpu_mem=7.6]
+Train epoch 34:  40%|████      | 2/5 [00:36<00:51, 17.25s/it, Dice=0.0638, FocalLoss=0.303, IoU=0.0516, gpu_mem=7.6]
+Train epoch 34:  40%|████      | 2/5 [00:54<00:51, 17.25s/it, Dice=0.0715, FocalLoss=0.289, IoU=0.0561, gpu_mem=7.6]
+Train epoch 34:  60%|██████    | 3/5 [00:54<00:34, 17.26s/it, Dice=0.0715, FocalLoss=0.289, IoU=0.0561, gpu_mem=7.6]
+Train epoch 34:  60%|██████    | 3/5 [01:13<00:34, 17.26s/it, Dice=0.0687, FocalLoss=0.313, IoU=0.054, gpu_mem=7.6] 
+Train epoch 34:  80%|████████  | 4/5 [01:13<00:18, 18.17s/it, Dice=0.0687, FocalLoss=0.313, IoU=0.054, gpu_mem=7.6]
+Train epoch 34:  80%|████████  | 4/5 [01:36<00:18, 18.17s/it, Dice=0.0712, FocalLoss=0.352, IoU=0.0547, gpu_mem=7.6]
+Train epoch 34: 100%|██████████| 5/5 [01:36<00:00, 19.80s/it, Dice=0.0712, FocalLoss=0.352, IoU=0.0547, gpu_mem=7.6]
+Train epoch 34: 100%|██████████| 5/5 [01:36<00:00, 19.33s/it, Dice=0.0712, FocalLoss=0.352, IoU=0.0547, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 34:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 34:  20%|██        | 1/5 [00:16<01:07, 16.96s/it]
+Validating epoch 34:  40%|████      | 2/5 [00:27<00:40, 13.40s/it]
+Validating epoch 34:  60%|██████    | 3/5 [00:35<00:21, 10.67s/it]
+Validating epoch 34:  80%|████████  | 4/5 [00:44<00:09,  9.96s/it]
+Validating epoch 34: 100%|██████████| 5/5 [00:54<00:00, 10.21s/it]
+Validating epoch 34: 100%|██████████| 5/5 [00:55<00:00, 11.01s/it]
+[2024-08-04 22:07:36] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 22:07:36] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.03385428339242935
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 35:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 35:   0%|          | 0/5 [00:33<?, ?it/s, Dice=0.0546, FocalLoss=0.268, IoU=0.0441, gpu_mem=7.6]
+Train epoch 35:  20%|██        | 1/5 [00:33<02:14, 33.72s/it, Dice=0.0546, FocalLoss=0.268, IoU=0.0441, gpu_mem=7.6]
+Train epoch 35:  20%|██        | 1/5 [00:52<02:14, 33.72s/it, Dice=0.0607, FocalLoss=0.271, IoU=0.0481, gpu_mem=7.6]
+Train epoch 35:  40%|████      | 2/5 [00:52<01:14, 25.00s/it, Dice=0.0607, FocalLoss=0.271, IoU=0.0481, gpu_mem=7.6]
+Train epoch 35:  40%|████      | 2/5 [01:05<01:14, 25.00s/it, Dice=0.067, FocalLoss=0.318, IoU=0.0518, gpu_mem=7.6] ===========================================================
+SUMMARY OF EPOCH 35
+├── Train
+│   ├── Focalloss = 0.3161
+│   │   ├── Epoch N-1      = 0.3519 ([32m↘ -0.0358[0m)
+│   │   └── Best until now = 0.3519 ([32m↘ -0.0358[0m)
+│   ├── Iou = 0.0549
+│   │   ├── Epoch N-1      = 0.0547 ([32m↗ 0.0002[0m)
+│   │   └── Best until now = 0.0547 ([32m↗ 0.0002[0m)
+│   └── Dice = 0.0716
+│       ├── Epoch N-1      = 0.0712 ([32m↗ 0.0004[0m)
+│       └── Best until now = 0.0712 ([32m↗ 0.0004[0m)
+└── Validation
+    ├── Focalloss = 0.5656
+    │   ├── Epoch N-1      = 0.5707 ([32m↘ -0.0051[0m)
+    │   └── Best until now = 0.5655 ([31m↗ 0.0002[0m)
+    ├── Iou = 0.0346
+    │   ├── Epoch N-1      = 0.0339 ([32m↗ 0.0007[0m)
+    │   └── Best until now = 0.0339 ([32m↗ 0.0007[0m)
+    └── Dice = 0.0444
+        ├── Epoch N-1      = 0.0435 ([32m↗ 0.0009[0m)
+        └── Best until now = 0.0435 ([32m↗ 0.0009[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 36
+├── Train
+│   ├── Focalloss = 0.3618
+│   │   ├── Epoch N-1      = 0.3161 ([31m↗ 0.0457[0m)
+│   │   └── Best until now = 0.3161 ([31m↗ 0.0457[0m)
+│   ├── Iou = 0.0565
+│   │   ├── Epoch N-1      = 0.0549 ([32m↗ 0.0016[0m)
+│   │   └── Best until now = 0.0549 ([32m↗ 0.0016[0m)
+│   └── Dice = 0.0738
+│       ├── Epoch N-1      = 0.0716 ([32m↗ 0.0023[0m)
+│       └── Best until now = 0.0716 ([32m↗ 0.0023[0m)
+└── Validation
+    ├── Focalloss = 0.5785
+    │   ├── Epoch N-1      = 0.5656 ([31m↗ 0.0129[0m)
+    │   └── Best until now = 0.5655 ([31m↗ 0.0131[0m)
+    ├── Iou = 0.034
+    │   ├── Epoch N-1      = 0.0346 ([31m↘ -0.0006[0m)
+    │   └── Best until now = 0.0346 ([31m↘ -0.0006[0m)
+    └── Dice = 0.0444
+        ├── Epoch N-1      = 0.0444 ([32m↗ 0.0[0m)
+        └── Best until now = 0.0444 ([32m↗ 0.0[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 37
+├── Train
+│   ├── Focalloss = 0.3161
+│   │   ├── Epoch N-1      = 0.3618 ([32m↘ -0.0457[0m)
+│   │   └── Best until now = 0.3161 ([31m↗ 0.0[0m)
+│   ├── Iou = 0.0622
+│   │   ├── Epoch N-1      = 0.0565 ([32m↗ 0.0057[0m)
+│   │   └── Best until now = 0.0565 ([32m↗ 0.0057[0m)
+│   └── Dice = 0.0811
+│       ├── Epoch N-1      = 0.0738 ([32m↗ 0.0072[0m)
+│       └── Best until now = 0.0738 ([32m↗ 0.0072[0m)
+└── Validation
+    ├── Focalloss = 0.5619
+    │   ├── Epoch N-1      = 0.5785 ([32m↘ -0.0166[0m)
+    │   └── Best until now = 0.5655 ([32m↘ -0.0035[0m)
+    ├── Iou = 0.035
+    │   ├── Epoch N-1      = 0.034  ([32m↗ 0.001[0m)
+    │   └── Best until now = 0.0346 ([32m↗ 0.0004[0m)
+    └── Dice = 0.0456
+        ├── Epoch N-1      = 0.0444 ([32m↗ 0.0012[0m)
+        └── Best until now = 0.0444 ([32m↗ 0.0012[0m)
+
+===========================================================
+
+Train epoch 35:  60%|██████    | 3/5 [01:05<00:39, 19.67s/it, Dice=0.067, FocalLoss=0.318, IoU=0.0518, gpu_mem=7.6]
+Train epoch 35:  60%|██████    | 3/5 [01:15<00:39, 19.67s/it, Dice=0.0707, FocalLoss=0.303, IoU=0.054, gpu_mem=7.6]
+Train epoch 35:  80%|████████  | 4/5 [01:15<00:15, 15.50s/it, Dice=0.0707, FocalLoss=0.303, IoU=0.054, gpu_mem=7.6]
+Train epoch 35:  80%|████████  | 4/5 [01:37<00:15, 15.50s/it, Dice=0.0716, FocalLoss=0.316, IoU=0.0549, gpu_mem=7.6]
+Train epoch 35: 100%|██████████| 5/5 [01:37<00:00, 17.86s/it, Dice=0.0716, FocalLoss=0.316, IoU=0.0549, gpu_mem=7.6]
+Train epoch 35: 100%|██████████| 5/5 [01:37<00:00, 19.49s/it, Dice=0.0716, FocalLoss=0.316, IoU=0.0549, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 35:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 35:  20%|██        | 1/5 [00:16<01:05, 16.39s/it]
+Validating epoch 35:  40%|████      | 2/5 [00:26<00:38, 12.77s/it]
+Validating epoch 35:  60%|██████    | 3/5 [00:34<00:20, 10.38s/it]
+Validating epoch 35:  80%|████████  | 4/5 [00:43<00:09,  9.85s/it]
+Validating epoch 35: 100%|██████████| 5/5 [00:53<00:00, 10.07s/it]
+Validating epoch 35: 100%|██████████| 5/5 [00:53<00:00, 10.78s/it]
+[2024-08-04 22:10:48] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 22:10:48] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.03460075333714485
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 36:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 36:   0%|          | 0/5 [00:22<?, ?it/s, Dice=0.0683, FocalLoss=0.323, IoU=0.0551, gpu_mem=7.6]
+Train epoch 36:  20%|██        | 1/5 [00:22<01:29, 22.46s/it, Dice=0.0683, FocalLoss=0.323, IoU=0.0551, gpu_mem=7.6]
+Train epoch 36:  20%|██        | 1/5 [00:40<01:29, 22.46s/it, Dice=0.0709, FocalLoss=0.351, IoU=0.0554, gpu_mem=7.6]
+Train epoch 36:  40%|████      | 2/5 [00:40<00:58, 19.58s/it, Dice=0.0709, FocalLoss=0.351, IoU=0.0554, gpu_mem=7.6]
+Train epoch 36:  40%|████      | 2/5 [01:00<00:58, 19.58s/it, Dice=0.0745, FocalLoss=0.327, IoU=0.0581, gpu_mem=7.6]
+Train epoch 36:  60%|██████    | 3/5 [01:00<00:40, 20.01s/it, Dice=0.0745, FocalLoss=0.327, IoU=0.0581, gpu_mem=7.6]
+Train epoch 36:  60%|██████    | 3/5 [01:20<00:40, 20.01s/it, Dice=0.0752, FocalLoss=0.376, IoU=0.0574, gpu_mem=7.6]
+Train epoch 36:  80%|████████  | 4/5 [01:20<00:19, 19.81s/it, Dice=0.0752, FocalLoss=0.376, IoU=0.0574, gpu_mem=7.6]
+Train epoch 36:  80%|████████  | 4/5 [01:36<00:19, 19.81s/it, Dice=0.0738, FocalLoss=0.362, IoU=0.0565, gpu_mem=7.6]
+Train epoch 36: 100%|██████████| 5/5 [01:36<00:00, 18.49s/it, Dice=0.0738, FocalLoss=0.362, IoU=0.0565, gpu_mem=7.6]
+Train epoch 36: 100%|██████████| 5/5 [01:36<00:00, 19.31s/it, Dice=0.0738, FocalLoss=0.362, IoU=0.0565, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 36:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 36:  20%|██        | 1/5 [00:16<01:07, 16.90s/it]
+Validating epoch 36:  40%|████      | 2/5 [00:26<00:38, 12.82s/it]
+Validating epoch 36:  60%|██████    | 3/5 [00:33<00:20, 10.14s/it]
+Validating epoch 36:  80%|████████  | 4/5 [00:42<00:09,  9.59s/it]
+Validating epoch 36: 100%|██████████| 5/5 [00:53<00:00,  9.98s/it]
+Validating epoch 36: 100%|██████████| 5/5 [00:53<00:00, 10.69s/it]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 37:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 37:   0%|          | 0/5 [00:24<?, ?it/s, Dice=0.0597, FocalLoss=0.334, IoU=0.0484, gpu_mem=7.6]
+Train epoch 37:  20%|██        | 1/5 [00:24<01:37, 24.37s/it, Dice=0.0597, FocalLoss=0.334, IoU=0.0484, gpu_mem=7.6]
+Train epoch 37:  20%|██        | 1/5 [00:40<01:37, 24.37s/it, Dice=0.0644, FocalLoss=0.29, IoU=0.0509, gpu_mem=7.6] 
+Train epoch 37:  40%|████      | 2/5 [00:40<00:59, 19.81s/it, Dice=0.0644, FocalLoss=0.29, IoU=0.0509, gpu_mem=7.6]
+Train epoch 37:  40%|████      | 2/5 [01:02<00:59, 19.81s/it, Dice=0.0689, FocalLoss=0.341, IoU=0.0532, gpu_mem=7.6]
+Train epoch 37:  60%|██████    | 3/5 [01:02<00:40, 20.42s/it, Dice=0.0689, FocalLoss=0.341, IoU=0.0532, gpu_mem=7.6]
+Train epoch 37:  60%|██████    | 3/5 [01:16<00:40, 20.42s/it, Dice=0.077, FocalLoss=0.325, IoU=0.0594, gpu_mem=7.6] 
+Train epoch 37:  80%|████████  | 4/5 [01:16<00:17, 17.97s/it, Dice=0.077, FocalLoss=0.325, IoU=0.0594, gpu_mem=7.6]
+Train epoch 37:  80%|████████  | 4/5 [01:34<00:17, 17.97s/it, Dice=0.0811, FocalLoss=0.316, IoU=0.0622, gpu_mem=7.6]
+Train epoch 37: 100%|██████████| 5/5 [01:34<00:00, 18.12s/it, Dice=0.0811, FocalLoss=0.316, IoU=0.0622, gpu_mem=7.6]
+Train epoch 37: 100%|██████████| 5/5 [01:35<00:00, 19.00s/it, Dice=0.0811, FocalLoss=0.316, IoU=0.0622, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 37:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 37:  20%|██        | 1/5 [00:16<01:06, 16.74s/it]
+Validating epoch 37:  40%|████      | 2/5 [00:26<00:38, 12.75s/it]
+Validating epoch 37:  60%|██████    | 3/5 [00:33<00:19,  9.96s/it]
+Validating epoch 37:  80%|████████  | 4/5 [00:41<00:09,  9.43s/it]
+Validating epoch 37: 100%|██████████| 5/5 [00:52<00:00,  9.70s/it]
+Validating epoch 37: 100%|██████████| 5/5 [00:52<00:00, 10.47s/it]
+[2024-08-04 22:17:20] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 22:17:20] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.03503783792257309
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 38:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 38:   0%|          | 0/5 [00:22<?, ?it/s, Dice=0.0715, FocalLoss=0.252, IoU=0.0576, gpu_mem=7.6]
+Train epoch 38:  20%|██        | 1/5 [00:22<01:28, 22.12s/it, Dice=0.0715, FocalLoss=0.252, IoU=0.0576, gpu_mem=7.6]
+Train epoch 38:  20%|██        | 1/5 [00:41<01:28, 22.12s/it, Dice=0.081, FocalLoss=0.257, IoU=0.0645, gpu_mem=7.6] 
+Train epoch 38:  40%|████      | 2/5 [00:41<01:02, 20.79s/it, Dice=0.081, FocalLoss=0.257, IoU=0.0645, gpu_mem=7.6]
+Train epoch 38:  40%|████      | 2/5 [01:03<01:02, 20.79s/it, Dice=0.0759, FocalLoss=0.353, IoU=0.059, gpu_mem=7.6]
+Train epoch 38:  60%|██████    | 3/5 [01:03<00:42, 21.31s/it, Dice=0.0759, FocalLoss=0.353, IoU=0.059, gpu_mem=7.6]
+Train epoch 38:  60%|██████    | 3/5 [01:17<00:42, 21.31s/it, Dice=0.0811, FocalLoss=0.326, IoU=0.0622, gpu_mem=7.6]
+Train epoch 38:  80%|████████  | 4/5 [01:17<00:18, 18.21s/it, Dice=0.0811, FocalLoss=0.326, IoU=0.0622, gpu_mem=7.6]
+Train epoch 38:  80%|████████  | 4/5 [01:34<00:18, 18.21s/it, Dice=0.0827, FocalLoss=0.328, IoU=0.0624, gpu_mem=7.6]
+Train epoch 38: 100%|██████████| 5/5 [01:34<00:00, 17.79s/it, Dice=0.0827, FocalLoss=0.328, IoU=0.0624, gpu_mem=7.6]
+Train epoch 38: 100%|██████████| 5/5 [01:34<00:00, 18.95s/it, Dice=0.0827, FocalLoss=0.328, IoU=0.0624, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 38:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 38:  20%|██        | 1/5 [00:16<01:07, 16.85s/it]
+Validating epoch 38:  40%|████      | 2/5 [00:26<00:38, 12.85s/it]
+Validating epoch 38:  60%|██████    | 3/5 [00:33<00:20, 10.16s/it]
+Validating epoch 38:  80%|████████  | 4/5 [00:42<00:09,  9.67s/it]
+Validating epoch 38: 100%|██████████| 5/5 [00:53<00:00,  9.97s/it]===========================================================
+SUMMARY OF EPOCH 38
+├── Train
+│   ├── Focalloss = 0.328
+│   │   ├── Epoch N-1      = 0.3161 ([31m↗ 0.0119[0m)
+│   │   └── Best until now = 0.3161 ([31m↗ 0.0119[0m)
+│   ├── Iou = 0.0624
+│   │   ├── Epoch N-1      = 0.0622 ([32m↗ 0.0002[0m)
+│   │   └── Best until now = 0.0622 ([32m↗ 0.0002[0m)
+│   └── Dice = 0.0827
+│       ├── Epoch N-1      = 0.0811 ([32m↗ 0.0016[0m)
+│       └── Best until now = 0.0811 ([32m↗ 0.0016[0m)
+└── Validation
+    ├── Focalloss = 0.5676
+    │   ├── Epoch N-1      = 0.5619 ([31m↗ 0.0057[0m)
+    │   └── Best until now = 0.5619 ([31m↗ 0.0057[0m)
+    ├── Iou = 0.0354
+    │   ├── Epoch N-1      = 0.035  ([32m↗ 0.0003[0m)
+    │   └── Best until now = 0.035  ([32m↗ 0.0003[0m)
+    └── Dice = 0.0462
+        ├── Epoch N-1      = 0.0456 ([32m↗ 0.0006[0m)
+        └── Best until now = 0.0456 ([32m↗ 0.0006[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 39
+├── Train
+│   ├── Focalloss = 0.3287
+│   │   ├── Epoch N-1      = 0.328  ([31m↗ 0.0007[0m)
+│   │   └── Best until now = 0.3161 ([31m↗ 0.0126[0m)
+│   ├── Iou = 0.0688
+│   │   ├── Epoch N-1      = 0.0624 ([32m↗ 0.0064[0m)
+│   │   └── Best until now = 0.0624 ([32m↗ 0.0064[0m)
+│   └── Dice = 0.0896
+│       ├── Epoch N-1      = 0.0827 ([32m↗ 0.0069[0m)
+│       └── Best until now = 0.0827 ([32m↗ 0.0069[0m)
+└── Validation
+    ├── Focalloss = 0.5587
+    │   ├── Epoch N-1      = 0.5676 ([32m↘ -0.0089[0m)
+    │   └── Best until now = 0.5619 ([32m↘ -0.0032[0m)
+    ├── Iou = 0.0362
+    │   ├── Epoch N-1      = 0.0354 ([32m↗ 0.0009[0m)
+    │   └── Best until now = 0.0354 ([32m↗ 0.0009[0m)
+    └── Dice = 0.0476
+        ├── Epoch N-1      = 0.0462 ([32m↗ 0.0014[0m)
+        └── Best until now = 0.0462 ([32m↗ 0.0014[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 40
+├── Train
+│   ├── Focalloss = 0.3005
+│   │   ├── Epoch N-1      = 0.3287 ([32m↘ -0.0282[0m)
+│   │   └── Best until now = 0.3161 ([32m↘ -0.0156[0m)
+│   ├── Iou = 0.0693
+│   │   ├── Epoch N-1      = 0.0688 ([32m↗ 0.0005[0m)
+│   │   └── Best until now = 0.0688 ([32m↗ 0.0005[0m)
+│   └── Dice = 0.0905
+│       ├── Epoch N-1      = 0.0896 ([32m↗ 0.0009[0m)
+│       └── Best until now = 0.0896 ([32m↗ 0.0009[0m)
+└── Validation
+    ├── Focalloss = 0.5803
+    │   ├── Epoch N-1      = 0.5587 ([31m↗ 0.0216[0m)
+    │   └── Best until now = 0.5587 ([31m↗ 0.0216[0m)
+    ├── Iou = 0.0357
+    │   ├── Epoch N-1      = 0.0362 ([31m↘ -0.0005[0m)
+    │   └── Best until now = 0.0362 ([31m↘ -0.0005[0m)
+    └── Dice = 0.0471
+        ├── Epoch N-1      = 0.0476 ([31m↘ -0.0004[0m)
+        └── Best until now = 0.0476 ([31m↘ -0.0004[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 41
+├── Train
+│   ├── Focalloss = 0.2766
+│   │   ├── Epoch N-1      = 0.3005 ([32m↘ -0.024[0m)
+│   │   └── Best until now = 0.3005 ([32m↘ -0.024[0m)
+│   ├── Iou = 0.0697
+│   │   ├── Epoch N-1      = 0.0693 ([32m↗ 0.0004[0m)
+│   │   └── Best until now = 0.0693 ([32m↗ 0.0004[0m)
+│   └── Dice = 0.091
+│       ├── Epoch N-1      = 0.0905 ([32m↗ 0.0005[0m)
+│       └── Best until now = 0.0905 ([32m↗ 0.0005[0m)
+└── Validation
+    ├── Focalloss = 0.57
+    │   ├── Epoch N-1      = 0.5803 ([32m↘ -0.0103[0m)
+    │   └── Best until now = 0.5587 ([31m↗ 0.0113[0m)
+    ├── Iou = 0.0363
+    │   ├── Epoch N-1      = 0.0357 ([32m↗ 0.0006[0m)
+    │   └── Best until now = 0.0362 ([32m↗ 0.0001[0m)
+    └── Dice = 0.0482
+        ├── Epoch N-1      = 0.0471 ([32m↗ 0.001[0m)
+        └── Best until now = 0.0476 ([32m↗ 0.0006[0m)
+
+===========================================================
+
+Validating epoch 38: 100%|██████████| 5/5 [00:53<00:00, 10.70s/it]
+[2024-08-04 22:20:28] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 22:20:28] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.035362258553504944
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 39:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 39:   0%|          | 0/5 [00:26<?, ?it/s, Dice=0.0742, FocalLoss=0.425, IoU=0.0601, gpu_mem=7.6]
+Train epoch 39:  20%|██        | 1/5 [00:26<01:45, 26.28s/it, Dice=0.0742, FocalLoss=0.425, IoU=0.0601, gpu_mem=7.6]
+Train epoch 39:  20%|██        | 1/5 [00:43<01:45, 26.28s/it, Dice=0.0782, FocalLoss=0.359, IoU=0.0628, gpu_mem=7.6]
+Train epoch 39:  40%|████      | 2/5 [00:43<01:02, 20.83s/it, Dice=0.0782, FocalLoss=0.359, IoU=0.0628, gpu_mem=7.6]
+Train epoch 39:  40%|████      | 2/5 [01:03<01:02, 20.83s/it, Dice=0.08, FocalLoss=0.352, IoU=0.0642, gpu_mem=7.6]  
+Train epoch 39:  60%|██████    | 3/5 [01:03<00:41, 20.62s/it, Dice=0.08, FocalLoss=0.352, IoU=0.0642, gpu_mem=7.6]
+Train epoch 39:  60%|██████    | 3/5 [01:30<00:41, 20.62s/it, Dice=0.0879, FocalLoss=0.33, IoU=0.0692, gpu_mem=7.6]
+Train epoch 39:  80%|████████  | 4/5 [01:30<00:22, 22.93s/it, Dice=0.0879, FocalLoss=0.33, IoU=0.0692, gpu_mem=7.6]
+Train epoch 39:  80%|████████  | 4/5 [01:44<00:22, 22.93s/it, Dice=0.0896, FocalLoss=0.329, IoU=0.0688, gpu_mem=7.6]
+Train epoch 39: 100%|██████████| 5/5 [01:44<00:00, 19.83s/it, Dice=0.0896, FocalLoss=0.329, IoU=0.0688, gpu_mem=7.6]
+Train epoch 39: 100%|██████████| 5/5 [01:44<00:00, 20.96s/it, Dice=0.0896, FocalLoss=0.329, IoU=0.0688, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 39:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 39:  20%|██        | 1/5 [00:17<01:10, 17.53s/it]
+Validating epoch 39:  40%|████      | 2/5 [00:28<00:41, 13.74s/it]
+Validating epoch 39:  60%|██████    | 3/5 [00:36<00:22, 11.04s/it]
+Validating epoch 39:  80%|████████  | 4/5 [00:44<00:10, 10.03s/it]
+Validating epoch 39: 100%|██████████| 5/5 [00:55<00:00, 10.23s/it]
+Validating epoch 39: 100%|██████████| 5/5 [00:55<00:00, 11.15s/it]
+[2024-08-04 22:23:51] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 22:23:51] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.036212678998708725
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 40:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 40:   0%|          | 0/5 [00:24<?, ?it/s, Dice=0.0768, FocalLoss=0.259, IoU=0.0603, gpu_mem=7.6]
+Train epoch 40:  20%|██        | 1/5 [00:24<01:36, 24.08s/it, Dice=0.0768, FocalLoss=0.259, IoU=0.0603, gpu_mem=7.6]
+Train epoch 40:  20%|██        | 1/5 [00:48<01:36, 24.08s/it, Dice=0.0783, FocalLoss=0.294, IoU=0.0608, gpu_mem=7.6]
+Train epoch 40:  40%|████      | 2/5 [00:48<01:12, 24.09s/it, Dice=0.0783, FocalLoss=0.294, IoU=0.0608, gpu_mem=7.6]
+Train epoch 40:  40%|████      | 2/5 [01:03<01:12, 24.09s/it, Dice=0.0862, FocalLoss=0.299, IoU=0.0673, gpu_mem=7.6]
+Train epoch 40:  60%|██████    | 3/5 [01:03<00:40, 20.11s/it, Dice=0.0862, FocalLoss=0.299, IoU=0.0673, gpu_mem=7.6]
+Train epoch 40:  60%|██████    | 3/5 [01:10<00:40, 20.11s/it, Dice=0.0865, FocalLoss=0.295, IoU=0.0668, gpu_mem=7.6]
+Train epoch 40:  80%|████████  | 4/5 [01:10<00:15, 15.04s/it, Dice=0.0865, FocalLoss=0.295, IoU=0.0668, gpu_mem=7.6]
+Train epoch 40:  80%|████████  | 4/5 [01:26<00:15, 15.04s/it, Dice=0.0905, FocalLoss=0.301, IoU=0.0693, gpu_mem=7.6]
+Train epoch 40: 100%|██████████| 5/5 [01:26<00:00, 15.41s/it, Dice=0.0905, FocalLoss=0.301, IoU=0.0693, gpu_mem=7.6]
+Train epoch 40: 100%|██████████| 5/5 [01:27<00:00, 17.44s/it, Dice=0.0905, FocalLoss=0.301, IoU=0.0693, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 40:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 40:  20%|██        | 1/5 [00:16<01:07, 16.90s/it]
+Validating epoch 40:  40%|████      | 2/5 [00:27<00:39, 13.32s/it]
+Validating epoch 40:  60%|██████    | 3/5 [00:35<00:21, 10.69s/it]
+Validating epoch 40:  80%|████████  | 4/5 [00:43<00:09,  9.90s/it]
+Validating epoch 40: 100%|██████████| 5/5 [00:54<00:00, 10.04s/it]
+Validating epoch 40: 100%|██████████| 5/5 [00:54<00:00, 10.90s/it]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 41:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 41:   0%|          | 0/5 [00:21<?, ?it/s, Dice=0.0808, FocalLoss=0.322, IoU=0.0629, gpu_mem=7.6]
+Train epoch 41:  20%|██        | 1/5 [00:21<01:24, 21.21s/it, Dice=0.0808, FocalLoss=0.322, IoU=0.0629, gpu_mem=7.6]
+Train epoch 41:  20%|██        | 1/5 [00:43<01:24, 21.21s/it, Dice=0.0841, FocalLoss=0.296, IoU=0.0653, gpu_mem=7.6]
+Train epoch 41:  40%|████      | 2/5 [00:43<01:05, 21.91s/it, Dice=0.0841, FocalLoss=0.296, IoU=0.0653, gpu_mem=7.6]
+Train epoch 41:  40%|████      | 2/5 [01:01<01:05, 21.91s/it, Dice=0.0819, FocalLoss=0.277, IoU=0.0635, gpu_mem=7.6]
+Train epoch 41:  60%|██████    | 3/5 [01:01<00:39, 19.99s/it, Dice=0.0819, FocalLoss=0.277, IoU=0.0635, gpu_mem=7.6]
+Train epoch 41:  60%|██████    | 3/5 [01:24<00:39, 19.99s/it, Dice=0.0877, FocalLoss=0.264, IoU=0.0672, gpu_mem=7.6]
+Train epoch 41:  80%|████████  | 4/5 [01:24<00:21, 21.22s/it, Dice=0.0877, FocalLoss=0.264, IoU=0.0672, gpu_mem=7.6]
+Train epoch 41:  80%|████████  | 4/5 [01:41<00:21, 21.22s/it, Dice=0.091, FocalLoss=0.277, IoU=0.0697, gpu_mem=7.6] 
+Train epoch 41: 100%|██████████| 5/5 [01:41<00:00, 19.67s/it, Dice=0.091, FocalLoss=0.277, IoU=0.0697, gpu_mem=7.6]
+Train epoch 41: 100%|██████████| 5/5 [01:41<00:00, 20.32s/it, Dice=0.091, FocalLoss=0.277, IoU=0.0697, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 41:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 41:  20%|██        | 1/5 [00:16<01:05, 16.41s/it]
+Validating epoch 41:  40%|████      | 2/5 [00:26<00:38, 12.75s/it]
+Validating epoch 41:  60%|██████    | 3/5 [00:33<00:20, 10.22s/it]
+Validating epoch 41:  80%|████████  | 4/5 [00:42<00:09,  9.52s/it]
+Validating epoch 41: 100%|██████████| 5/5 [00:52<00:00,  9.81s/it]
+Validating epoch 41: 100%|██████████| 5/5 [00:52<00:00, 10.56s/it]
+[2024-08-04 22:30:15] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 22:30:15] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.036349501460790634
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 42:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 42:   0%|          | 0/5 [00:32<?, ?it/s, Dice=0.0865, FocalLoss=0.203, IoU=0.065, gpu_mem=7.6]
+Train epoch 42:  20%|██        | 1/5 [00:32<02:09, 32.31s/it, Dice=0.0865, FocalLoss=0.203, IoU=0.065, gpu_mem=7.6]
+Train epoch 42:  20%|██        | 1/5 [00:49<02:09, 32.31s/it, Dice=0.105, FocalLoss=0.284, IoU=0.0785, gpu_mem=7.6]
+Train epoch 42:  40%|████      | 2/5 [00:49<01:10, 23.57s/it, Dice=0.105, FocalLoss=0.284, IoU=0.0785, gpu_mem=7.6]
+Train epoch 42:  40%|████      | 2/5 [00:59<01:10, 23.57s/it, Dice=0.112, FocalLoss=0.29, IoU=0.0839, gpu_mem=7.6] 
+Train epoch 42:  60%|██████    | 3/5 [00:59<00:34, 17.38s/it, Dice=0.112, FocalLoss=0.29, IoU=0.0839, gpu_mem=7.6]
+Train epoch 42:  60%|██████    | 3/5 [01:16<00:34, 17.38s/it, Dice=0.109, FocalLoss=0.285, IoU=0.0814, gpu_mem=7.6]===========================================================
+SUMMARY OF EPOCH 42
+├── Train
+│   ├── Focalloss = 0.2861
+│   │   ├── Epoch N-1      = 0.2766 ([31m↗ 0.0096[0m)
+│   │   └── Best until now = 0.2766 ([31m↗ 0.0096[0m)
+│   ├── Iou = 0.0806
+│   │   ├── Epoch N-1      = 0.0697 ([32m↗ 0.0109[0m)
+│   │   └── Best until now = 0.0697 ([32m↗ 0.0109[0m)
+│   └── Dice = 0.1079
+│       ├── Epoch N-1      = 0.091  ([32m↗ 0.0169[0m)
+│       └── Best until now = 0.091  ([32m↗ 0.0169[0m)
+└── Validation
+    ├── Focalloss = 0.5676
+    │   ├── Epoch N-1      = 0.57   ([32m↘ -0.0024[0m)
+    │   └── Best until now = 0.5587 ([31m↗ 0.0089[0m)
+    ├── Iou = 0.0374
+    │   ├── Epoch N-1      = 0.0363 ([32m↗ 0.001[0m)
+    │   └── Best until now = 0.0363 ([32m↗ 0.001[0m)
+    └── Dice = 0.0493
+        ├── Epoch N-1      = 0.0482 ([32m↗ 0.0011[0m)
+        └── Best until now = 0.0482 ([32m↗ 0.0011[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 43
+├── Train
+│   ├── Focalloss = 0.3038
+│   │   ├── Epoch N-1      = 0.2861 ([31m↗ 0.0177[0m)
+│   │   └── Best until now = 0.2766 ([31m↗ 0.0272[0m)
+│   ├── Iou = 0.075
+│   │   ├── Epoch N-1      = 0.0806 ([31m↘ -0.0056[0m)
+│   │   └── Best until now = 0.0806 ([31m↘ -0.0056[0m)
+│   └── Dice = 0.0991
+│       ├── Epoch N-1      = 0.1079 ([31m↘ -0.0089[0m)
+│       └── Best until now = 0.1079 ([31m↘ -0.0089[0m)
+└── Validation
+    ├── Focalloss = 0.5767
+    │   ├── Epoch N-1      = 0.5676 ([31m↗ 0.0091[0m)
+    │   └── Best until now = 0.5587 ([31m↗ 0.018[0m)
+    ├── Iou = 0.0369
+    │   ├── Epoch N-1      = 0.0374 ([31m↘ -0.0004[0m)
+    │   └── Best until now = 0.0374 ([31m↘ -0.0004[0m)
+    └── Dice = 0.0486
+        ├── Epoch N-1      = 0.0493 ([31m↘ -0.0007[0m)
+        └── Best until now = 0.0493 ([31m↘ -0.0007[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 44
+├── Train
+│   ├── Focalloss = 0.2613
+│   │   ├── Epoch N-1      = 0.3038 ([32m↘ -0.0425[0m)
+│   │   └── Best until now = 0.2766 ([32m↘ -0.0152[0m)
+│   ├── Iou = 0.0819
+│   │   ├── Epoch N-1      = 0.075  ([32m↗ 0.0068[0m)
+│   │   └── Best until now = 0.0806 ([32m↗ 0.0013[0m)
+│   └── Dice = 0.1069
+│       ├── Epoch N-1      = 0.0991 ([32m↗ 0.0078[0m)
+│       └── Best until now = 0.1079 ([31m↘ -0.001[0m)
+└── Validation
+    ├── Focalloss = 0.596
+    │   ├── Epoch N-1      = 0.5767 ([31m↗ 0.0193[0m)
+    │   └── Best until now = 0.5587 ([31m↗ 0.0373[0m)
+    ├── Iou = 0.0379
+    │   ├── Epoch N-1      = 0.0369 ([32m↗ 0.001[0m)
+    │   └── Best until now = 0.0374 ([32m↗ 0.0006[0m)
+    └── Dice = 0.0504
+        ├── Epoch N-1      = 0.0486 ([32m↗ 0.0018[0m)
+        └── Best until now = 0.0493 ([32m↗ 0.0011[0m)
+
+===========================================================
+
+Train epoch 42:  80%|████████  | 4/5 [01:16<00:17, 17.10s/it, Dice=0.109, FocalLoss=0.285, IoU=0.0814, gpu_mem=7.6]
+Train epoch 42:  80%|████████  | 4/5 [01:38<00:17, 17.10s/it, Dice=0.108, FocalLoss=0.286, IoU=0.0806, gpu_mem=7.6]
+Train epoch 42: 100%|██████████| 5/5 [01:38<00:00, 18.89s/it, Dice=0.108, FocalLoss=0.286, IoU=0.0806, gpu_mem=7.6]
+Train epoch 42: 100%|██████████| 5/5 [01:38<00:00, 19.77s/it, Dice=0.108, FocalLoss=0.286, IoU=0.0806, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 42:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 42:  20%|██        | 1/5 [00:16<01:06, 16.54s/it]
+Validating epoch 42:  40%|████      | 2/5 [00:26<00:37, 12.55s/it]
+Validating epoch 42:  60%|██████    | 3/5 [00:32<00:19,  9.82s/it]
+Validating epoch 42:  80%|████████  | 4/5 [00:41<00:09,  9.19s/it]
+Validating epoch 42: 100%|██████████| 5/5 [00:51<00:00,  9.61s/it]
+Validating epoch 42: 100%|██████████| 5/5 [00:51<00:00, 10.33s/it]
+[2024-08-04 22:33:31] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 22:33:31] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.03738771006464958
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 43:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 43:   0%|          | 0/5 [00:29<?, ?it/s, Dice=0.0811, FocalLoss=0.239, IoU=0.0633, gpu_mem=7.6]
+Train epoch 43:  20%|██        | 1/5 [00:29<01:58, 29.56s/it, Dice=0.0811, FocalLoss=0.239, IoU=0.0633, gpu_mem=7.6]
+Train epoch 43:  20%|██        | 1/5 [00:46<01:58, 29.56s/it, Dice=0.0839, FocalLoss=0.234, IoU=0.0649, gpu_mem=7.6]
+Train epoch 43:  40%|████      | 2/5 [00:46<01:05, 21.99s/it, Dice=0.0839, FocalLoss=0.234, IoU=0.0649, gpu_mem=7.6]
+Train epoch 43:  40%|████      | 2/5 [00:59<01:05, 21.99s/it, Dice=0.0894, FocalLoss=0.267, IoU=0.0693, gpu_mem=7.6]
+Train epoch 43:  60%|██████    | 3/5 [00:59<00:36, 18.11s/it, Dice=0.0894, FocalLoss=0.267, IoU=0.0693, gpu_mem=7.6]
+Train epoch 43:  60%|██████    | 3/5 [01:16<00:36, 18.11s/it, Dice=0.0927, FocalLoss=0.285, IoU=0.0713, gpu_mem=7.6]
+Train epoch 43:  80%|████████  | 4/5 [01:16<00:17, 17.40s/it, Dice=0.0927, FocalLoss=0.285, IoU=0.0713, gpu_mem=7.6]
+Train epoch 43:  80%|████████  | 4/5 [01:31<00:17, 17.40s/it, Dice=0.0991, FocalLoss=0.304, IoU=0.075, gpu_mem=7.6] 
+Train epoch 43: 100%|██████████| 5/5 [01:31<00:00, 16.80s/it, Dice=0.0991, FocalLoss=0.304, IoU=0.075, gpu_mem=7.6]
+Train epoch 43: 100%|██████████| 5/5 [01:32<00:00, 18.43s/it, Dice=0.0991, FocalLoss=0.304, IoU=0.075, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 43:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 43:  20%|██        | 1/5 [00:17<01:08, 17.04s/it]
+Validating epoch 43:  40%|████      | 2/5 [00:26<00:38, 12.76s/it]
+Validating epoch 43:  60%|██████    | 3/5 [00:33<00:19,  9.96s/it]
+Validating epoch 43:  80%|████████  | 4/5 [00:41<00:09,  9.34s/it]
+Validating epoch 43: 100%|██████████| 5/5 [00:52<00:00,  9.80s/it]
+Validating epoch 43: 100%|██████████| 5/5 [00:52<00:00, 10.54s/it]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 44:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 44:   0%|          | 0/5 [00:15<?, ?it/s, Dice=0.0869, FocalLoss=0.309, IoU=0.0686, gpu_mem=7.6]
+Train epoch 44:  20%|██        | 1/5 [00:15<01:03, 15.76s/it, Dice=0.0869, FocalLoss=0.309, IoU=0.0686, gpu_mem=7.6]
+Train epoch 44:  20%|██        | 1/5 [00:33<01:03, 15.76s/it, Dice=0.0969, FocalLoss=0.263, IoU=0.0752, gpu_mem=7.6]
+Train epoch 44:  40%|████      | 2/5 [00:33<00:51, 17.00s/it, Dice=0.0969, FocalLoss=0.263, IoU=0.0752, gpu_mem=7.6]
+Train epoch 44:  40%|████      | 2/5 [00:48<00:51, 17.00s/it, Dice=0.107, FocalLoss=0.254, IoU=0.0831, gpu_mem=7.6] 
+Train epoch 44:  60%|██████    | 3/5 [00:48<00:31, 15.89s/it, Dice=0.107, FocalLoss=0.254, IoU=0.0831, gpu_mem=7.6]
+Train epoch 44:  60%|██████    | 3/5 [00:59<00:31, 15.89s/it, Dice=0.104, FocalLoss=0.251, IoU=0.0807, gpu_mem=7.6]
+Train epoch 44:  80%|████████  | 4/5 [00:59<00:14, 14.18s/it, Dice=0.104, FocalLoss=0.251, IoU=0.0807, gpu_mem=7.6]
+Train epoch 44:  80%|████████  | 4/5 [01:23<00:14, 14.18s/it, Dice=0.107, FocalLoss=0.261, IoU=0.0819, gpu_mem=7.6]
+Train epoch 44: 100%|██████████| 5/5 [01:23<00:00, 17.78s/it, Dice=0.107, FocalLoss=0.261, IoU=0.0819, gpu_mem=7.6]
+Train epoch 44: 100%|██████████| 5/5 [01:24<00:00, 16.84s/it, Dice=0.107, FocalLoss=0.261, IoU=0.0819, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 44:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 44:  20%|██        | 1/5 [00:16<01:06, 16.55s/it]
+Validating epoch 44:  40%|████      | 2/5 [00:26<00:38, 12.95s/it]
+Validating epoch 44:  60%|██████    | 3/5 [00:34<00:20, 10.42s/it]
+Validating epoch 44:  80%|████████  | 4/5 [00:42<00:09,  9.68s/it]
+Validating epoch 44: 100%|██████████| 5/5 [00:53<00:00,  9.98s/it]
+Validating epoch 44: 100%|██████████| 5/5 [00:53<00:00, 10.74s/it]
+[2024-08-04 22:39:38] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 22:39:38] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.037945929914712906
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 45:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 45:   0%|          | 0/5 [00:23<?, ?it/s, Dice=0.0887, FocalLoss=0.211, IoU=0.0741, gpu_mem=7.6]
+Train epoch 45:  20%|██        | 1/5 [00:23<01:32, 23.18s/it, Dice=0.0887, FocalLoss=0.211, IoU=0.0741, gpu_mem=7.6]
+Train epoch 45:  20%|██        | 1/5 [00:42<01:32, 23.18s/it, Dice=0.104, FocalLoss=0.255, IoU=0.0826, gpu_mem=7.6] 
+Train epoch 45:  40%|████      | 2/5 [00:42<01:02, 20.84s/it, Dice=0.104, FocalLoss=0.255, IoU=0.0826, gpu_mem=7.6]
+Train epoch 45:  40%|████      | 2/5 [00:55<01:02, 20.84s/it, Dice=0.113, FocalLoss=0.267, IoU=0.0875, gpu_mem=7.6]
+Train epoch 45:  60%|██████    | 3/5 [00:55<00:34, 17.09s/it, Dice=0.113, FocalLoss=0.267, IoU=0.0875, gpu_mem=7.6]
+Train epoch 45:  60%|██████    | 3/5 [01:13<00:34, 17.09s/it, Dice=0.115, FocalLoss=0.301, IoU=0.0888, gpu_mem=7.6]
+Train epoch 45:  80%|████████  | 4/5 [01:13<00:17, 17.71s/it, Dice=0.115, FocalLoss=0.301, IoU=0.0888, gpu_mem=7.6]
+Train epoch 45:  80%|████████  | 4/5 [01:32<00:17, 17.71s/it, Dice=0.119, FocalLoss=0.281, IoU=0.0914, gpu_mem=7.6]
+Train epoch 45: 100%|██████████| 5/5 [01:32<00:00, 18.20s/it, Dice=0.119, FocalLoss=0.281, IoU=0.0914, gpu_mem=7.6]
+Train epoch 45: 100%|██████████| 5/5 [01:33<00:00, 18.61s/it, Dice=0.119, FocalLoss=0.281, IoU=0.0914, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 45:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 45:  20%|██        | 1/5 [00:16<01:04, 16.07s/it]
+Validating epoch 45:  40%|████      | 2/5 [00:26<00:38, 12.94s/it]
+Validating epoch 45:  60%|██████    | 3/5 [00:34<00:21, 10.72s/it]
+Validating epoch 45:  80%|████████  | 4/5 [00:43<00:09,  9.82s/it]
+Validating epoch 45: 100%|██████████| 5/5 [00:53<00:00, 10.12s/it]
+Validating epoch 45: 100%|██████████| 5/5 [00:54<00:00, 10.85s/it]
+[2024-08-04 22:42:50] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+===========================================================
+SUMMARY OF EPOCH 45
+├── Train
+│   ├── Focalloss = 0.2806
+│   │   ├── Epoch N-1      = 0.2613 ([31m↗ 0.0192[0m)
+│   │   └── Best until now = 0.2613 ([31m↗ 0.0192[0m)
+│   ├── Iou = 0.0914
+│   │   ├── Epoch N-1      = 0.0819 ([32m↗ 0.0096[0m)
+│   │   └── Best until now = 0.0819 ([32m↗ 0.0096[0m)
+│   └── Dice = 0.1188
+│       ├── Epoch N-1      = 0.1069 ([32m↗ 0.0119[0m)
+│       └── Best until now = 0.1079 ([32m↗ 0.0108[0m)
+└── Validation
+    ├── Focalloss = 0.5776
+    │   ├── Epoch N-1      = 0.596  ([32m↘ -0.0185[0m)
+    │   └── Best until now = 0.5587 ([31m↗ 0.0189[0m)
+    ├── Iou = 0.0381
+    │   ├── Epoch N-1      = 0.0379 ([32m↗ 0.0001[0m)
+    │   └── Best until now = 0.0379 ([32m↗ 0.0001[0m)
+    └── Dice = 0.0508
+        ├── Epoch N-1      = 0.0504 ([32m↗ 0.0004[0m)
+        └── Best until now = 0.0504 ([32m↗ 0.0004[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 46
+├── Train
+│   ├── Focalloss = 0.2808
+│   │   ├── Epoch N-1      = 0.2806 ([31m↗ 0.0002[0m)
+│   │   └── Best until now = 0.2613 ([31m↗ 0.0195[0m)
+│   ├── Iou = 0.0858
+│   │   ├── Epoch N-1      = 0.0914 ([31m↘ -0.0056[0m)
+│   │   └── Best until now = 0.0914 ([31m↘ -0.0056[0m)
+│   └── Dice = 0.1145
+│       ├── Epoch N-1      = 0.1188 ([31m↘ -0.0043[0m)
+│       └── Best until now = 0.1188 ([31m↘ -0.0043[0m)
+└── Validation
+    ├── Focalloss = 0.5654
+    │   ├── Epoch N-1      = 0.5776 ([32m↘ -0.0122[0m)
+    │   └── Best until now = 0.5587 ([31m↗ 0.0067[0m)
+    ├── Iou = 0.0384
+    │   ├── Epoch N-1      = 0.0381 ([32m↗ 0.0004[0m)
+    │   └── Best until now = 0.0381 ([32m↗ 0.0004[0m)
+    └── Dice = 0.0513
+        ├── Epoch N-1      = 0.0508 ([32m↗ 0.0005[0m)
+        └── Best until now = 0.0508 ([32m↗ 0.0005[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 47
+├── Train
+│   ├── Focalloss = 0.2645
+│   │   ├── Epoch N-1      = 0.2808 ([32m↘ -0.0163[0m)
+│   │   └── Best until now = 0.2613 ([31m↗ 0.0032[0m)
+│   ├── Iou = 0.1008
+│   │   ├── Epoch N-1      = 0.0858 ([32m↗ 0.015[0m)
+│   │   └── Best until now = 0.0914 ([32m↗ 0.0094[0m)
+│   └── Dice = 0.1301
+│       ├── Epoch N-1      = 0.1145 ([32m↗ 0.0156[0m)
+│       └── Best until now = 0.1188 ([32m↗ 0.0113[0m)
+└── Validation
+    ├── Focalloss = 0.5732
+    │   ├── Epoch N-1      = 0.5654 ([31m↗ 0.0078[0m)
+    │   └── Best until now = 0.5587 ([31m↗ 0.0145[0m)
+    ├── Iou = 0.0391
+    │   ├── Epoch N-1      = 0.0384 ([32m↗ 0.0006[0m)
+    │   └── Best until now = 0.0384 ([32m↗ 0.0006[0m)
+    └── Dice = 0.0525
+        ├── Epoch N-1      = 0.0513 ([32m↗ 0.0013[0m)
+        └── Best until now = 0.0513 ([32m↗ 0.0013[0m)
+
+===========================================================
+===========================================================
+SUMMARY OF EPOCH 48
+├── Train
+│   ├── Focalloss = 0.2492
+│   │   ├── Epoch N-1      = 0.2645 ([32m↘ -0.0153[0m)
+│   │   └── Best until now = 0.2613 ([32m↘ -0.0121[0m)
+│   ├── Iou = 0.1025
+│   │   ├── Epoch N-1      = 0.1008 ([32m↗ 0.0017[0m)
+│   │   └── Best until now = 0.1008 ([32m↗ 0.0017[0m)
+│   └── Dice = 0.1334
+│       ├── Epoch N-1      = 0.1301 ([32m↗ 0.0033[0m)
+│       └── Best until now = 0.1301 ([32m↗ 0.0033[0m)
+└── Validation
+    ├── Focalloss = 0.5661
+    │   ├── Epoch N-1      = 0.5732 ([32m↘ -0.0071[0m)
+    │   └── Best until now = 0.5587 ([31m↗ 0.0074[0m)
+    ├── Iou = 0.0377
+    │   ├── Epoch N-1      = 0.0391 ([31m↘ -0.0014[0m)
+    │   └── Best until now = 0.0391 ([31m↘ -0.0014[0m)
+    └── Dice = 0.0503
+        ├── Epoch N-1      = 0.0525 ([31m↘ -0.0022[0m)
+        └── Best until now = 0.0525 ([31m↘ -0.0022[0m)
+
+===========================================================
+[2024-08-04 22:42:50] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.0380839966237545
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 46:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 46:   0%|          | 0/5 [00:23<?, ?it/s, Dice=0.0796, FocalLoss=0.219, IoU=0.0637, gpu_mem=7.6]
+Train epoch 46:  20%|██        | 1/5 [00:23<01:35, 23.83s/it, Dice=0.0796, FocalLoss=0.219, IoU=0.0637, gpu_mem=7.6]
+Train epoch 46:  20%|██        | 1/5 [00:40<01:35, 23.83s/it, Dice=0.0892, FocalLoss=0.214, IoU=0.0697, gpu_mem=7.6]
+Train epoch 46:  40%|████      | 2/5 [00:40<00:59, 19.75s/it, Dice=0.0892, FocalLoss=0.214, IoU=0.0697, gpu_mem=7.6]
+Train epoch 46:  40%|████      | 2/5 [00:54<00:59, 19.75s/it, Dice=0.101, FocalLoss=0.235, IoU=0.0788, gpu_mem=7.6] 
+Train epoch 46:  60%|██████    | 3/5 [00:54<00:34, 17.23s/it, Dice=0.101, FocalLoss=0.235, IoU=0.0788, gpu_mem=7.6]
+Train epoch 46:  60%|██████    | 3/5 [01:11<00:34, 17.23s/it, Dice=0.0999, FocalLoss=0.263, IoU=0.0765, gpu_mem=7.6]
+Train epoch 46:  80%|████████  | 4/5 [01:11<00:16, 16.99s/it, Dice=0.0999, FocalLoss=0.263, IoU=0.0765, gpu_mem=7.6]
+Train epoch 46:  80%|████████  | 4/5 [01:22<00:16, 16.99s/it, Dice=0.114, FocalLoss=0.281, IoU=0.0858, gpu_mem=7.6] 
+Train epoch 46: 100%|██████████| 5/5 [01:22<00:00, 14.95s/it, Dice=0.114, FocalLoss=0.281, IoU=0.0858, gpu_mem=7.6]
+Train epoch 46: 100%|██████████| 5/5 [01:23<00:00, 16.64s/it, Dice=0.114, FocalLoss=0.281, IoU=0.0858, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 46:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 46:  20%|██        | 1/5 [00:17<01:10, 17.63s/it]
+Validating epoch 46:  40%|████      | 2/5 [00:27<00:39, 13.17s/it]
+Validating epoch 46:  60%|██████    | 3/5 [00:35<00:21, 10.53s/it]
+Validating epoch 46:  80%|████████  | 4/5 [00:43<00:09,  9.62s/it]
+Validating epoch 46: 100%|██████████| 5/5 [00:53<00:00,  9.84s/it]
+Validating epoch 46: 100%|██████████| 5/5 [00:53<00:00, 10.76s/it]
+[2024-08-04 22:45:49] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 22:45:49] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.03843959793448448
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 47:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 47:   0%|          | 0/5 [00:29<?, ?it/s, Dice=0.0907, FocalLoss=0.253, IoU=0.072, gpu_mem=7.6]
+Train epoch 47:  20%|██        | 1/5 [00:29<01:56, 29.09s/it, Dice=0.0907, FocalLoss=0.253, IoU=0.072, gpu_mem=7.6]
+Train epoch 47:  20%|██        | 1/5 [00:40<01:56, 29.09s/it, Dice=0.103, FocalLoss=0.273, IoU=0.0805, gpu_mem=7.6]
+Train epoch 47:  40%|████      | 2/5 [00:40<00:56, 18.87s/it, Dice=0.103, FocalLoss=0.273, IoU=0.0805, gpu_mem=7.6]
+Train epoch 47:  40%|████      | 2/5 [01:01<00:56, 18.87s/it, Dice=0.105, FocalLoss=0.257, IoU=0.0812, gpu_mem=7.6]
+Train epoch 47:  60%|██████    | 3/5 [01:01<00:39, 19.56s/it, Dice=0.105, FocalLoss=0.257, IoU=0.0812, gpu_mem=7.6]
+Train epoch 47:  60%|██████    | 3/5 [01:17<00:39, 19.56s/it, Dice=0.123, FocalLoss=0.262, IoU=0.0951, gpu_mem=7.6]
+Train epoch 47:  80%|████████  | 4/5 [01:17<00:18, 18.37s/it, Dice=0.123, FocalLoss=0.262, IoU=0.0951, gpu_mem=7.6]
+Train epoch 47:  80%|████████  | 4/5 [01:34<00:18, 18.37s/it, Dice=0.13, FocalLoss=0.264, IoU=0.101, gpu_mem=7.6]  
+Train epoch 47: 100%|██████████| 5/5 [01:34<00:00, 17.85s/it, Dice=0.13, FocalLoss=0.264, IoU=0.101, gpu_mem=7.6]
+Train epoch 47: 100%|██████████| 5/5 [01:34<00:00, 18.99s/it, Dice=0.13, FocalLoss=0.264, IoU=0.101, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 47:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 47:  20%|██        | 1/5 [00:16<01:06, 16.51s/it]
+Validating epoch 47:  40%|████      | 2/5 [00:26<00:37, 12.59s/it]
+Validating epoch 47:  60%|██████    | 3/5 [00:32<00:19,  9.79s/it]
+Validating epoch 47:  80%|████████  | 4/5 [00:41<00:09,  9.42s/it]
+Validating epoch 47: 100%|██████████| 5/5 [00:52<00:00,  9.82s/it]
+Validating epoch 47: 100%|██████████| 5/5 [00:52<00:00, 10.49s/it]
+[2024-08-04 22:48:59] INFO - base_sg_logger.py - Checkpoint saved in /scratch/zt1/project/msml612/shared/Group13/results/PP_LITE_B_SEG50/ppliteb50_lr0.001/RUN_20240804_202503_596691/ckpt_best.pth
+[2024-08-04 22:48:59] INFO - sg_trainer.py - Best checkpoint overriden: validation IoU: 0.03905761241912842
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 48:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 48:   0%|          | 0/5 [00:23<?, ?it/s, Dice=0.0986, FocalLoss=0.294, IoU=0.0772, gpu_mem=7.6]
+Train epoch 48:  20%|██        | 1/5 [00:23<01:35, 23.76s/it, Dice=0.0986, FocalLoss=0.294, IoU=0.0772, gpu_mem=7.6]
+Train epoch 48:  20%|██        | 1/5 [00:44<01:35, 23.76s/it, Dice=0.117, FocalLoss=0.258, IoU=0.0925, gpu_mem=7.6] 
+Train epoch 48:  40%|████      | 2/5 [00:44<01:05, 21.79s/it, Dice=0.117, FocalLoss=0.258, IoU=0.0925, gpu_mem=7.6]
+Train epoch 48:  40%|████      | 2/5 [01:03<01:05, 21.79s/it, Dice=0.124, FocalLoss=0.255, IoU=0.0955, gpu_mem=7.6]
+Train epoch 48:  60%|██████    | 3/5 [01:03<00:41, 20.52s/it, Dice=0.124, FocalLoss=0.255, IoU=0.0955, gpu_mem=7.6]
+Train epoch 48:  60%|██████    | 3/5 [01:14<00:41, 20.52s/it, Dice=0.13, FocalLoss=0.262, IoU=0.0995, gpu_mem=7.6] 
+Train epoch 48:  80%|████████  | 4/5 [01:14<00:16, 16.92s/it, Dice=0.13, FocalLoss=0.262, IoU=0.0995, gpu_mem=7.6]
+Train epoch 48:  80%|████████  | 4/5 [01:29<00:16, 16.92s/it, Dice=0.133, FocalLoss=0.249, IoU=0.103, gpu_mem=7.6]
+Train epoch 48: 100%|██████████| 5/5 [01:29<00:00, 16.30s/it, Dice=0.133, FocalLoss=0.249, IoU=0.103, gpu_mem=7.6]
+Train epoch 48: 100%|██████████| 5/5 [01:30<00:00, 18.02s/it, Dice=0.133, FocalLoss=0.249, IoU=0.103, gpu_mem=7.6]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 48:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 48:  20%|██        | 1/5 [00:18<01:14, 18.62s/it]
+Validating epoch 48:  40%|████      | 2/5 [00:28<00:40, 13.38s/it]
+Validating epoch 48:  60%|██████    | 3/5 [00:34<00:20, 10.31s/it]
+Validating epoch 48:  80%|████████  | 4/5 [00:43<00:09,  9.74s/it]
+Validating epoch 48: 100%|██████████| 5/5 [00:54<00:00,  9.97s/it]
+Validating epoch 48: 100%|██████████| 5/5 [00:54<00:00, 10.90s/it]
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 49:   0%|          | 0/5 [00:00<?, ?it/s]
+Train epoch 49:   0%|          | 0/5 [00:29<?, ?it/s, Dice=0.106, FocalLoss=0.268, IoU=0.0835, gpu_mem=7.6]
+Train epoch 49:  20%|██        | 1/5 [00:29<01:56, 29.23s/it, Dice=0.106, FocalLoss=0.268, IoU=0.0835, gpu_mem=7.6]
+Train epoch 49:  20%|██        | 1/5 [00:43<01:56, 29.23s/it, Dice=0.124, FocalLoss=0.289, IoU=0.0978, gpu_mem=7.6]
+Train epoch 49:  40%|████      | 2/5 [00:43<01:01, 20.37s/it, Dice=0.124, FocalLoss=0.289, IoU=0.0978, gpu_mem=7.6]
+Train epoch 49:  40%|████      | 2/5 [00:55<01:01, 20.37s/it, Dice=0.135, FocalLoss=0.313, IoU=0.105, gpu_mem=7.6] 
+Train epoch 49:  60%|██████    | 3/5 [00:55<00:33, 16.81s/it, Dice=0.135, FocalLoss=0.313, IoU=0.105, gpu_mem=7.6]
+Train epoch 49:  60%|██████    | 3/5 [01:10<00:33, 16.81s/it, Dice=0.135, FocalLoss=0.293, IoU=0.105, gpu_mem=7.6]
+Train epoch 49:  80%|████████  | 4/5 [01:10<00:15, 15.83s/it, Dice=0.135, FocalLoss=0.293, IoU=0.105, gpu_mem=7.6]
+Train epoch 49:  80%|████████  | 4/5 [01:28<00:15, 15.83s/it, Dice=0.142, FocalLoss=0.285, IoU=0.11, gpu_mem=7.6] ===========================================================
+SUMMARY OF EPOCH 49
+├── Train
+│   ├── Focalloss = 0.2849
+│   │   ├── Epoch N-1      = 0.2492 ([31m↗ 0.0357[0m)
+│   │   └── Best until now = 0.2492 ([31m↗ 0.0357[0m)
+│   ├── Iou = 0.1095
+│   │   ├── Epoch N-1      = 0.1025 ([32m↗ 0.007[0m)
+│   │   └── Best until now = 0.1025 ([32m↗ 0.007[0m)
+│   └── Dice = 0.142
+│       ├── Epoch N-1      = 0.1334 ([32m↗ 0.0086[0m)
+│       └── Best until now = 0.1334 ([32m↗ 0.0086[0m)
+└── Validation
+    ├── Focalloss = 0.5888
+    │   ├── Epoch N-1      = 0.5661 ([31m↗ 0.0227[0m)
+    │   └── Best until now = 0.5587 ([31m↗ 0.0301[0m)
+    ├── Iou = 0.038
+    │   ├── Epoch N-1      = 0.0377 ([32m↗ 0.0003[0m)
+    │   └── Best until now = 0.0391 ([31m↘ -0.0011[0m)
+    └── Dice = 0.0518
+        ├── Epoch N-1      = 0.0503 ([32m↗ 0.0015[0m)
+        └── Best until now = 0.0525 ([31m↘ -0.0007[0m)
+
+===========================================================
+
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 50:   0%|          | 0/5 [00:00<?, ?it/s]
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 50:   0%|          | 0/5 [00:00<?, ?it/s]
+  0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 50:   0%|          | 0/5 [00:00<?, ?it/s]
+Validating epoch 50:  20%|██        | 1/5 [00:10<00:40, 10.24s/it]
+Validating epoch 50:  20%|██        | 1/5 [00:11<00:45, 11.35s/it]
+Validating epoch 50:  20%|██        | 1/5 [00:13<00:55, 13.88s/it]
+Validating epoch 50:  40%|████      | 2/5 [00:18<00:25,  8.66s/it]
+Validating epoch 50:  40%|████      | 2/5 [00:20<00:30, 10.17s/it]
+Validating epoch 50:  40%|████      | 2/5 [00:25<00:36, 12.32s/it]
+Validating epoch 50:  60%|██████    | 3/5 [00:25<00:16,  8.23s/it]
+Validating epoch 50:  80%|████████  | 4/5 [00:32<00:07,  7.46s/it]
+Validating epoch 50:  60%|██████    | 3/5 [00:32<00:21, 10.98s/it]
+Validating epoch 50:  60%|██████    | 3/5 [00:33<00:21, 10.66s/it]
+Validating epoch 50: 100%|██████████| 5/5 [00:39<00:00,  7.41s/it]
+Validating epoch 50: 100%|██████████| 5/5 [00:39<00:00,  7.92s/it]
+Validating epoch 50:  80%|████████  | 4/5 [00:40<00:09,  9.08s/it]
+Validating epoch 50: 100%|██████████| 5/5 [00:44<00:00,  7.28s/it]
+Validating epoch 50: 100%|██████████| 5/5 [00:44<00:00,  8.94s/it]
+Validating epoch 50:  80%|████████  | 4/5 [00:47<00:12, 12.61s/it]
+Validating epoch 50: 100%|██████████| 5/5 [01:08<00:00, 15.54s/it]
+Validating epoch 50: 100%|██████████| 5/5 [01:08<00:00, 13.67s/it]
+
+
