@@ -3,12 +3,13 @@ To run this, we need a GPU (even works in local PCs with a GPU) to have a better
 
 
 ## Each folder/file information
-
+Folders information
 - `files/`: This is the place where each model information along with .pth file and proof that we used models like PPLite B50, T50, STDC and DDRNet and all models' plots.
 - `models/`: This contains models Fast-SCNN and BiSeNet
 - `results/`: This is the place where model results are dumped
 - `videos/`: This is the place where videos are placed
 
+Files information
 - `config_v2.0.json`: Configuration used by Mapillary
 - `bisenet_video.py`: File required to run BiSeNet model on videos
 - `fast_scnn_video.py`: File required to run Fast-SCNN model on videos
