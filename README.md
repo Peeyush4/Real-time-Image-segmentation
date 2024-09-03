@@ -1,5 +1,5 @@
 # Real-time Image Segmentation
-To run this, we ned a GPU (even works in local PCs with a GPU) to have a better effect. I ran on a Nvidia RTX 4070 mobile with 8GB memory on 140W.
+To run this, we need a GPU (even works in local PCs with a GPU) to have a better effect. I ran on a Nvidia RTX 4070 mobile with 8GB memory on 140W.
 
 
 ## Each folder/file information
